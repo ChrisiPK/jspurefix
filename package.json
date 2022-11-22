@@ -61,7 +61,7 @@
     "unzip-repo": "cd data && node ../src/util/unzip fix_repo.zip",
     "fixml-test-print": "cd dist && node jsfix-cmd --session=data/session/test-http-initiator.json --fix=data/examples/fixml/jsfix.test_http-client.txt --objects",
     "fix-test-print": "cd dist && node jsfix-cmd --dict=repo44 --fix=data/examples/FIX.4.4/jsfix.test_client.txt --objects --delimiter=\"|\"",
-    "install": "npm run build && npm run unzip-repo"
+    "prepare": "npm run build && npm run unzip-repo"
   },
   "author": "",
   "license": "MIT",
