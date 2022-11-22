@@ -1,0 +1,1 @@
+{"version":3,"file":"trd_cap_dt_grp_no_dates.js","sourceRoot":"","sources":["../../../../../src/types/FIX4.4/quickfix/set/trd_cap_dt_grp_no_dates.ts"],"names":[],"mappings":"","sourcesContent":["export interface ITrdCapDtGrpNoDates {\n  TradeDate?: Date// [1] 75 (LocalDate)\n  TransactTime?: Date// [2] 60 (UtcTimestamp)\n}\n"]}

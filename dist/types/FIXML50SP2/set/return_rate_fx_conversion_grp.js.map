@@ -1,0 +1,1 @@
+{"version":3,"file":"return_rate_fx_conversion_grp.js","sourceRoot":"","sources":["../../../../src/types/FIXML50SP2/set/return_rate_fx_conversion_grp.ts"],"names":[],"mappings":"","sourcesContent":["export interface IReturnRateFXConversionGrp {\n  ReturnRateFXCurrencySymbol?: string// 42732\n  ReturnRateFXRate?: number// 42733\n  ReturnRateFXRateCalc?: string// 42734\n}\n"]}

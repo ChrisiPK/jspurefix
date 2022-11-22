@@ -1,0 +1,1 @@
+{"version":3,"file":"time_in_force_rules.js","sourceRoot":"","sources":["../../../../../src/types/FIX.5.0SP2/repo/set/time_in_force_rules.ts"],"names":[],"mappings":"","sourcesContent":["export interface ITimeInForceRules {\n  TimeInForce?: string// 59\n}\n"]}

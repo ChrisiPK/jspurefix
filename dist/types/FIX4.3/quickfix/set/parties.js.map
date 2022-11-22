@@ -1,0 +1,1 @@
+{"version":3,"file":"parties.js","sourceRoot":"","sources":["../../../../../src/types/FIX4.3/quickfix/set/parties.ts"],"names":[],"mappings":"","sourcesContent":["import { IPartiesNoPartyIDs } from './parties_no_party_i_ds'\n\nexport interface IParties {\n  NoPartyIDs?: IPartiesNoPartyIDs[]// [1] PartyID.448, PartyIDSource.447 .. PartySubID.523\n}\n"]}

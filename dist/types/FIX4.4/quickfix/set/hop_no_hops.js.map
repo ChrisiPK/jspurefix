@@ -1,0 +1,1 @@
+{"version":3,"file":"hop_no_hops.js","sourceRoot":"","sources":["../../../../../src/types/FIX4.4/quickfix/set/hop_no_hops.ts"],"names":[],"mappings":"","sourcesContent":["export interface IHopNoHops {\n  HopCompID?: string// [1] 628 (String)\n  HopSendingTime?: Date// [2] 629 (UtcTimestamp)\n  HopRefID?: number// [3] 630 (Int)\n}\n"]}

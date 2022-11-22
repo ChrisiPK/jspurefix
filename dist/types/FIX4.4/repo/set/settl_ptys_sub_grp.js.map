@@ -1,0 +1,1 @@
+{"version":3,"file":"settl_ptys_sub_grp.js","sourceRoot":"","sources":["../../../../../src/types/FIX4.4/repo/set/settl_ptys_sub_grp.ts"],"names":[],"mappings":"","sourcesContent":["export interface ISettlPtysSubGrp {\n  SettlPartySubID?: string// [1] 785 (String)\n  SettlPartySubIDType?: number// [2] 786 (Int)\n}\n"]}

@@ -1,0 +1,1 @@
+{"version":3,"file":"return_rate_valuation_date_grp.js","sourceRoot":"","sources":["../../../../src/types/FIXML50SP2/set/return_rate_valuation_date_grp.ts"],"names":[],"mappings":"","sourcesContent":["export interface IReturnRateValuationDateGrp {\n  ReturnRateValuationDate?: Date// 42773\n  ReturnRateValuationDateType?: number// 42774\n}\n"]}

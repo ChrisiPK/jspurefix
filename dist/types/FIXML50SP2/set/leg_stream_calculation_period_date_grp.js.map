@@ -1,0 +1,1 @@
+{"version":3,"file":"leg_stream_calculation_period_date_grp.js","sourceRoot":"","sources":["../../../../src/types/FIXML50SP2/set/leg_stream_calculation_period_date_grp.ts"],"names":[],"mappings":"","sourcesContent":["export interface ILegStreamCalculationPeriodDateGrp {\n  LegStreamCalculationPeriodDate?: Date// 41639\n  LegStreamCalculationPeriodDateType?: number// 41640\n}\n"]}

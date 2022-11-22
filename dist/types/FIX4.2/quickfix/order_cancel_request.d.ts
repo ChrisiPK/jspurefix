@@ -1,0 +1,42 @@
+/// <reference types="node" />
+import { IStandardHeader } from './set/standard_header';
+import { IStandardTrailer } from './set/standard_trailer';
+export interface IOrderCancelRequest {
+    StandardHeader: IStandardHeader;
+    OrigClOrdID: string;
+    OrderID?: string;
+    ClOrdID: string;
+    ListID?: string;
+    Account?: string;
+    ClientID?: string;
+    ExecBroker?: string;
+    Symbol: string;
+    SymbolSfx?: string;
+    SecurityID?: string;
+    IDSource?: string;
+    SecurityType?: string;
+    MaturityMonthYear?: string;
+    MaturityDay?: string;
+    PutOrCall?: number;
+    StrikePrice?: number;
+    OptAttribute?: string;
+    ContractMultiplier?: number;
+    CouponRate?: number;
+    SecurityExchange?: string;
+    Issuer?: string;
+    EncodedIssuerLen?: number;
+    EncodedIssuer?: Buffer;
+    SecurityDesc?: string;
+    EncodedSecurityDescLen?: number;
+    EncodedSecurityDesc?: Buffer;
+    Side: string;
+    TransactTime: Date;
+    OrderQty?: number;
+    CashOrderQty?: number;
+    ComplianceID?: string;
+    SolicitedFlag?: boolean;
+    Text?: string;
+    EncodedTextLen?: number;
+    EncodedText?: Buffer;
+    StandardTrailer: IStandardTrailer;
+}

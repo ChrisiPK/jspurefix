@@ -1,0 +1,1 @@
+{"version":3,"file":"misc_fees_grp.js","sourceRoot":"","sources":["../../../../../src/types/FIX.5.0SP2/repo/set/misc_fees_grp.ts"],"names":[],"mappings":"","sourcesContent":["export interface IMiscFeesGrp {\n  MiscFeeAmt?: number// 137\n  MiscFeeCurr?: string// 138\n  MiscFeeType?: string// 139\n  MiscFeeBasis?: number// 891\n}\n"]}

@@ -1,0 +1,1 @@
+{"version":3,"file":"trd_coll_grp.js","sourceRoot":"","sources":["../../../../../src/types/FIX4.4/quickfix/set/trd_coll_grp.ts"],"names":[],"mappings":"","sourcesContent":["import { ITrdCollGrpNoTrades } from './trd_coll_grp_no_trades'\n\nexport interface ITrdCollGrp {\n  NoTrades?: ITrdCollGrpNoTrades[]// [1] TradeReportID.571, SecondaryTradeReportID.818\n}\n"]}

@@ -1,0 +1,1 @@
+{"version":3,"file":"undly_instrument_ptys_sub_grp.js","sourceRoot":"","sources":["../../../../../src/types/FIX.5.0SP2/repo/set/undly_instrument_ptys_sub_grp.ts"],"names":[],"mappings":"","sourcesContent":["export interface IUndlyInstrumentPtysSubGrp {\n  UnderlyingInstrumentPartySubID?: string// 1063\n  UnderlyingInstrumentPartySubIDType?: number// 1064\n}\n"]}

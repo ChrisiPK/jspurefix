@@ -1,0 +1,1 @@
+{"version":3,"file":"lot_type_rules.js","sourceRoot":"","sources":["../../../../../src/types/FIX.5.0SP2/repo/set/lot_type_rules.ts"],"names":[],"mappings":"","sourcesContent":["export interface ILotTypeRules {\n  LotType?: string// 1093\n  MinLotSize?: number// 1231\n}\n"]}

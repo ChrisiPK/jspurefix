@@ -1,0 +1,1 @@
+{"version":3,"file":"sec_list_grp.js","sourceRoot":"","sources":["../../../../../src/types/FIX4.4/quickfix/set/sec_list_grp.ts"],"names":[],"mappings":"","sourcesContent":["import { ISecListGrpNoRelatedSym } from './sec_list_grp_no_related_sym'\n\nexport interface ISecListGrp {\n  NoRelatedSym?: ISecListGrpNoRelatedSym[]// [1] Symbol.55, SymbolSfx.65 .. EncodedText.355\n}\n"]}

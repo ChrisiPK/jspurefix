@@ -1,0 +1,1 @@
+{"version":3,"file":"target_market_segment_grp.js","sourceRoot":"","sources":["../../../../src/types/FIXML50SP2/set/target_market_segment_grp.ts"],"names":[],"mappings":"","sourcesContent":["export interface ITargetMarketSegmentGrp {\n  TargetMarketSegmentID?: string// 1790\n}\n"]}

@@ -1,0 +1,31 @@
+import { IStandardHeader } from './set/standard_header';
+import { IStandardTrailer } from './set/standard_trailer';
+export interface IAdvertisement {
+    StandardHeader: IStandardHeader;
+    AdvId: string;
+    AdvTransType: string;
+    AdvRefID?: string;
+    Symbol: string;
+    SymbolSfx?: string;
+    SecurityID?: string;
+    IDSource?: string;
+    SecurityType?: string;
+    MaturityMonthYear?: string;
+    MaturityDay?: number;
+    PutOrCall?: number;
+    StrikePrice?: number;
+    OptAttribute?: string;
+    SecurityExchange?: string;
+    Issuer?: string;
+    SecurityDesc?: string;
+    AdvSide: string;
+    Shares: number;
+    Price?: number;
+    Currency?: string;
+    TradeDate?: string;
+    TransactTime?: string;
+    Text?: string;
+    URLLink?: string;
+    LastMkt?: string;
+    StandardTrailer: IStandardTrailer;
+}

@@ -1,0 +1,1 @@
+{"version":3,"file":"list_ord_grp.js","sourceRoot":"","sources":["../../../../../src/types/FIX4.4/quickfix/set/list_ord_grp.ts"],"names":[],"mappings":"","sourcesContent":["import { IListOrdGrpNoOrders } from './list_ord_grp_no_orders'\n\nexport interface IListOrdGrp {\n  NoOrders: IListOrdGrpNoOrders[]// [1] ClOrdID.11, SecondaryClOrdID.526 .. Designation.494\n}\n"]}

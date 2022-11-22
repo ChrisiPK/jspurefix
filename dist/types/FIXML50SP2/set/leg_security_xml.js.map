@@ -1,0 +1,1 @@
+{"version":3,"file":"leg_security_xml.js","sourceRoot":"","sources":["../../../../src/types/FIXML50SP2/set/leg_security_xml.ts"],"names":[],"mappings":"","sourcesContent":["export interface ILegSecurityXML {\n  LegSecurityXMLSchema?: string// 1873\n}\n"]}

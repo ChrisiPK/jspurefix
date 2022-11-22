@@ -1,0 +1,1 @@
+{"version":3,"file":"payment_stream_formula_image.js","sourceRoot":"","sources":["../../../../src/types/FIXML50SP2/set/payment_stream_formula_image.ts"],"names":[],"mappings":"","sourcesContent":["export interface IPaymentStreamFormulaImage {\n  PaymentStreamFormulaImageLength?: number// 42652\n  PaymentStreamFormulaImage?: Buffer// 42653\n}\n"]}

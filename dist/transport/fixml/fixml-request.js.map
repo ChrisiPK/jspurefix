@@ -1,0 +1,1 @@
+{"version":3,"file":"fixml-request.js","sourceRoot":"","sources":["../../../src/transport/fixml/fixml-request.ts"],"names":[],"mappings":"","sourcesContent":["export interface IFixmlRequest {\n  session: string\n  fixml: string\n}\n"]}

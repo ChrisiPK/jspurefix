@@ -1,0 +1,1 @@
+{"version":3,"file":"position_amount_data_no_pos_amt.js","sourceRoot":"","sources":["../../../../../src/types/FIX4.4/quickfix/set/position_amount_data_no_pos_amt.ts"],"names":[],"mappings":"","sourcesContent":["export interface IPositionAmountDataNoPosAmt {\n  PosAmtType?: string// [1] 707 (String)\n  PosAmt?: number// [2] 708 (Float)\n}\n"]}

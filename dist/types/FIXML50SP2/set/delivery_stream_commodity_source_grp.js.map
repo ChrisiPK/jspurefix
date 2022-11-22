@@ -1,0 +1,1 @@
+{"version":3,"file":"delivery_stream_commodity_source_grp.js","sourceRoot":"","sources":["../../../../src/types/FIXML50SP2/set/delivery_stream_commodity_source_grp.ts"],"names":[],"mappings":"","sourcesContent":["export interface IDeliveryStreamCommoditySourceGrp {\n  DeliveryStreamCommoditySource?: string// 41086\n}\n"]}

@@ -1,0 +1,1 @@
+{"version":3,"file":"quot_req_grp.js","sourceRoot":"","sources":["../../../../../src/types/FIX4.4/quickfix/set/quot_req_grp.ts"],"names":[],"mappings":"","sourcesContent":["import { IQuotReqGrpNoRelatedSym } from './quot_req_grp_no_related_sym'\n\nexport interface IQuotReqGrp {\n  NoRelatedSym: IQuotReqGrpNoRelatedSym[]// [1] Symbol.55, SymbolSfx.65 .. PartySubIDType.803\n}\n"]}

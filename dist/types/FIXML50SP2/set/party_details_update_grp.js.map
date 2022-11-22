@@ -1,0 +1,1 @@
+{"version":3,"file":"party_details_update_grp.js","sourceRoot":"","sources":["../../../../src/types/FIXML50SP2/set/party_details_update_grp.ts"],"names":[],"mappings":"","sourcesContent":["import { IPartyDetailGrp } from './party_detail_grp'\n\nexport interface IPartyDetailsUpdateGrp {\n  ListUpdateAction?: string// 1324\n  PartyDetailGrp?: IPartyDetailGrp[]\n}\n"]}

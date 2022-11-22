@@ -1,0 +1,1 @@
+{"version":3,"file":"time_in_force_rules.js","sourceRoot":"","sources":["../../../../src/types/FIXML50SP2/set/time_in_force_rules.ts"],"names":[],"mappings":"","sourcesContent":["export interface ITimeInForceRules {\n  TimeInForce?: string// 59\n}\n"]}

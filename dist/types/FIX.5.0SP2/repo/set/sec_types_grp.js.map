@@ -1,0 +1,1 @@
+{"version":3,"file":"sec_types_grp.js","sourceRoot":"","sources":["../../../../../src/types/FIX.5.0SP2/repo/set/sec_types_grp.ts"],"names":[],"mappings":"","sourcesContent":["export interface ISecTypesGrp {\n  SecurityType?: string// 167\n  SecuritySubType?: string// 762\n  Product?: number// 460\n  CFICode?: string// 461\n  TransactTime?: Date// 60\n}\n"]}

@@ -1,0 +1,51 @@
+/// <reference types="node" />
+/// <reference types="node" />
+import { MsgView } from '../../buffer';
+import { IJsFixConfig, IJsFixLogger } from '../../config';
+import { FixSessionState } from './fix-session-state';
+import { MsgTransport } from '../factory';
+import { ILooseObject } from '../../collections/collection';
+import * as events from 'events';
+import { SessionState } from './session-state';
+export declare abstract class FixSession extends events.EventEmitter {
+    readonly config: IJsFixConfig;
+    logReceivedMsgs: boolean;
+    protected timer: NodeJS.Timer;
+    protected transport: MsgTransport;
+    manageSession: boolean;
+    checkMsgIntegrity: boolean;
+    protected readonly me: string;
+    protected readonly initiator: boolean;
+    protected readonly acceptor: boolean;
+    protected readonly sessionState: FixSessionState;
+    protected readonly sessionLogger: IJsFixLogger;
+    protected requestLogoutType: string;
+    protected respondLogoutType: string;
+    protected requestLogonType: string;
+    protected constructor(config: IJsFixConfig);
+    setState(state: SessionState): void;
+    getState(): SessionState;
+    sendLogon(): void;
+    private waitPromise;
+    run(transport: MsgTransport): Promise<number>;
+    protected expectedState(): boolean;
+    protected subscribe(): void;
+    protected validStateApplicationMsg(): boolean;
+    protected stateString(): string;
+    protected checkForwardMsg(msgType: string, view: MsgView): void;
+    protected terminate(error: Error): void;
+    protected peerLogout(view: MsgView): void;
+    protected send(msgType: string, obj: ILooseObject): void;
+    protected sendLogout(msg: string): void;
+    protected sessionLogout(): void;
+    done(): void;
+    reset(): void;
+    protected stop(error?: Error): void;
+    protected abstract onMsg(msgType: string, view: MsgView): void;
+    protected abstract onDecoded(msgType: string, txt: string): void;
+    protected abstract onEncoded(msgType: string, txt: string): void;
+    protected abstract onApplicationMsg(msgType: string, view: MsgView): void;
+    protected abstract onReady(view: MsgView): void;
+    protected abstract onStopped(error?: Error): void;
+    protected abstract onLogon(view: MsgView, user: string, password: string): boolean;
+}

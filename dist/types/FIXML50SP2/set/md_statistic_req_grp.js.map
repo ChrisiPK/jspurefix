@@ -1,0 +1,1 @@
+{"version":3,"file":"md_statistic_req_grp.js","sourceRoot":"","sources":["../../../../src/types/FIXML50SP2/set/md_statistic_req_grp.ts"],"names":[],"mappings":"","sourcesContent":["import { IMDStatisticParameters } from './md_statistic_parameters'\n\nexport interface IMDStatisticReqGrp {\n  MDStatisticID?: string// 2475\n  MDStatisticParameters?: IMDStatisticParameters\n}\n"]}

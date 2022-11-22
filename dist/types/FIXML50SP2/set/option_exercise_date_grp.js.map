@@ -1,0 +1,1 @@
+{"version":3,"file":"option_exercise_date_grp.js","sourceRoot":"","sources":["../../../../src/types/FIXML50SP2/set/option_exercise_date_grp.ts"],"names":[],"mappings":"","sourcesContent":["export interface IOptionExerciseDateGrp {\n  OptionExerciseDate?: Date// 41138\n  OptionExerciseDateType?: number// 41139\n}\n"]}

@@ -1,0 +1,1 @@
+{"version":3,"file":"trd_coll_grp.js","sourceRoot":"","sources":["../../../../../src/types/FIX4.4/repo/set/trd_coll_grp.ts"],"names":[],"mappings":"","sourcesContent":["export interface ITrdCollGrp {\n  TradeReportID?: string// [1] 571 (String)\n  SecondaryTradeReportID?: string// [2] 818 (String)\n}\n"]}

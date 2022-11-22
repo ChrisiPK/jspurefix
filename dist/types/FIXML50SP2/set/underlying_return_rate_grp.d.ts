@@ -1,0 +1,35 @@
+import { IUnderlyingReturnRatePriceGrp } from './underlying_return_rate_price_grp';
+import { IUnderlyingReturnRateFXConversionGrp } from './underlying_return_rate_fx_conversion_grp';
+import { IUnderlyingReturnRateInformationSourceGrp } from './underlying_return_rate_information_source_grp';
+import { IUnderlyingReturnRateDateGrp } from './underlying_return_rate_date_grp';
+export interface IUnderlyingReturnRateGrp {
+    UnderlyingReturnRatePriceSequence?: number;
+    UnderlyingReturnRateCommissionBasis?: string;
+    UnderlyingReturnRateCommissionAmount?: number;
+    UnderlyingReturnRateCommissionCurrency?: string;
+    UnderlyingReturnRateTotalCommissionPerTrade?: number;
+    UnderlyingReturnRateDeterminationMethod?: string;
+    UnderlyingReturnRateAmountRelativeTo?: number;
+    UnderlyingReturnRateQuoteMeasureType?: string;
+    UnderlyingReturnRateQuoteUnits?: string;
+    UnderlyingReturnRateQuoteMethod?: number;
+    UnderlyingReturnRateQuoteCurrency?: string;
+    UnderlyingReturnRateQuoteCurrencyType?: string;
+    UnderlyingReturnRateQuoteTimeType?: number;
+    UnderlyingReturnRateQuoteTime?: Date;
+    UnderlyingReturnRateQuoteDate?: Date;
+    UnderlyingReturnRateQuoteExpirationTime?: string;
+    UnderlyingReturnRateQuoteBusinessCenter?: string;
+    UnderlyingReturnRateQuoteExchange?: string;
+    UnderlyingReturnRateQuotePricingModel?: string;
+    UnderlyingReturnRateCashFlowType?: string;
+    UnderlyingReturnRateValuationTimeType?: number;
+    UnderlyingReturnRateValuationTime?: string;
+    UnderlyingReturnRateValuationTimeBusinessCenter?: string;
+    UnderlyingReturnRateValuationPriceOption?: number;
+    UnderlyingReturnRateFinalPriceFallback?: number;
+    UnderlyingReturnRatePriceGrp?: IUnderlyingReturnRatePriceGrp[];
+    UnderlyingReturnRateFXConversionGrp?: IUnderlyingReturnRateFXConversionGrp[];
+    UnderlyingReturnRateInformationSourceGrp?: IUnderlyingReturnRateInformationSourceGrp[];
+    UnderlyingReturnRateDateGrp?: IUnderlyingReturnRateDateGrp[];
+}

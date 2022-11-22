@@ -1,0 +1,1 @@
+{"version":3,"file":"payment_schedule_fixing_day_grp.js","sourceRoot":"","sources":["../../../../src/types/FIXML50SP2/set/payment_schedule_fixing_day_grp.ts"],"names":[],"mappings":"","sourcesContent":["export interface IPaymentScheduleFixingDayGrp {\n  PaymentScheduleFixingDayOfWeek?: number// 41162\n  PaymentScheduleFixingDayNumber?: number// 41163\n}\n"]}

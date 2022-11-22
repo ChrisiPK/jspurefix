@@ -1,0 +1,1 @@
+{"version":3,"file":"disclosure_instruction_grp.js","sourceRoot":"","sources":["../../../../src/types/FIXML50SP2/set/disclosure_instruction_grp.ts"],"names":[],"mappings":"","sourcesContent":["export interface IDisclosureInstructionGrp {\n  MiscFeeType?: string// 139\n  DisclosureInstruction?: number// 1814\n}\n"]}

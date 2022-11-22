@@ -1,0 +1,1 @@
+{"version":3,"file":"market_data_request_no_md_entry_types.js","sourceRoot":"","sources":["../../../../../src/types/FIX4.2/quickfix/set/market_data_request_no_md_entry_types.ts"],"names":[],"mappings":"","sourcesContent":["export interface IMarketDataRequestNoMDEntryTypes {\n  MDEntryType: string// [1] 269 (String)\n}\n"]}

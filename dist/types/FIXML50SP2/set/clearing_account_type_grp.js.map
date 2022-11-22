@@ -1,0 +1,1 @@
+{"version":3,"file":"clearing_account_type_grp.js","sourceRoot":"","sources":["../../../../src/types/FIXML50SP2/set/clearing_account_type_grp.ts"],"names":[],"mappings":"","sourcesContent":["export interface IClearingAccountTypeGrp {\n  ClearingAccountType?: number// 1816\n}\n"]}

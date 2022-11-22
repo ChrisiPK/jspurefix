@@ -1,0 +1,1 @@
+{"version":3,"file":"leg_protection_term_event_news_source_grp.js","sourceRoot":"","sources":["../../../../src/types/FIXML50SP2/set/leg_protection_term_event_news_source_grp.ts"],"names":[],"mappings":"","sourcesContent":["export interface ILegProtectionTermEventNewsSourceGrp {\n  LegProtectionTermEventNewsSource?: string// 41615\n}\n"]}

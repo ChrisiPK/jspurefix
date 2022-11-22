@@ -1,0 +1,1 @@
+{"version":3,"file":"mandatory_clearing_jurisdiction_grp.js","sourceRoot":"","sources":["../../../../src/types/FIXML50SP2/set/mandatory_clearing_jurisdiction_grp.ts"],"names":[],"mappings":"","sourcesContent":["export interface IMandatoryClearingJurisdictionGrp {\n  MandatoryClearingJurisdiction?: string// 41313\n}\n"]}

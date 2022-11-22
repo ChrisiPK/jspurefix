@@ -1,0 +1,1 @@
+{"version":3,"file":"instrument_scope_security_alt_id_grp.js","sourceRoot":"","sources":["../../../../src/types/FIXML50SP2/set/instrument_scope_security_alt_id_grp.ts"],"names":[],"mappings":"","sourcesContent":["export interface IInstrumentScopeSecurityAltIDGrp {\n  InstrumentScopeSecurityAltID?: string// 1541\n  InstrumentScopeSecurityAltIDSource?: string// 1542\n}\n"]}

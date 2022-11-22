@@ -1,0 +1,1 @@
+{"version":3,"file":"underlying_protection_term_event_news_source_grp.js","sourceRoot":"","sources":["../../../../src/types/FIXML50SP2/set/underlying_protection_term_event_news_source_grp.ts"],"names":[],"mappings":"","sourcesContent":["export interface IUnderlyingProtectionTermEventNewsSourceGrp {\n  UnderlyingProtectionTermEventNewsSource?: string// 42091\n}\n"]}

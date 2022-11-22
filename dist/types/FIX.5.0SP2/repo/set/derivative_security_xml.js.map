@@ -1,0 +1,1 @@
+{"version":3,"file":"derivative_security_xml.js","sourceRoot":"","sources":["../../../../../src/types/FIX.5.0SP2/repo/set/derivative_security_xml.ts"],"names":[],"mappings":"","sourcesContent":["export interface IDerivativeSecurityXML {\n  DerivativeSecurityXMLLen?: number// 1282\n  DerivativeSecurityXML?: Buffer// 1283\n  DerivativeSecurityXMLSchema?: string// 1284\n}\n"]}

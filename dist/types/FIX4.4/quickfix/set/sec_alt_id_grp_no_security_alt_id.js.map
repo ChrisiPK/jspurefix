@@ -1,0 +1,1 @@
+{"version":3,"file":"sec_alt_id_grp_no_security_alt_id.js","sourceRoot":"","sources":["../../../../../src/types/FIX4.4/quickfix/set/sec_alt_id_grp_no_security_alt_id.ts"],"names":[],"mappings":"","sourcesContent":["export interface ISecAltIDGrpNoSecurityAltID {\n  SecurityAltID?: string// [1] 455 (String)\n  SecurityAltIDSource?: string// [2] 456 (String)\n}\n"]}

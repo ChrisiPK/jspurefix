@@ -1,0 +1,1 @@
+{"version":3,"file":"dividend_accrual_payment_date_business_center_grp.js","sourceRoot":"","sources":["../../../../src/types/FIXML50SP2/set/dividend_accrual_payment_date_business_center_grp.ts"],"names":[],"mappings":"","sourcesContent":["export interface IDividendAccrualPaymentDateBusinessCenterGrp {\n  DividendAccrualPaymentDateBusinessCenter?: string// 42237\n}\n"]}

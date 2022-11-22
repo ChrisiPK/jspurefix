@@ -1,0 +1,30 @@
+import { IUnderlyingPaymentStreamResetDateBusinessCenterGrp } from './underlying_payment_stream_reset_date_business_center_grp';
+import { IUnderlyingPaymentStreamInitialFixingDateBusinessCenterGrp } from './underlying_payment_stream_initial_fixing_date_business_center_grp';
+import { IUnderlyingPaymentStreamFixingDateBusinessCenterGrp } from './underlying_payment_stream_fixing_date_business_center_grp';
+import { IUnderlyingPaymentStreamFixingDateGrp } from './underlying_payment_stream_fixing_date_grp';
+export interface IUnderlyingPaymentStreamResetDates {
+    UnderlyingPaymentStreamResetDateRelativeTo?: number;
+    UnderlyingPaymentStreamResetDateBusinessDayConvention?: number;
+    UnderlyingPaymentStreamResetFrequencyPeriod?: number;
+    UnderlyingPaymentStreamResetFrequencyUnit?: string;
+    UnderlyingPaymentStreamResetWeeklyRollConvention?: string;
+    UnderlyingPaymentStreamInitialFixingDateRelativeTo?: number;
+    UnderlyingPaymentStreamInitialFixingDateBusinessDayConvention?: number;
+    UnderlyingPaymentStreamInitialFixingDateOffsetPeriod?: number;
+    UnderlyingPaymentStreamInitialFixingDateOffsetUnit?: string;
+    UnderlyingPaymentStreamInitialFixingDateOffsetDayType?: number;
+    UnderlyingPaymentStreamInitialFixingDateAdjusted?: Date;
+    UnderlyingPaymentStreamFixingDateRelativeTo?: number;
+    UnderlyingPaymentStreamFixingDateBusinessDayConvention?: number;
+    UnderlyingPaymentStreamFixingDateOffsetPeriod?: number;
+    UnderlyingPaymentStreamFixingDateOffsetUnit?: string;
+    UnderlyingPaymentStreamFixingDateOffsetDayType?: number;
+    UnderlyingPaymentStreamFixingDateAdjusted?: Date;
+    UnderlyingPaymentStreamRateCutoffDateOffsetPeriod?: number;
+    UnderlyingPaymentStreamRateCutoffDateOffsetUnit?: string;
+    UnderlyingPaymentStreamRateCutoffDateOffsetDayType?: number;
+    UnderlyingPaymentStreamResetDateBusinessCenterGrp?: IUnderlyingPaymentStreamResetDateBusinessCenterGrp[];
+    UnderlyingPaymentStreamInitialFixingDateBusinessCenterGrp?: IUnderlyingPaymentStreamInitialFixingDateBusinessCenterGrp[];
+    UnderlyingPaymentStreamFixingDateBusinessCenterGrp?: IUnderlyingPaymentStreamFixingDateBusinessCenterGrp[];
+    UnderlyingPaymentStreamFixingDateGrp?: IUnderlyingPaymentStreamFixingDateGrp;
+}

@@ -1,0 +1,1 @@
+{"version":3,"file":"underlying_leg_security_alt_id_grp.js","sourceRoot":"","sources":["../../../../../src/types/FIX.5.0SP2/repo/set/underlying_leg_security_alt_id_grp.ts"],"names":[],"mappings":"","sourcesContent":["export interface IUnderlyingLegSecurityAltIDGrp {\n  UnderlyingLegSecurityAltID?: string// 1335\n  UnderlyingLegSecurityAltIDSource?: string// 1336\n}\n"]}

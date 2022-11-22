@@ -1,0 +1,1 @@
+{"version":3,"file":"matching_instructions.js","sourceRoot":"","sources":["../../../../src/types/FIXML50SP2/set/matching_instructions.ts"],"names":[],"mappings":"","sourcesContent":["export interface IMatchingInstructions {\n  MatchInst?: number// 1625\n  MatchInstMarketID?: string// 1673\n  MatchAttribTagID?: string// 1626\n  MatchAttribValue?: string// 1627\n}\n"]}

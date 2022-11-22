@@ -1,0 +1,1 @@
+{"version":3,"file":"leg_settl_method_election_date_business_center_grp.js","sourceRoot":"","sources":["../../../../src/types/FIXML50SP2/set/leg_settl_method_election_date_business_center_grp.ts"],"names":[],"mappings":"","sourcesContent":["export interface ILegSettlMethodElectionDateBusinessCenterGrp {\n  LegSettlMethodElectionDateBusinessCenter?: string// 42582\n}\n"]}

@@ -1,0 +1,1 @@
+{"version":3,"file":"index.js","sourceRoot":"","sources":["../../../../src/dictionary/parser/fixml/index.ts"],"names":[],"mappings":";;;;;;;;;;;;;;;;AAAA,mDAAgC","sourcesContent":["export * from './fix-xsd-parser'\n"]}

@@ -1,0 +1,1 @@
+{"version":3,"file":"market_disruption_event_grp.js","sourceRoot":"","sources":["../../../../src/types/FIXML50SP2/set/market_disruption_event_grp.ts"],"names":[],"mappings":"","sourcesContent":["export interface IMarketDisruptionEventGrp {\n  MarketDisruptionEvent?: string// 41093\n  MarketDisruptionValue?: string// 40991\n}\n"]}

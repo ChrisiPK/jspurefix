@@ -1,0 +1,45 @@
+/// <reference types="node" />
+import { IStandardHeader } from './set/standard_header';
+import { IStandardTrailer } from './set/standard_trailer';
+export interface IQuote {
+    StandardHeader: IStandardHeader;
+    QuoteReqID?: string;
+    QuoteID: string;
+    QuoteResponseLevel?: number;
+    TradingSessionID?: string;
+    Symbol: string;
+    SymbolSfx?: string;
+    SecurityID?: string;
+    IDSource?: string;
+    SecurityType?: string;
+    MaturityMonthYear?: string;
+    MaturityDay?: number;
+    PutOrCall?: number;
+    StrikePrice?: number;
+    OptAttribute?: string;
+    ContractMultiplier?: number;
+    CouponRate?: number;
+    SecurityExchange?: string;
+    Issuer?: string;
+    EncodedIssuerLen?: number;
+    EncodedIssuer?: Buffer;
+    SecurityDesc?: string;
+    EncodedSecurityDescLen?: number;
+    EncodedSecurityDesc?: Buffer;
+    BidPx?: number;
+    OfferPx?: number;
+    BidSize?: number;
+    OfferSize?: number;
+    ValidUntilTime?: Date;
+    BidSpotRate?: number;
+    OfferSpotRate?: number;
+    BidForwardPoints?: number;
+    OfferForwardPoints?: number;
+    TransactTime?: Date;
+    FutSettDate?: Date;
+    OrdType?: string;
+    FutSettDate2?: Date;
+    OrderQty2?: number;
+    Currency?: string;
+    StandardTrailer: IStandardTrailer;
+}

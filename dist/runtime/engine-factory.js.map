@@ -1,0 +1,1 @@
+{"version":3,"file":"engine-factory.js","sourceRoot":"","sources":["../../src/runtime/engine-factory.ts"],"names":[],"mappings":"","sourcesContent":["import { MakeFixSession } from '../transport'\n\nexport interface EngineFactory {\n  makeSession: MakeFixSession\n}\n"]}

@@ -1,0 +1,1 @@
+{"version":3,"file":"leg_position_amount_data.js","sourceRoot":"","sources":["../../../../src/types/FIXML50SP2/set/leg_position_amount_data.ts"],"names":[],"mappings":"","sourcesContent":["export interface ILegPositionAmountData {\n  LegPosAmt?: number// 1587\n  LegPosAmtType?: string// 1588\n  LegPosCurrency?: string// 1589\n  SecurityClassificationReason?: number// 1583\n}\n"]}

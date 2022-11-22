@@ -1,0 +1,1 @@
+{"version":3,"file":"app.js","sourceRoot":"","sources":["../../../../src/sample/tcp/trade-capture/app.ts"],"names":[],"mappings":";;AAAA,4BAAyB;AACzB,iDAA4C;AAE5C,MAAM,CAAC,GAAG,IAAI,0BAAW,EAAE,CAAA;AAC3B,CAAC,CAAC,IAAI,EAAE,CAAA","sourcesContent":["import 'reflect-metadata'\nimport { AppLauncher } from './app-launcher'\n\nconst l = new AppLauncher()\nl.exec()\n"]}

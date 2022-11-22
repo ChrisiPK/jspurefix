@@ -1,0 +1,48 @@
+/// <reference types="node" />
+import { ISecAltIDGrp } from './sec_alt_id_grp';
+import { IEvntGrp } from './evnt_grp';
+export interface IInstrument {
+    Symbol?: string;
+    SymbolSfx?: string;
+    SecurityID?: string;
+    SecurityIDSource?: string;
+    SecAltIDGrp?: ISecAltIDGrp;
+    Product?: number;
+    CFICode?: string;
+    SecurityType?: string;
+    SecuritySubType?: string;
+    MaturityMonthYear?: string;
+    MaturityDate?: Date;
+    PutOrCall?: number;
+    CouponPaymentDate?: Date;
+    IssueDate?: Date;
+    RepoCollateralSecurityType?: string;
+    RepurchaseTerm?: number;
+    RepurchaseRate?: number;
+    Factor?: number;
+    CreditRating?: string;
+    InstrRegistry?: string;
+    CountryOfIssue?: string;
+    StateOrProvinceOfIssue?: string;
+    LocaleOfIssue?: string;
+    RedemptionDate?: Date;
+    StrikePrice?: number;
+    StrikeCurrency?: string;
+    OptAttribute?: string;
+    ContractMultiplier?: number;
+    CouponRate?: number;
+    SecurityExchange?: string;
+    Issuer?: string;
+    EncodedIssuerLen?: number;
+    EncodedIssuer?: Buffer;
+    SecurityDesc?: string;
+    EncodedSecurityDescLen?: number;
+    EncodedSecurityDesc?: Buffer;
+    Pool?: string;
+    ContractSettlMonth?: string;
+    CPProgram?: number;
+    CPRegType?: string;
+    EvntGrp?: IEvntGrp;
+    DatedDate?: Date;
+    InterestAccrualDate?: Date;
+}

@@ -1,0 +1,1 @@
+{"version":3,"file":"msg-parser.js","sourceRoot":"","sources":["../../src/buffer/msg-parser.ts"],"names":[],"mappings":";;;AAAA,iCAAgC;AAEhC,MAAsB,SAAU,SAAQ,MAAM,CAAC,YAAY;CAC1D;AADD,8BACC","sourcesContent":["import * as events from 'events'\n\nexport abstract class MsgParser extends events.EventEmitter {\n}\n"]}

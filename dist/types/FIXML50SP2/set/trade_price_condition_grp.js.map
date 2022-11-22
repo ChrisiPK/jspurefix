@@ -1,0 +1,1 @@
+{"version":3,"file":"trade_price_condition_grp.js","sourceRoot":"","sources":["../../../../src/types/FIXML50SP2/set/trade_price_condition_grp.ts"],"names":[],"mappings":"","sourcesContent":["export interface ITradePriceConditionGrp {\n  TradePriceCondition?: number// 1839\n}\n"]}

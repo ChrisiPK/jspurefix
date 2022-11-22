@@ -1,0 +1,1 @@
+{"version":3,"file":"instrument_ptys_sub_grp.js","sourceRoot":"","sources":["../../../../src/types/FIXML50SP2/set/instrument_ptys_sub_grp.ts"],"names":[],"mappings":"","sourcesContent":["export interface IInstrumentPtysSubGrp {\n  InstrumentPartySubID?: string// 1053\n  InstrumentPartySubIDType?: number// 1054\n}\n"]}

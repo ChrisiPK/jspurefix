@@ -1,0 +1,1 @@
+{"version":3,"file":"md_req_grp.js","sourceRoot":"","sources":["../../../../../src/types/FIX.5.0SP2/repo/set/md_req_grp.ts"],"names":[],"mappings":"","sourcesContent":["export interface IMDReqGrp {\n  MDEntryType: string// 269\n}\n"]}

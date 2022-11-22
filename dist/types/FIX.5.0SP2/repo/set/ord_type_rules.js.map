@@ -1,0 +1,1 @@
+{"version":3,"file":"ord_type_rules.js","sourceRoot":"","sources":["../../../../../src/types/FIX.5.0SP2/repo/set/ord_type_rules.ts"],"names":[],"mappings":"","sourcesContent":["export interface IOrdTypeRules {\n  OrdType?: string// 40\n}\n"]}

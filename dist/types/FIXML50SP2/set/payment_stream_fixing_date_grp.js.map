@@ -1,0 +1,1 @@
+{"version":3,"file":"payment_stream_fixing_date_grp.js","sourceRoot":"","sources":["../../../../src/types/FIXML50SP2/set/payment_stream_fixing_date_grp.ts"],"names":[],"mappings":"","sourcesContent":["export interface IPaymentStreamFixingDateGrp {\n  PaymentStreamFixingDate?: Date// 42661\n  PaymentStreamFixingDateType?: number// 42662\n}\n"]}

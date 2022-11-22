@@ -1,0 +1,1 @@
+{"version":3,"file":"order_attribute_grp.js","sourceRoot":"","sources":["../../../../src/types/FIXML50SP2/set/order_attribute_grp.ts"],"names":[],"mappings":"","sourcesContent":["export interface IOrderAttributeGrp {\n  MiscFeeType?: string// 139\n  OrderAttributeValue?: string// 2595\n}\n"]}

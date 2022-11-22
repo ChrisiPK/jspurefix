@@ -1,0 +1,1 @@
+{"version":3,"file":"leg_instrument_ptys_sub_grp.js","sourceRoot":"","sources":["../../../../src/types/FIXML50SP2/set/leg_instrument_ptys_sub_grp.ts"],"names":[],"mappings":"","sourcesContent":["export interface ILegInstrumentPtysSubGrp {\n  LegInstrumentPartySubID?: string// 2259\n  LegInstrumentPartySubIDType?: number// 2260\n}\n"]}

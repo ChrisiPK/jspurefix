@@ -1,0 +1,1 @@
+{"version":3,"file":"email_no_routing_i_ds.js","sourceRoot":"","sources":["../../../../../src/types/FIX4.3/quickfix/set/email_no_routing_i_ds.ts"],"names":[],"mappings":"","sourcesContent":["export interface IEmailNoRoutingIDs {\n  RoutingType?: number// [1] 216 (Int)\n  RoutingID?: string// [2] 217 (String)\n}\n"]}

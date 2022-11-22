@@ -1,0 +1,1 @@
+{"version":3,"file":"rate_source.js","sourceRoot":"","sources":["../../../../../src/types/FIX.5.0SP2/repo/set/rate_source.ts"],"names":[],"mappings":"","sourcesContent":["export interface IRateSource {\n  RateSource?: number// 1446\n  RateSourceType?: number// 1447\n  ReferencePage?: string// 1448\n}\n"]}

@@ -1,0 +1,1 @@
+{"version":3,"file":"leg_asset_attribute_grp.js","sourceRoot":"","sources":["../../../../src/types/FIXML50SP2/set/leg_asset_attribute_grp.ts"],"names":[],"mappings":"","sourcesContent":["export interface ILegAssetAttributeGrp {\n  LegAssetAttributeType?: string// 2309\n  LegAssetAttributeValue?: string// 2310\n  LegAssetAttributeLimit?: string// 2311\n}\n"]}

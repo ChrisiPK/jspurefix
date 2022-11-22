@@ -1,0 +1,1 @@
+{"version":3,"file":"underlying_payment_stream_formula_math_grp.js","sourceRoot":"","sources":["../../../../src/types/FIXML50SP2/set/underlying_payment_stream_formula_math_grp.ts"],"names":[],"mappings":"","sourcesContent":["export interface IUnderlyingPaymentStreamFormulaMathGrp {\n  UnderlyingPaymentStreamFormulaDesc?: string// 42983\n}\n"]}

@@ -1,0 +1,1 @@
+{"version":3,"file":"margin_reqmt_inq_qual_grp.js","sourceRoot":"","sources":["../../../../src/types/FIXML50SP2/set/margin_reqmt_inq_qual_grp.ts"],"names":[],"mappings":"","sourcesContent":["export interface IMarginReqmtInqQualGrp {\n  MarginReqmtInqQualifier?: number// 1637\n}\n"]}

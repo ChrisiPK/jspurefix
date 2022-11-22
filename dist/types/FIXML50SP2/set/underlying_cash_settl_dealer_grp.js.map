@@ -1,0 +1,1 @@
+{"version":3,"file":"underlying_cash_settl_dealer_grp.js","sourceRoot":"","sources":["../../../../src/types/FIXML50SP2/set/underlying_cash_settl_dealer_grp.ts"],"names":[],"mappings":"","sourcesContent":["export interface IUnderlyingCashSettlDealerGrp {\n  UnderlyingCashSettlDealer?: string// 42040\n}\n"]}

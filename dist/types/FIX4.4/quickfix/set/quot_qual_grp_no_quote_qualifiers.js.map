@@ -1,0 +1,1 @@
+{"version":3,"file":"quot_qual_grp_no_quote_qualifiers.js","sourceRoot":"","sources":["../../../../../src/types/FIX4.4/quickfix/set/quot_qual_grp_no_quote_qualifiers.ts"],"names":[],"mappings":"","sourcesContent":["export interface IQuotQualGrpNoQuoteQualifiers {\n  QuoteQualifier?: string// [1] 695 (String)\n}\n"]}

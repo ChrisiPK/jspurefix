@@ -1,0 +1,1 @@
+{"version":3,"file":"provision_cash_settl_value_date_business_center_grp.js","sourceRoot":"","sources":["../../../../src/types/FIXML50SP2/set/provision_cash_settl_value_date_business_center_grp.ts"],"names":[],"mappings":"","sourcesContent":["export interface IProvisionCashSettlValueDateBusinessCenterGrp {\n  ProvisionCashSettlValueDateBusinessCenter?: string// 40117\n}\n"]}

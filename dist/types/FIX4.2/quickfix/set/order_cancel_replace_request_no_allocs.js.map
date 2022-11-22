@@ -1,0 +1,1 @@
+{"version":3,"file":"order_cancel_replace_request_no_allocs.js","sourceRoot":"","sources":["../../../../../src/types/FIX4.2/quickfix/set/order_cancel_replace_request_no_allocs.ts"],"names":[],"mappings":"","sourcesContent":["export interface IOrderCancelReplaceRequestNoAllocs {\n  AllocAccount?: string// [1] 79 (String)\n  AllocShares?: number// [2] 80 (Float)\n}\n"]}

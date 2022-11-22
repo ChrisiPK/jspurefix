@@ -1,0 +1,40 @@
+/// <reference types="node" />
+import { ILegStreamCommodityAltIDGrp } from './leg_stream_commodity_alt_id_grp';
+import { ILegStreamAssetAttributeGrp } from './leg_stream_asset_attribute_grp';
+import { ILegStreamCommodityDataSourceGrp } from './leg_stream_commodity_data_source_grp';
+import { ILegStreamCommoditySettlBusinessCenterGrp } from './leg_stream_commodity_settl_business_center_grp';
+import { ILegStreamCommoditySettlPeriodGrp } from './leg_stream_commodity_settl_period_grp';
+export interface ILegStreamCommodity {
+    LegStreamCommodityBase?: string;
+    LegStreamCommodityType?: string;
+    LegStreamCommoditySecurityID?: string;
+    LegStreamCommoditySecurityIDSource?: string;
+    LegStreamCommodityDesc?: string;
+    EncodedLegStreamCommodityDescLen?: number;
+    EncodedLegStreamCommodityDesc?: Buffer;
+    LegStreamCommodityDeliveryPricingRegion?: string;
+    LegStreamCommodityUnitOfMeasure?: string;
+    LegStreamCommodityCurrency?: string;
+    LegStreamCommodityExchange?: string;
+    LegStreamCommodityRateSource?: number;
+    LegStreamCommodityRateReferencePage?: string;
+    LegStreamCommodityRateReferencePageHeading?: string;
+    LegStreamDataProvider?: string;
+    LegStreamCommodityPricingType?: string;
+    LegStreamCommodityNearbySettlDayPeriod?: number;
+    LegStreamCommodityNearbySettlDayUnit?: string;
+    LegStreamCommoditySettlDateUnadjusted?: Date;
+    LegStreamCommoditySettlDateBusinessDayConvention?: number;
+    LegStreamCommoditySettlDateAdjusted?: Date;
+    LegStreamCommoditySettlMonth?: number;
+    LegStreamCommoditySettlDateRollPeriod?: number;
+    LegStreamCommoditySettlDateRollUnit?: string;
+    LegStreamCommoditySettlDayType?: number;
+    LegStreamCommodityXID?: string;
+    LegStreamCommodityXIDRef?: string;
+    LegStreamCommodityAltIDGrp?: ILegStreamCommodityAltIDGrp[];
+    LegStreamAssetAttributeGrp?: ILegStreamAssetAttributeGrp[];
+    LegStreamCommodityDataSourceGrp?: ILegStreamCommodityDataSourceGrp[];
+    LegStreamCommoditySettlBusinessCenterGrp?: ILegStreamCommoditySettlBusinessCenterGrp[];
+    LegStreamCommoditySettlPeriodGrp?: ILegStreamCommoditySettlPeriodGrp[];
+}

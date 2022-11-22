@@ -1,0 +1,30 @@
+import { IUnderlyingDividendPeriodGrp } from './underlying_dividend_period_grp';
+import { IUnderlyingDividendFXTriggerDate } from './underlying_dividend_fx_trigger_date';
+import { IUnderlyingDividendAccrualFloatingRate } from './underlying_dividend_accrual_floating_rate';
+import { IUnderlyingDividendAccrualPaymentDate } from './underlying_dividend_accrual_payment_date';
+export interface IUnderlyingDividendConditions {
+    UnderlyingDividendReinvestmentIndicator?: boolean;
+    UnderlyingDividendEntitlementEvent?: number;
+    UnderlyingDividendAmountType?: number;
+    UnderlyingDividendUnderlierRefID?: string;
+    UnderlyingExtraordinaryDividendPartySide?: number;
+    UnderlyingExtraordinaryDividendAmountType?: number;
+    UnderlyingExtraordinaryDividendCurrency?: string;
+    UnderlyingExtraordinaryDividendDeterminationMethod?: string;
+    UnderlyingDividendAccrualFixedRate?: number;
+    UnderlyingDividendCompoundingMethod?: number;
+    UnderlyingDividendNumOfIndexUnits?: number;
+    UnderlyingDividendCashPercentage?: number;
+    UnderlyingDividendCashEquivalentPercentage?: number;
+    UnderlyingNonCashDividendTreatment?: number;
+    UnderlyingDividendComposition?: number;
+    UnderlyingSpecialDividendsIndicator?: boolean;
+    UnderlyingMaterialDividendsIndicator?: boolean;
+    UnderlyingOptionsExchangeDividendsIndicator?: boolean;
+    UnderlyingAdditionalDividendsIndicator?: boolean;
+    UnderlyingAllDividendsIndicator?: boolean;
+    UnderlyingDividendPeriodGrp?: IUnderlyingDividendPeriodGrp[];
+    UnderlyingDividendFXTriggerDate?: IUnderlyingDividendFXTriggerDate;
+    UnderlyingDividendAccrualFloatingRate?: IUnderlyingDividendAccrualFloatingRate;
+    UnderlyingDividendAccrualPaymentDate?: IUnderlyingDividendAccrualPaymentDate;
+}

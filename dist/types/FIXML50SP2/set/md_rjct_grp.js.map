@@ -1,0 +1,1 @@
+{"version":3,"file":"md_rjct_grp.js","sourceRoot":"","sources":["../../../../src/types/FIXML50SP2/set/md_rjct_grp.ts"],"names":[],"mappings":"","sourcesContent":["export interface IMDRjctGrp {\n  AltMDSourceID?: string// 817\n}\n"]}

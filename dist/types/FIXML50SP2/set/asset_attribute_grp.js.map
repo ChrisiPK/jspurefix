@@ -1,0 +1,1 @@
+{"version":3,"file":"asset_attribute_grp.js","sourceRoot":"","sources":["../../../../src/types/FIXML50SP2/set/asset_attribute_grp.ts"],"names":[],"mappings":"","sourcesContent":["export interface IAssetAttributeGrp {\n  AssetAttributeType?: string// 2305\n  AssetAttributeValue?: string// 2306\n  AssetAttributeLimit?: string// 2307\n}\n"]}

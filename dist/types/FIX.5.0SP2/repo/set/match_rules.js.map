@@ -1,0 +1,1 @@
+{"version":3,"file":"match_rules.js","sourceRoot":"","sources":["../../../../../src/types/FIX.5.0SP2/repo/set/match_rules.ts"],"names":[],"mappings":"","sourcesContent":["export interface IMatchRules {\n  MatchAlgorithm?: string// 1142\n  MatchType?: string// 574\n}\n"]}

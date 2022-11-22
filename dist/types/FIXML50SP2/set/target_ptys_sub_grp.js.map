@@ -1,0 +1,1 @@
+{"version":3,"file":"target_ptys_sub_grp.js","sourceRoot":"","sources":["../../../../src/types/FIXML50SP2/set/target_ptys_sub_grp.ts"],"names":[],"mappings":"","sourcesContent":["export interface ITargetPtysSubGrp {\n  TargetPartySubID?: string// 2434\n  MiscFeeType?: string// 139\n}\n"]}

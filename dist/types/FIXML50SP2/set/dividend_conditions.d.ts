@@ -1,0 +1,30 @@
+import { IDividendPeriodGrp } from './dividend_period_grp';
+import { IDividendFXTriggerDate } from './dividend_fx_trigger_date';
+import { IDividendAccrualFloatingRate } from './dividend_accrual_floating_rate';
+import { IDividendAccrualPaymentDate } from './dividend_accrual_payment_date';
+export interface IDividendConditions {
+    DividendReinvestmentIndicator?: boolean;
+    DividendEntitlementEvent?: number;
+    DividendAmountType?: number;
+    DividendUnderlierRefID?: string;
+    ExtraordinaryDividendPartySide?: number;
+    ExtraordinaryDividendAmountType?: number;
+    ExtraordinaryDividendCurrency?: string;
+    ExtraordinaryDividendDeterminationMethod?: string;
+    DividendAccrualFixedRate?: number;
+    DividendCompoundingMethod?: number;
+    DividendNumOfIndexUnits?: number;
+    DividendCashPercentage?: number;
+    DividendCashEquivalentPercentage?: number;
+    NonCashDividendTreatment?: number;
+    DividendComposition?: number;
+    SpecialDividendsIndicator?: boolean;
+    MaterialDividendsIndicator?: boolean;
+    OptionsExchangeDividendsIndicator?: boolean;
+    AdditionalDividendsIndicator?: boolean;
+    AllDividendsIndicator?: boolean;
+    DividendPeriodGrp?: IDividendPeriodGrp[];
+    DividendFXTriggerDate?: IDividendFXTriggerDate;
+    DividendAccrualFloatingRate?: IDividendAccrualFloatingRate;
+    DividendAccrualPaymentDate?: IDividendAccrualPaymentDate;
+}

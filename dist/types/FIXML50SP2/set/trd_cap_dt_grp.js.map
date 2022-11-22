@@ -1,0 +1,1 @@
+{"version":3,"file":"trd_cap_dt_grp.js","sourceRoot":"","sources":["../../../../src/types/FIXML50SP2/set/trd_cap_dt_grp.ts"],"names":[],"mappings":"","sourcesContent":["export interface ITrdCapDtGrp {\n  TradeDate?: Date// 75\n  LastUpdateTime?: Date// 779\n  TransactTime?: Date// 60\n}\n"]}

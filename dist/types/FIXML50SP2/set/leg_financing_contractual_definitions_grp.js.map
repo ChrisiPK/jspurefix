@@ -1,0 +1,1 @@
+{"version":3,"file":"leg_financing_contractual_definitions_grp.js","sourceRoot":"","sources":["../../../../src/types/FIXML50SP2/set/leg_financing_contractual_definitions_grp.ts"],"names":[],"mappings":"","sourcesContent":["export interface ILegFinancingContractualDefinitionsGrp {\n  LegContractualDefinition?: string// 42199\n}\n"]}

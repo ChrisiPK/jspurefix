@@ -1,0 +1,44 @@
+/// <reference types="node" />
+import { IProvisionDateBusinessCenterGrp } from './provision_date_business_center_grp';
+import { IProvisionCashSettlValueDates } from './provision_cash_settl_value_dates';
+import { IProvisionOptionExerciseDates } from './provision_option_exercise_dates';
+import { IProvisionOptionExpirationDate } from './provision_option_expiration_date';
+import { IProvisionOptionRelevantUnderlyingDate } from './provision_option_relevant_underlying_date';
+import { IProvisionCashSettlPaymentDates } from './provision_cash_settl_payment_dates';
+import { IProvisionCashSettlQuoteSource } from './provision_cash_settl_quote_source';
+import { IProvisionParties } from './provision_parties';
+export interface IProvisionGrp {
+    ProvisionType?: number;
+    ProvisionDateUnadjusted?: Date;
+    ProvisionDateBusinessDayConvention?: number;
+    ProvisionDateAdjusted?: Date;
+    ProvisionDateTenorPeriod?: number;
+    ProvisionDateTenorUnit?: string;
+    ProvisionBreakFeeElection?: number;
+    ProvisionBreakFeeRate?: number;
+    ProvisionCalculationAgent?: number;
+    ProvisionOptionSinglePartyBuyerSide?: number;
+    ProvisionOptionSinglePartySellerSide?: number;
+    ExerciseStyle?: number;
+    ProvisionOptionExerciseMultipleNotional?: number;
+    ProvisionOptionExerciseMinimumNotional?: number;
+    ProvisionOptionExerciseMaximumNotional?: number;
+    ProvisionOptionMinimumNumber?: number;
+    ProvisionOptionMaximumNumber?: number;
+    ProvisionOptionExerciseConfirmation?: boolean;
+    ProvisionCashSettlMethod?: number;
+    ProvisionCashSettlCurrency?: string;
+    ProvisionCashSettlCurrency2?: string;
+    ProvisionCashSettlQuoteType?: number;
+    ProvisionText?: string;
+    EncodedProvisionTextLen?: number;
+    EncodedProvisionText?: Buffer;
+    ProvisionDateBusinessCenterGrp?: IProvisionDateBusinessCenterGrp[];
+    ProvisionCashSettlValueDates?: IProvisionCashSettlValueDates;
+    ProvisionOptionExerciseDates?: IProvisionOptionExerciseDates;
+    ProvisionOptionExpirationDate?: IProvisionOptionExpirationDate;
+    ProvisionOptionRelevantUnderlyingDate?: IProvisionOptionRelevantUnderlyingDate;
+    ProvisionCashSettlPaymentDates?: IProvisionCashSettlPaymentDates;
+    ProvisionCashSettlQuoteSource?: IProvisionCashSettlQuoteSource;
+    ProvisionParties?: IProvisionParties[];
+}

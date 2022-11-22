@@ -1,0 +1,1 @@
+{"version":3,"file":"requested_party_role_grp.js","sourceRoot":"","sources":["../../../../src/types/FIXML50SP2/set/requested_party_role_grp.ts"],"names":[],"mappings":"","sourcesContent":["export interface IRequestedPartyRoleGrp {\n  RequestedPartyRole?: number// 1509\n  RequestedPartyRoleQualifier?: number// 2386\n}\n"]}

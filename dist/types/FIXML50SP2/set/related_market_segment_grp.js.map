@@ -1,0 +1,1 @@
+{"version":3,"file":"related_market_segment_grp.js","sourceRoot":"","sources":["../../../../src/types/FIXML50SP2/set/related_market_segment_grp.ts"],"names":[],"mappings":"","sourcesContent":["export interface IRelatedMarketSegmentGrp {\n  RelatedMarketSegmentID?: string// 2546\n  MarketSegmentRelationship?: number// 2547\n}\n"]}

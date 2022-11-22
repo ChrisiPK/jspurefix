@@ -1,0 +1,1 @@
+{"version":3,"file":"relative_value_grp.js","sourceRoot":"","sources":["../../../../src/types/FIXML50SP2/set/relative_value_grp.ts"],"names":[],"mappings":"","sourcesContent":["export interface IRelativeValueGrp {\n  MiscFeeType?: string// 139\n  RelativeValue?: number// 2531\n  RelativeValueSide?: number// 2532\n}\n"]}

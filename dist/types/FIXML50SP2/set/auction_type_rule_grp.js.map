@@ -1,0 +1,1 @@
+{"version":3,"file":"auction_type_rule_grp.js","sourceRoot":"","sources":["../../../../src/types/FIXML50SP2/set/auction_type_rule_grp.ts"],"names":[],"mappings":"","sourcesContent":["export interface IAuctionTypeRuleGrp {\n  AuctionType?: number// 1803\n  AuctionTypeProductComplex?: string// 2549\n}\n"]}

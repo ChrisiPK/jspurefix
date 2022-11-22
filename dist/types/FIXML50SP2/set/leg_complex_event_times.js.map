@@ -1,0 +1,1 @@
+{"version":3,"file":"leg_complex_event_times.js","sourceRoot":"","sources":["../../../../src/types/FIXML50SP2/set/leg_complex_event_times.ts"],"names":[],"mappings":"","sourcesContent":["export interface ILegComplexEventTimes {\n  LegComplexEventStartTime?: Date// 2204\n  LegComplexEventEndTime?: Date// 2247\n}\n"]}

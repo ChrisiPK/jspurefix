@@ -1,0 +1,1 @@
+{"version":3,"file":"index.js","sourceRoot":"","sources":["../../../src/transport/duplex/index.ts"],"names":[],"mappings":";;;;;;;;;;;;;;;;AAAA,gDAA6B;AAC7B,+CAA4B;AAC5B,gDAA6B;AAC7B,kDAA+B;AAC/B,+CAA4B","sourcesContent":["export * from './file-duplex'\nexport * from './fix-duplex'\nexport * from './http-duplex'\nexport * from './string-duplex'\nexport * from './tcp-duplex'\n"]}

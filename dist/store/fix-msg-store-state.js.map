@@ -1,0 +1,1 @@
+{"version":3,"file":"fix-msg-store-state.js","sourceRoot":"","sources":["../../src/store/fix-msg-store-state.ts"],"names":[],"mappings":"","sourcesContent":["export interface IFixMsgStoreState {\n  readonly length: number,\n  readonly firstSeq: number,\n  readonly lastSeq: number\n  readonly id: string\n}\n"]}

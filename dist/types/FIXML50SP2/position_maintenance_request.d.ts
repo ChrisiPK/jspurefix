@@ -1,0 +1,43 @@
+/// <reference types="node" />
+import { IStandardHeader } from './set/standard_header';
+import { IParties } from './set/parties';
+import { IInstrument } from './set/instrument';
+import { IInstrmtLegGrp } from './set/instrmt_leg_grp';
+import { IRelatedInstrumentGrp } from './set/related_instrument_grp';
+import { IUndInstrmtGrp } from './set/und_instrmt_grp';
+import { ITrdgSesGrp } from './set/trdg_ses_grp';
+import { IPositionQty } from './set/position_qty';
+import { IPositionAmountData } from './set/position_amount_data';
+export interface IPositionMaintenanceRequest {
+    PosReqID?: string;
+    PosTransType: number;
+    PosMaintAction: number;
+    OrigPosReqRefID?: string;
+    PosMaintRptRefID?: string;
+    ClearingBusinessDate: Date;
+    SettlDate?: Date;
+    SettlSessID?: string;
+    SettlSessSubID?: string;
+    Account?: string;
+    AcctIDSource?: number;
+    AccountType?: number;
+    Currency?: string;
+    TransactTime?: Date;
+    AdjustmentType?: number;
+    ContraryInstructionIndicator?: boolean;
+    PriorSpreadIndicator?: boolean;
+    ThresholdAmount?: number;
+    Text?: string;
+    EncodedTextLen?: number;
+    EncodedText?: Buffer;
+    SettlCurrency?: string;
+    StandardHeader?: IStandardHeader;
+    Parties?: IParties[];
+    Instrument?: IInstrument;
+    InstrmtLegGrp?: IInstrmtLegGrp[];
+    RelatedInstrumentGrp?: IRelatedInstrumentGrp[];
+    UndInstrmtGrp?: IUndInstrmtGrp[];
+    TrdgSesGrp?: ITrdgSesGrp[];
+    PositionQty?: IPositionQty[];
+    PositionAmountData?: IPositionAmountData[];
+}

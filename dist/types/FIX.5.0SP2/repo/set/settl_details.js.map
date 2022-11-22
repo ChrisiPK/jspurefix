@@ -1,0 +1,1 @@
+{"version":3,"file":"settl_details.js","sourceRoot":"","sources":["../../../../../src/types/FIX.5.0SP2/repo/set/settl_details.ts"],"names":[],"mappings":"","sourcesContent":["import { ISettlParties } from './settl_parties'\n\nexport interface ISettlDetails {\n  SettlObligSource?: string// 1164\n  SettlParties?: ISettlParties[]\n}\n"]}

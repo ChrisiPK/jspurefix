@@ -1,0 +1,1 @@
+{"version":3,"file":"trd_cap_dt_grp.js","sourceRoot":"","sources":["../../../../../src/types/FIX4.4/repo/set/trd_cap_dt_grp.ts"],"names":[],"mappings":"","sourcesContent":["export interface ITrdCapDtGrp {\n  TradeDate?: Date// [1] 75 (LocalDate)\n  TransactTime?: Date// [2] 60 (UtcTimestamp)\n}\n"]}

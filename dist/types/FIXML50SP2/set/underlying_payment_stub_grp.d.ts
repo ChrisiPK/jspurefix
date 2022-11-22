@@ -1,0 +1,35 @@
+import { IUnderlyingPaymentStubStartDate } from './underlying_payment_stub_start_date';
+import { IUnderlyingPaymentStubEndDate } from './underlying_payment_stub_end_date';
+export interface IUnderlyingPaymentStubGrp {
+    UnderlyingPaymentStubType?: number;
+    UnderlyingPaymentStubLength?: number;
+    UnderlyingPaymentStubRate?: number;
+    UnderlyingPaymentStubFixedAmount?: number;
+    UnderlyingPaymentStubFixedCurrency?: string;
+    UnderlyingPaymentStubIndex?: string;
+    UnderlyingPaymentStubIndexSource?: number;
+    UnderlyingPaymentStubIndexCurvePeriod?: number;
+    UnderlyingPaymentStubIndexCurveUnit?: string;
+    UnderlyingPaymentStubIndexRateMultiplier?: number;
+    UnderlyingPaymentStubIndexRateSpread?: number;
+    UnderlyingPaymentStubIndexRateSpreadPositionType?: number;
+    UnderlyingPaymentStubIndexRateTreatment?: number;
+    UnderlyingPaymentStubIndexCapRate?: number;
+    UnderlyingPaymentStubIndexCapRateBuySide?: number;
+    UnderlyingPaymentStubIndexCapRateSellSide?: number;
+    UnderlyingPaymentStubIndexFloorRate?: number;
+    UnderlyingPaymentStubIndexFloorRateBuySide?: number;
+    UnderlyingPaymentStubIndexFloorRateSellSide?: number;
+    UnderlyingPaymentStubIndex2?: string;
+    UnderlyingPaymentStubIndex2Source?: number;
+    UnderlyingPaymentStubIndex2CurvePeriod?: number;
+    UnderlyingPaymentStubIndex2CurveUnit?: string;
+    UnderlyingPaymentStubIndex2RateMultiplier?: number;
+    UnderlyingPaymentStubIndex2RateSpread?: number;
+    UnderlyingPaymentStubIndex2RateSpreadPositionType?: number;
+    UnderlyingPaymentStubIndex2RateTreatment?: number;
+    UnderlyingPaymentStubIndex2CapRate?: number;
+    UnderlyingPaymentStubIndex2FloorRate?: number;
+    UnderlyingPaymentStubStartDate?: IUnderlyingPaymentStubStartDate;
+    UnderlyingPaymentStubEndDate?: IUnderlyingPaymentStubEndDate;
+}

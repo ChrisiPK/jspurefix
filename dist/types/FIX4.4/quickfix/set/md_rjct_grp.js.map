@@ -1,0 +1,1 @@
+{"version":3,"file":"md_rjct_grp.js","sourceRoot":"","sources":["../../../../../src/types/FIX4.4/quickfix/set/md_rjct_grp.ts"],"names":[],"mappings":"","sourcesContent":["import { IMDRjctGrpNoAltMDSource } from './md_rjct_grp_no_alt_md_source'\n\nexport interface IMDRjctGrp {\n  NoAltMDSource?: IMDRjctGrpNoAltMDSource[]// [1] AltMDSourceID.817\n}\n"]}

@@ -1,0 +1,1 @@
+{"version":3,"file":"stream_termination_date_business_center_grp.js","sourceRoot":"","sources":["../../../../src/types/FIXML50SP2/set/stream_termination_date_business_center_grp.ts"],"names":[],"mappings":"","sourcesContent":["export interface IStreamTerminationDateBusinessCenterGrp {\n  StreamTerminationDateBusinessCenter?: string// 40067\n}\n"]}

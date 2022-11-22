@@ -1,0 +1,1 @@
+{"version":3,"file":"payment_schedule_fixing_date_business_center_grp.js","sourceRoot":"","sources":["../../../../src/types/FIXML50SP2/set/payment_schedule_fixing_date_business_center_grp.ts"],"names":[],"mappings":"","sourcesContent":["export interface IPaymentScheduleFixingDateBusinessCenterGrp {\n  PaymentScheduleFixingDateBusinessCenter?: string// 40854\n}\n"]}

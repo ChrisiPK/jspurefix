@@ -1,0 +1,48 @@
+/// <reference types="node" />
+import { IStandardHeader } from './set/standard_header';
+import { IInstrument } from './set/instrument';
+import { IStandardTrailer } from './set/standard_trailer';
+export interface IMarketDataIncrementalRefresh {
+    StandardHeader: IStandardHeader;
+    MDReqID?: string;
+    NoMDEntries: number;
+    MDUpdateAction: string;
+    DeleteReason?: string;
+    MDEntryType?: string;
+    MDEntryID?: string;
+    MDEntryRefID?: string;
+    Instrument?: IInstrument;
+    FinancialStatus?: string;
+    CorporateAction?: string;
+    MDEntryPx?: number;
+    Currency?: string;
+    MDEntrySize?: number;
+    MDEntryDate?: string;
+    MDEntryTime?: string;
+    TickDirection?: string;
+    MDMkt?: string;
+    TradingSessionID?: string;
+    QuoteCondition?: string;
+    TradeCondition?: string;
+    MDEntryOriginator?: string;
+    LocationID?: string;
+    DeskID?: string;
+    OpenCloseSettleFlag?: string;
+    TimeInForce?: string;
+    ExpireDate?: Date;
+    ExpireTime?: Date;
+    MinQty?: number;
+    ExecInst?: string;
+    SellerDays?: number;
+    OrderID?: string;
+    QuoteEntryID?: string;
+    MDEntryBuyer?: string;
+    MDEntrySeller?: string;
+    NumberOfOrders?: number;
+    MDEntryPositionNo?: number;
+    TotalVolumeTraded?: number;
+    Text?: string;
+    EncodedTextLen?: number;
+    EncodedText?: Buffer;
+    StandardTrailer: IStandardTrailer;
+}

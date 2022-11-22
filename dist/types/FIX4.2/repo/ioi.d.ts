@@ -1,0 +1,48 @@
+/// <reference types="node" />
+import { IStandardHeader } from './set/standard_header';
+import { IStandardTrailer } from './set/standard_trailer';
+export interface IIOI {
+    StandardHeader: IStandardHeader;
+    IOIid: string;
+    IOITransType: string;
+    IOIRefID?: string;
+    Symbol: string;
+    SymbolSfx?: string;
+    SecurityID?: string;
+    IDSource?: string;
+    SecurityType?: string;
+    MaturityMonthYear?: string;
+    MaturityDay?: number;
+    PutOrCall?: number;
+    StrikePrice?: number;
+    OptAttribute?: string;
+    ContractMultiplier?: number;
+    CouponRate?: number;
+    SecurityExchange?: string;
+    Issuer?: string;
+    EncodedIssuerLen?: number;
+    EncodedIssuer?: Buffer;
+    SecurityDesc?: string;
+    EncodedSecurityDescLen?: number;
+    EncodedSecurityDesc?: Buffer;
+    Side: string;
+    IOIShares: string;
+    Price?: number;
+    Currency?: string;
+    ValidUntilTime?: Date;
+    IOIQltyInd?: string;
+    IOINaturalFlag?: boolean;
+    NoIOIQualifiers?: number;
+    IOIQualifier?: string;
+    Text?: string;
+    EncodedTextLen?: number;
+    EncodedText?: Buffer;
+    TransactTime?: Date;
+    URLLink?: string;
+    NoRoutingIDs?: number;
+    RoutingType?: number;
+    RoutingID?: string;
+    SpreadToBenchmark?: number;
+    Benchmark?: string;
+    StandardTrailer: IStandardTrailer;
+}

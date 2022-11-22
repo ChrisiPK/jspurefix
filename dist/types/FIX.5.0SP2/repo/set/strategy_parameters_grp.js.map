@@ -1,0 +1,1 @@
+{"version":3,"file":"strategy_parameters_grp.js","sourceRoot":"","sources":["../../../../../src/types/FIX.5.0SP2/repo/set/strategy_parameters_grp.ts"],"names":[],"mappings":"","sourcesContent":["export interface IStrategyParametersGrp {\n  StrategyParameterName?: string// 958\n  StrategyParameterType?: number// 959\n  StrategyParameterValue?: string// 960\n}\n"]}

@@ -1,0 +1,1 @@
+{"version":3,"file":"extraordinary_event_grp.js","sourceRoot":"","sources":["../../../../src/types/FIXML50SP2/set/extraordinary_event_grp.ts"],"names":[],"mappings":"","sourcesContent":["export interface IExtraordinaryEventGrp {\n  ExtraordinaryEventType?: string// 42297\n  ExtraordinaryEventValue?: string// 42298\n}\n"]}

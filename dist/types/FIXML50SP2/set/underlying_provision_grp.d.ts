@@ -1,0 +1,44 @@
+/// <reference types="node" />
+import { IUnderlyingProvisionDateBusinessCenterGrp } from './underlying_provision_date_business_center_grp';
+import { IUnderlyingProvisionCashSettlValueDates } from './underlying_provision_cash_settl_value_dates';
+import { IUnderlyingProvisionOptionExerciseDates } from './underlying_provision_option_exercise_dates';
+import { IUnderlyingProvisionOptionExpirationDate } from './underlying_provision_option_expiration_date';
+import { IUnderlyingProvisionOptionRelevantUnderlyingDate } from './underlying_provision_option_relevant_underlying_date';
+import { IUnderlyingProvisionCashSettlPaymentDates } from './underlying_provision_cash_settl_payment_dates';
+import { IUnderlyingProvisionCashSettlQuoteSource } from './underlying_provision_cash_settl_quote_source';
+import { IUnderlyingProvisionParties } from './underlying_provision_parties';
+export interface IUnderlyingProvisionGrp {
+    UnderlyingProvisionType?: number;
+    UnderlyingProvisionDateUnadjusted?: Date;
+    UnderlyingProvisionDateBusinessDayConvention?: number;
+    UnderlyingProvisionDateAdjusted?: Date;
+    UnderlyingProvisionDateTenorPeriod?: number;
+    UnderlyingProvisionDateTenorUnit?: string;
+    UnderlyingProvisionBreakFeeElection?: number;
+    UnderlyingProvisionBreakFeeRate?: number;
+    UnderlyingProvisionCalculationAgent?: number;
+    UnderlyingProvisionOptionSinglePartyBuyerSide?: number;
+    UnderlyingProvisionOptionSinglePartySellerSide?: number;
+    ExerciseStyle?: number;
+    UnderlyingProvisionOptionExerciseMultipleNotional?: number;
+    UnderlyingProvisionOptionExerciseMinimumNotional?: number;
+    UnderlyingProvisionOptionExerciseMaximumNotional?: number;
+    UnderlyingProvisionOptionMinimumNumber?: number;
+    UnderlyingProvisionOptionMaximumNumber?: number;
+    UnderlyingProvisionOptionExerciseConfirmation?: boolean;
+    UnderlyingProvisionCashSettlMethod?: number;
+    UnderlyingProvisionCashSettlCurrency?: string;
+    UnderlyingProvisionCashSettlCurrency2?: string;
+    UnderlyingProvisionCashSettlQuoteType?: number;
+    UnderlyingProvisionText?: string;
+    EncodedUnderlyingProvisionTextLen?: number;
+    EncodedUnderlyingProvisionText?: Buffer;
+    UnderlyingProvisionDateBusinessCenterGrp?: IUnderlyingProvisionDateBusinessCenterGrp[];
+    UnderlyingProvisionCashSettlValueDates?: IUnderlyingProvisionCashSettlValueDates;
+    UnderlyingProvisionOptionExerciseDates?: IUnderlyingProvisionOptionExerciseDates;
+    UnderlyingProvisionOptionExpirationDate?: IUnderlyingProvisionOptionExpirationDate;
+    UnderlyingProvisionOptionRelevantUnderlyingDate?: IUnderlyingProvisionOptionRelevantUnderlyingDate;
+    UnderlyingProvisionCashSettlPaymentDates?: IUnderlyingProvisionCashSettlPaymentDates;
+    UnderlyingProvisionCashSettlQuoteSource?: IUnderlyingProvisionCashSettlQuoteSource;
+    UnderlyingProvisionParties?: IUnderlyingProvisionParties[];
+}

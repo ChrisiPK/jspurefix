@@ -1,0 +1,18 @@
+/// <reference types="node" />
+import { IParties } from './parties';
+import { IOrderQtyData } from './order_qty_data';
+export interface ICrossOrderCancelRequestNoSides {
+    Side: string;
+    OrigClOrdID: string;
+    ClOrdID: string;
+    SecondaryClOrdID?: string;
+    ClOrdLinkID?: string;
+    OrigOrdModTime?: Date;
+    Parties: IParties;
+    TradeOriginationDate?: string;
+    OrderQtyData: IOrderQtyData;
+    ComplianceID?: string;
+    Text?: string;
+    EncodedTextLen?: number;
+    EncodedText?: Buffer;
+}

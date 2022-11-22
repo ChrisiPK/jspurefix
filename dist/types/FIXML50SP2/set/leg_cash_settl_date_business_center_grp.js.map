@@ -1,0 +1,1 @@
+{"version":3,"file":"leg_cash_settl_date_business_center_grp.js","sourceRoot":"","sources":["../../../../src/types/FIXML50SP2/set/leg_cash_settl_date_business_center_grp.ts"],"names":[],"mappings":"","sourcesContent":["export interface ILegCashSettlDateBusinessCenterGrp {\n  LegCashSettlDateBusinessCenter?: string// 42307\n}\n"]}

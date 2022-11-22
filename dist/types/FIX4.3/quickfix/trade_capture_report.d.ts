@@ -1,0 +1,32 @@
+import { IStandardHeader } from './set/standard_header';
+import { IInstrument } from './set/instrument';
+import { IOrderQtyData } from './set/order_qty_data';
+import { ITradeCaptureReportNoSides } from './set/trade_capture_report_no_sides';
+import { IStandardTrailer } from './set/standard_trailer';
+export interface ITradeCaptureReport {
+    StandardHeader: IStandardHeader;
+    TradeReportID: string;
+    TradeReportTransType?: string;
+    TradeRequestID?: string;
+    ExecType: string;
+    TradeReportRefID?: string;
+    ExecID?: string;
+    SecondaryExecID?: string;
+    ExecRestatementReason?: number;
+    PreviouslyReported: boolean;
+    Instrument?: IInstrument;
+    OrderQtyData?: IOrderQtyData;
+    LastQty: number;
+    LastPx: number;
+    LastSpotRate?: number;
+    LastForwardPoints?: number;
+    LastMkt?: string;
+    TradeDate: Date;
+    TransactTime: Date;
+    SettlmntTyp?: string;
+    FutSettDate?: Date;
+    MatchStatus?: string;
+    MatchType?: string;
+    NoSides: ITradeCaptureReportNoSides[];
+    StandardTrailer: IStandardTrailer;
+}

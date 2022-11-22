@@ -1,0 +1,1 @@
+{"version":3,"file":"email_no_related_sym.js","sourceRoot":"","sources":["../../../../../src/types/FIX4.3/quickfix/set/email_no_related_sym.ts"],"names":[],"mappings":"","sourcesContent":["import { IInstrument } from './instrument'\n\nexport interface IEmailNoRelatedSym {\n  Instrument?: IInstrument// [1] Symbol.55, SymbolSfx.65 .. EncodedSecurityDesc.351\n}\n"]}

@@ -1,0 +1,1 @@
+{"version":3,"file":"instrument_extension.js","sourceRoot":"","sources":["../../../../src/types/FIXML50SP2/set/instrument_extension.ts"],"names":[],"mappings":"","sourcesContent":["import { IAttrbGrp } from './attrb_grp'\n\nexport interface IInstrumentExtension {\n  DeliveryForm?: number// 668\n  PctAtRisk?: number// 869\n  AttrbGrp?: IAttrbGrp[]\n}\n"]}

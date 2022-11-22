@@ -1,0 +1,1 @@
+{"version":3,"file":"und_sec_alt_id_grp.js","sourceRoot":"","sources":["../../../../../src/types/FIX4.4/repo/set/und_sec_alt_id_grp.ts"],"names":[],"mappings":"","sourcesContent":["export interface IUndSecAltIDGrp {\n  UnderlyingSecurityAltID?: string// [1] 458 (String)\n  UnderlyingSecurityAltIDSource?: string// [2] 459 (String)\n}\n"]}

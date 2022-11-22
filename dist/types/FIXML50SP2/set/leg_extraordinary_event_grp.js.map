@@ -1,0 +1,1 @@
+{"version":3,"file":"leg_extraordinary_event_grp.js","sourceRoot":"","sources":["../../../../src/types/FIXML50SP2/set/leg_extraordinary_event_grp.ts"],"names":[],"mappings":"","sourcesContent":["export interface ILegExtraordinaryEventGrp {\n  LegExtraordinaryEventType?: string// 42389\n  LegExtraordinaryEventValue?: string// 42390\n}\n"]}

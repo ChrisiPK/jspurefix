@@ -1,0 +1,1 @@
+{"version":3,"file":"routing_grp.js","sourceRoot":"","sources":["../../../../src/types/FIXML50SP2/set/routing_grp.ts"],"names":[],"mappings":"","sourcesContent":["export interface IRoutingGrp {\n  RoutingType?: number// 216\n  RoutingID?: string// 217\n}\n"]}

@@ -1,0 +1,42 @@
+/// <reference types="node" />
+import { ILegStreamCommodity } from './leg_stream_commodity';
+import { ILegStreamEffectiveDate } from './leg_stream_effective_date';
+import { ILegStreamTerminationDate } from './leg_stream_termination_date';
+import { ILegStreamCalculationPeriodDates } from './leg_stream_calculation_period_dates';
+import { ILegPaymentStream } from './leg_payment_stream';
+import { ILegPaymentScheduleGrp } from './leg_payment_schedule_grp';
+import { ILegPaymentStubGrp } from './leg_payment_stub_grp';
+import { ILegDeliveryStream } from './leg_delivery_stream';
+import { ILegDeliveryScheduleGrp } from './leg_delivery_schedule_grp';
+export interface ILegStreamGrp {
+    LegStreamType?: number;
+    LegStreamXID?: string;
+    LegStreamDesc?: string;
+    LegStreamVersion?: string;
+    LegStreamVersionEffectiveDate?: Date;
+    LegStreamPaySide?: number;
+    LegStreamReceiveSide?: number;
+    LegStreamNotionalXIDRef?: string;
+    LegStreamNotional?: number;
+    LegStreamCurrency?: string;
+    LegStreamNotionalDeterminationMethod?: string;
+    LegStreamNotionalAdjustments?: number;
+    LegStreamNotionalFrequencyPeriod?: number;
+    LegStreamNotionalFrequencyUnit?: string;
+    LegStreamNotionalCommodityFrequency?: number;
+    LegStreamNotionalUnitOfMeasure?: string;
+    LegStreamTotalNotional?: number;
+    LegStreamTotalNotionalUnitOfMeasure?: string;
+    LegStreamText?: string;
+    EncodedLegStreamTextLen?: number;
+    EncodedLegStreamText?: Buffer;
+    LegStreamCommodity?: ILegStreamCommodity;
+    LegStreamEffectiveDate?: ILegStreamEffectiveDate;
+    LegStreamTerminationDate?: ILegStreamTerminationDate;
+    LegStreamCalculationPeriodDates?: ILegStreamCalculationPeriodDates;
+    LegPaymentStream?: ILegPaymentStream;
+    LegPaymentScheduleGrp?: ILegPaymentScheduleGrp[];
+    LegPaymentStubGrp?: ILegPaymentStubGrp[];
+    LegDeliveryStream?: ILegDeliveryStream;
+    LegDeliveryScheduleGrp?: ILegDeliveryScheduleGrp[];
+}

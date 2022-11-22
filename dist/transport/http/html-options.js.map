@@ -1,0 +1,1 @@
+{"version":3,"file":"html-options.js","sourceRoot":"","sources":["../../../src/transport/http/html-options.ts"],"names":[],"mappings":"","sourcesContent":["export interface IHtmlOptions {\n  method: string,\n  uri: string,\n  json: boolean,\n  body: any,\n  headers: any,\n  resolveWithFullResponse: boolean\n}\n"]}

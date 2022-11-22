@@ -1,0 +1,34 @@
+import { IInstrumentLeg } from './instrument_leg';
+import { ILegStipulations } from './leg_stipulations';
+import { ILegPreAllocGrp } from './leg_pre_alloc_grp';
+import { INestedParties3 } from './nested_parties_3';
+export interface IInstrmtLegExecGrp {
+    LegOrderQty?: number;
+    LegQty?: number;
+    LegMidPx?: number;
+    LegSwapType?: number;
+    LegAllocID?: string;
+    LegAccount?: string;
+    LegClearingAccountType?: number;
+    LegPositionEffect?: string;
+    LegCoveredOrUncovered?: number;
+    LegRefID?: string;
+    SettlType?: string;
+    LegSettlDate?: Date;
+    LegLastPx?: number;
+    LegSettlCurrency?: string;
+    LegLastForwardPoints?: number;
+    LegCalculatedCcyLastQty?: number;
+    LegGrossTradeAmt?: number;
+    LegShortSaleExemptionReason?: number;
+    LegVolatility?: number;
+    LegDividendYield?: number;
+    LegCurrencyRatio?: number;
+    LegExecInst?: string;
+    LegLastQty?: number;
+    FillRefID?: string;
+    InstrumentLeg?: IInstrumentLeg;
+    LegStipulations?: ILegStipulations[];
+    LegPreAllocGrp?: ILegPreAllocGrp[];
+    NestedParties3?: INestedParties3[];
+}

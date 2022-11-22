@@ -1,0 +1,1 @@
+{"version":3,"file":"evnt_grp.js","sourceRoot":"","sources":["../../../../../src/types/FIX.5.0SP2/repo/set/evnt_grp.ts"],"names":[],"mappings":"","sourcesContent":["export interface IEvntGrp {\n  EventType?: number // 865\n  EventDate?: Date// 866\n  EventTime?: Date// 1145\n  EventPx?: number// 867\n  EventText?: string// 868\n}\n"]}

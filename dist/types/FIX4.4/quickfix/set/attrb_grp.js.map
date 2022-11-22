@@ -1,0 +1,1 @@
+{"version":3,"file":"attrb_grp.js","sourceRoot":"","sources":["../../../../../src/types/FIX4.4/quickfix/set/attrb_grp.ts"],"names":[],"mappings":"","sourcesContent":["import { IAttrbGrpNoInstrAttrib } from './attrb_grp_no_instr_attrib'\n\nexport interface IAttrbGrp {\n  NoInstrAttrib?: IAttrbGrpNoInstrAttrib[]// [1] InstrAttribType.871, InstrAttribValue.872\n}\n"]}

@@ -1,0 +1,1 @@
+{"version":3,"file":"populated-attributes.js","sourceRoot":"","sources":["../../../src/buffer/fixml/populated-attributes.ts"],"names":[],"mappings":"","sourcesContent":["import { ContainedSimpleField } from '../../dictionary/contained'\n\nexport interface IPopulatedAttributes {\n  fields: ContainedSimpleField[],\n  values: any[]\n}\n"]}

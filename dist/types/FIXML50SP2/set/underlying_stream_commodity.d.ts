@@ -1,0 +1,40 @@
+/// <reference types="node" />
+import { IUnderlyingStreamCommodityAltIDGrp } from './underlying_stream_commodity_alt_id_grp';
+import { IUnderlyingStreamAssetAttributeGrp } from './underlying_stream_asset_attribute_grp';
+import { IUnderlyingStreamCommodityDataSourceGrp } from './underlying_stream_commodity_data_source_grp';
+import { IUnderlyingStreamCommoditySettlBusinessCenterGrp } from './underlying_stream_commodity_settl_business_center_grp';
+import { IUnderlyingStreamCommoditySettlPeriodGrp } from './underlying_stream_commodity_settl_period_grp';
+export interface IUnderlyingStreamCommodity {
+    UnderlyingStreamCommodityBase?: string;
+    UnderlyingStreamCommodityType?: string;
+    UnderlyingStreamCommoditySecurityID?: string;
+    UnderlyingStreamCommoditySecurityIDSource?: string;
+    UnderlyingStreamCommodityDesc?: string;
+    EncodedUnderlyingStreamCommodityDescLen?: number;
+    EncodedUnderlyingStreamCommodityDesc?: Buffer;
+    UnderlyingStreamCommodityDeliveryPricingRegion?: string;
+    UnderlyingStreamCommodityUnitOfMeasure?: string;
+    UnderlyingStreamCommodityCurrency?: string;
+    UnderlyingStreamCommodityExchange?: string;
+    UnderlyingStreamCommodityRateSource?: number;
+    UnderlyingStreamCommodityRateReferencePage?: string;
+    UnderlyingStreamCommodityRateReferencePageHeading?: string;
+    UnderlyingStreamDataProvider?: string;
+    UnderlyingStreamCommodityPricingType?: string;
+    UnderlyingStreamCommodityNearbySettlDayPeriod?: number;
+    UnderlyingStreamCommodityNearbySettlDayUnit?: string;
+    UnderlyingStreamCommoditySettlDateUnadjusted?: Date;
+    UnderlyingStreamCommoditySettlDateBusinessDayConvention?: number;
+    UnderlyingStreamCommoditySettlDateAdjusted?: Date;
+    UnderlyingStreamCommoditySettlMonth?: number;
+    UnderlyingStreamCommoditySettlDateRollPeriod?: number;
+    UnderlyingStreamCommoditySettlDateRollUnit?: string;
+    UnderlyingStreamCommoditySettlDayType?: number;
+    UnderlyingStreamCommodityXID?: string;
+    UnderlyingStreamCommodityXIDRef?: string;
+    UnderlyingStreamCommodityAltIDGrp?: IUnderlyingStreamCommodityAltIDGrp[];
+    UnderlyingStreamAssetAttributeGrp?: IUnderlyingStreamAssetAttributeGrp[];
+    UnderlyingStreamCommodityDataSourceGrp?: IUnderlyingStreamCommodityDataSourceGrp[];
+    UnderlyingStreamCommoditySettlBusinessCenterGrp?: IUnderlyingStreamCommoditySettlBusinessCenterGrp[];
+    UnderlyingStreamCommoditySettlPeriodGrp?: IUnderlyingStreamCommoditySettlPeriodGrp[];
+}

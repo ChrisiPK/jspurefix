@@ -1,0 +1,1 @@
+{"version":3,"file":"index.js","sourceRoot":"","sources":["../../../src/transport/factory/index.ts"],"names":[],"mappings":";;;;;;;;;;;;;;;;AAAA,kDAA+B","sourcesContent":["export * from './msg-transport'\n"]}

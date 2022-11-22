@@ -1,0 +1,1 @@
+{"version":3,"file":"root_sub_parties.js","sourceRoot":"","sources":["../../../../../src/types/FIX.5.0SP2/repo/set/root_sub_parties.ts"],"names":[],"mappings":"","sourcesContent":["export interface IRootSubParties {\n  RootPartySubID?: string// 1121\n  RootPartySubIDType?: number// 1122\n}\n"]}

@@ -1,0 +1,1 @@
+{"version":3,"file":"ord_type_rules.js","sourceRoot":"","sources":["../../../../src/types/FIXML50SP2/set/ord_type_rules.ts"],"names":[],"mappings":"","sourcesContent":["export interface IOrdTypeRules {\n  OrdType?: string// 40\n}\n"]}

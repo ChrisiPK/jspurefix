@@ -1,0 +1,1 @@
+{"version":3,"file":"appl_id_report_grp.js","sourceRoot":"","sources":["../../../../../src/types/FIX.5.0SP2/repo/set/appl_id_report_grp.ts"],"names":[],"mappings":"","sourcesContent":["export interface IApplIDReportGrp {\n  RefApplID?: string// 1355\n  ApplNewSeqNum?: number// 1399\n  RefApplLastSeqNum?: number// 1357\n}\n"]}

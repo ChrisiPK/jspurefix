@@ -1,0 +1,1 @@
+{"version":3,"file":"attachment_keyword_grp.js","sourceRoot":"","sources":["../../../../src/types/FIXML50SP2/set/attachment_keyword_grp.ts"],"names":[],"mappings":"","sourcesContent":["export interface IAttachmentKeywordGrp {\n  AttachmentKeyword?: string// 2114\n}\n"]}

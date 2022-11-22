@@ -1,0 +1,1 @@
+{"version":3,"file":"underlying_complex_event_times.js","sourceRoot":"","sources":["../../../../src/types/FIXML50SP2/set/underlying_complex_event_times.ts"],"names":[],"mappings":"","sourcesContent":["export interface IUnderlyingComplexEventTimes {\n  UnderlyingComplexEventStartTime?: Date// 2057\n  UnderlyingComplexEventEndTime?: Date// 2058\n}\n"]}

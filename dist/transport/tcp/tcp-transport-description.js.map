@@ -1,0 +1,1 @@
+{"version":3,"file":"tcp-transport-description.js","sourceRoot":"","sources":["../../../src/transport/tcp/tcp-transport-description.ts"],"names":[],"mappings":"","sourcesContent":["import { ITlsOptions } from './tls-options'\n\nexport interface ITcpTransportDescription {\n  readonly port: number\n  readonly host: string,\n  readonly tls?: ITlsOptions\n}\n"]}

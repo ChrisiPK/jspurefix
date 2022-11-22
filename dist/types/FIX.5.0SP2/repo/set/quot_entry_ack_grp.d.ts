@@ -1,0 +1,35 @@
+import { IInstrument } from './instrument';
+import { IInstrmtLegGrp } from './instrmt_leg_grp';
+export interface IQuotEntryAckGrp {
+    QuoteEntryID?: string;
+    Instrument?: IInstrument;
+    InstrmtLegGrp?: IInstrmtLegGrp;
+    BidPx?: number;
+    OfferPx?: number;
+    BidSize?: number;
+    OfferSize?: number;
+    ValidUntilTime?: Date;
+    BidSpotRate?: number;
+    OfferSpotRate?: number;
+    BidForwardPoints?: number;
+    OfferForwardPoints?: number;
+    MidPx?: number;
+    BidYield?: number;
+    MidYield?: number;
+    OfferYield?: number;
+    TransactTime?: Date;
+    TradingSessionID?: string;
+    TradingSessionSubID?: string;
+    SettlDate?: Date;
+    OrdType?: string;
+    SettlDate2?: Date;
+    OrderQty2?: number;
+    BidForwardPoints2?: number;
+    OfferForwardPoints2?: number;
+    Currency?: string;
+    QuoteEntryStatus?: number;
+    QuoteEntryRejectReason?: number;
+    BookingType?: number;
+    OrderCapacity?: string;
+    OrderRestrictions?: string;
+}

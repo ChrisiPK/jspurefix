@@ -1,0 +1,1 @@
+{"version":3,"file":"ptys_sub_grp.js","sourceRoot":"","sources":["../../../../../src/types/FIX4.4/quickfix/set/ptys_sub_grp.ts"],"names":[],"mappings":"","sourcesContent":["import { IPtysSubGrpNoPartySubIDs } from './ptys_sub_grp_no_party_sub_i_ds'\n\nexport interface IPtysSubGrp {\n  NoPartySubIDs?: IPtysSubGrpNoPartySubIDs[]// [1] PartySubID.523, PartySubIDType.803\n}\n"]}

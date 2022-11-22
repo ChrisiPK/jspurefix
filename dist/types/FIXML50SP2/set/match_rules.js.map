@@ -1,0 +1,1 @@
+{"version":3,"file":"match_rules.js","sourceRoot":"","sources":["../../../../src/types/FIXML50SP2/set/match_rules.ts"],"names":[],"mappings":"","sourcesContent":["export interface IMatchRules {\n  MatchAlgorithm?: string// 1142\n  MatchType?: string// 574\n  MatchRuleProductComplex?: string// 2569\n  CustomerPriority?: number// 2570\n}\n"]}

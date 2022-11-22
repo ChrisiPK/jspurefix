@@ -1,0 +1,1 @@
+{"version":3,"file":"sec_sizes_grp.js","sourceRoot":"","sources":["../../../../src/types/FIXML50SP2/set/sec_sizes_grp.ts"],"names":[],"mappings":"","sourcesContent":["export interface ISecSizesGrp {\n  MDSecSizeType?: number// 1178\n  MDSecSize?: number// 1179\n}\n"]}

@@ -1,0 +1,1 @@
+{"version":3,"file":"ptys_sub_grp.js","sourceRoot":"","sources":["../../../../src/types/FIXML50SP2/set/ptys_sub_grp.ts"],"names":[],"mappings":"","sourcesContent":["export interface IPtysSubGrp {\n  PartySubID?: string// 523\n  MiscFeeType?: string// 139\n}\n"]}

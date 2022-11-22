@@ -1,0 +1,1 @@
+{"version":3,"file":"related_party_detail_sub_grp.js","sourceRoot":"","sources":["../../../../src/types/FIXML50SP2/set/related_party_detail_sub_grp.ts"],"names":[],"mappings":"","sourcesContent":["export interface IRelatedPartyDetailSubGrp {\n  RelatedPartyDetailSubID?: string// 1567\n  MiscFeeType?: string// 139\n}\n"]}

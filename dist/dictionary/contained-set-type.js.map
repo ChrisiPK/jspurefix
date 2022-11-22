@@ -1,0 +1,1 @@
+{"version":3,"file":"contained-set-type.js","sourceRoot":"","sources":["../../src/dictionary/contained-set-type.ts"],"names":[],"mappings":";;;AAAA,IAAY,gBAIX;AAJD,WAAY,gBAAgB;IAC1B,qDAAG,CAAA;IACH,yDAAK,CAAA;IACL,iEAAS,CAAA;AACX,CAAC,EAJW,gBAAgB,GAAhB,wBAAgB,KAAhB,wBAAgB,QAI3B","sourcesContent":["export enum ContainedSetType {\n  Msg,\n  Group,\n  Component\n}\n"]}

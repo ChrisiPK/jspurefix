@@ -1,0 +1,1 @@
+{"version":3,"file":"requesting_party_sub_grp.js","sourceRoot":"","sources":["../../../../src/types/FIXML50SP2/set/requesting_party_sub_grp.ts"],"names":[],"mappings":"","sourcesContent":["export interface IRequestingPartySubGrp {\n  RequestingPartySubID?: string// 1662\n  RequestingPartySubIDType?: number// 1663\n}\n"]}

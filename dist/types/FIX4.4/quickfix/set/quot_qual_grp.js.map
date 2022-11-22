@@ -1,0 +1,1 @@
+{"version":3,"file":"quot_qual_grp.js","sourceRoot":"","sources":["../../../../../src/types/FIX4.4/quickfix/set/quot_qual_grp.ts"],"names":[],"mappings":"","sourcesContent":["import { IQuotQualGrpNoQuoteQualifiers } from './quot_qual_grp_no_quote_qualifiers'\n\nexport interface IQuotQualGrp {\n  NoQuoteQualifiers?: IQuotQualGrpNoQuoteQualifiers[]// [1] QuoteQualifier.695\n}\n"]}

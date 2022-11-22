@@ -1,0 +1,1 @@
+{"version":3,"file":"target_parties.js","sourceRoot":"","sources":["../../../../../src/types/FIX.5.0SP2/repo/set/target_parties.ts"],"names":[],"mappings":"","sourcesContent":["export interface ITargetParties {\n  TargetPartyID?: string// 1462\n  TargetPartyIDSource?: string// 1463\n  TargetPartyRole?: number// 1464\n}\n"]}

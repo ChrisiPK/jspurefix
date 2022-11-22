@@ -1,0 +1,1 @@
+{"version":3,"file":"leg_settl_rate_fallback_rate_source.js","sourceRoot":"","sources":["../../../../src/types/FIXML50SP2/set/leg_settl_rate_fallback_rate_source.ts"],"names":[],"mappings":"","sourcesContent":["export interface ILegSettlRateFallbackRateSource {\n  LegSettlRateFallbackRateSource?: number// 40366\n  LegSettlRateFallbackReferencePage?: string// 40370\n}\n"]}

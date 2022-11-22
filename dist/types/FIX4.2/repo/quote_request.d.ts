@@ -1,0 +1,40 @@
+/// <reference types="node" />
+import { IStandardHeader } from './set/standard_header';
+import { IStandardTrailer } from './set/standard_trailer';
+export interface IQuoteRequest {
+    StandardHeader: IStandardHeader;
+    QuoteReqID: string;
+    NoRelatedSym: number;
+    Symbol: string;
+    SymbolSfx?: string;
+    SecurityID?: string;
+    IDSource?: string;
+    SecurityType?: string;
+    MaturityMonthYear?: string;
+    MaturityDay?: number;
+    PutOrCall?: number;
+    StrikePrice?: number;
+    OptAttribute?: string;
+    ContractMultiplier?: number;
+    CouponRate?: number;
+    SecurityExchange?: string;
+    Issuer?: string;
+    EncodedIssuerLen?: number;
+    EncodedIssuer?: Buffer;
+    SecurityDesc?: string;
+    EncodedSecurityDescLen?: number;
+    EncodedSecurityDesc?: Buffer;
+    PrevClosePx?: number;
+    QuoteRequestType?: number;
+    TradingSessionID?: string;
+    Side?: string;
+    OrderQty?: number;
+    FutSettDate?: Date;
+    OrdType?: string;
+    FutSettDate2?: Date;
+    OrderQty2?: number;
+    ExpireTime?: Date;
+    TransactTime?: Date;
+    Currency?: string;
+    StandardTrailer: IStandardTrailer;
+}

@@ -1,0 +1,35 @@
+import { ILegReturnRatePriceGrp } from './leg_return_rate_price_grp';
+import { ILegReturnRateFXConversionGrp } from './leg_return_rate_fx_conversion_grp';
+import { ILegReturnRateInformationSourceGrp } from './leg_return_rate_information_source_grp';
+import { ILegReturnRateDateGrp } from './leg_return_rate_date_grp';
+export interface ILegReturnRateGrp {
+    LegReturnRatePriceSequence?: number;
+    LegReturnRateCommissionBasis?: string;
+    LegReturnRateCommissionAmount?: number;
+    LegReturnRateCommissionCurrency?: string;
+    LegReturnRateTotalCommissionPerTrade?: number;
+    LegReturnRateDeterminationMethod?: string;
+    LegReturnRateAmountRelativeTo?: number;
+    LegReturnRateQuoteMeasureType?: string;
+    LegReturnRateQuoteUnits?: string;
+    LegReturnRateQuoteMethod?: number;
+    LegReturnRateQuoteCurrency?: string;
+    LegReturnRateQuoteCurrencyType?: string;
+    LegReturnRateQuoteTimeType?: number;
+    LegReturnRateQuoteTime?: string;
+    LegReturnRateQuoteDate?: Date;
+    LegReturnRateQuoteExpirationTime?: string;
+    LegReturnRateQuoteBusinessCenter?: string;
+    LegReturnRateQuoteExchange?: string;
+    LegReturnRateQuotePricingModel?: string;
+    LegReturnRateCashFlowType?: string;
+    LegReturnRateValuationTimeType?: number;
+    LegReturnRateValuationTime?: string;
+    LegReturnRateValuationTimeBusinessCenter?: string;
+    LegReturnRateValuationPriceOption?: number;
+    LegReturnRateFinalPriceFallback?: number;
+    LegReturnRatePriceGrp?: ILegReturnRatePriceGrp[];
+    LegReturnRateFXConversionGrp?: ILegReturnRateFXConversionGrp[];
+    LegReturnRateInformationSourceGrp?: ILegReturnRateInformationSourceGrp[];
+    LegReturnRateDateGrp?: ILegReturnRateDateGrp[];
+}

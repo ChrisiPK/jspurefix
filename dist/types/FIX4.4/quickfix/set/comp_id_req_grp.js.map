@@ -1,0 +1,1 @@
+{"version":3,"file":"comp_id_req_grp.js","sourceRoot":"","sources":["../../../../../src/types/FIX4.4/quickfix/set/comp_id_req_grp.ts"],"names":[],"mappings":"","sourcesContent":["import { ICompIDReqGrpNoCompIDs } from './comp_id_req_grp_no_comp_i_ds'\n\nexport interface ICompIDReqGrp {\n  NoCompIDs?: ICompIDReqGrpNoCompIDs[]// [1] RefCompID.930, RefSubID.931 .. DeskID.284\n}\n"]}

@@ -1,0 +1,1 @@
+{"version":3,"file":"financing_contractual_definition_grp.js","sourceRoot":"","sources":["../../../../src/types/FIXML50SP2/set/financing_contractual_definition_grp.ts"],"names":[],"mappings":"","sourcesContent":["export interface IFinancingContractualDefinitionGrp {\n  ContractualDefinition?: string// 40041\n}\n"]}

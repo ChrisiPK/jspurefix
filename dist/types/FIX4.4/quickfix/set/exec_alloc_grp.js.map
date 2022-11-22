@@ -1,0 +1,1 @@
+{"version":3,"file":"exec_alloc_grp.js","sourceRoot":"","sources":["../../../../../src/types/FIX4.4/quickfix/set/exec_alloc_grp.ts"],"names":[],"mappings":"","sourcesContent":["import { IExecAllocGrpNoExecs } from './exec_alloc_grp_no_execs'\n\nexport interface IExecAllocGrp {\n  NoExecs?: IExecAllocGrpNoExecs[]// [1] LastQty.32, ExecID.17 .. LastCapacity.29\n}\n"]}

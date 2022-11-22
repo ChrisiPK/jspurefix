@@ -1,0 +1,1 @@
+{"version":3,"file":"hop.js","sourceRoot":"","sources":["../../../../../src/types/FIX4.4/quickfix/set/hop.ts"],"names":[],"mappings":"","sourcesContent":["import { IHopNoHops } from './hop_no_hops'\n\nexport interface IHop {\n  NoHops?: IHopNoHops[]// [1] HopCompID.628, HopSendingTime.629, HopRefID.630\n}\n"]}

@@ -1,0 +1,1 @@
+{"version":3,"file":"affected_ord_grp.js","sourceRoot":"","sources":["../../../../src/types/FIXML50SP2/set/affected_ord_grp.ts"],"names":[],"mappings":"","sourcesContent":["export interface IAffectedOrdGrp {\n  AffectedOrigClOrdID?: string// 1824\n  AffectedOrderID?: string// 535\n  AffectedSecondaryOrderID?: string// 536\n}\n"]}

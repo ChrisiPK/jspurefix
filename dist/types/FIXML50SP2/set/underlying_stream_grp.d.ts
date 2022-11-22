@@ -1,0 +1,42 @@
+/// <reference types="node" />
+import { IUnderlyingStreamCommodity } from './underlying_stream_commodity';
+import { IUnderlyingStreamEffectiveDate } from './underlying_stream_effective_date';
+import { IUnderlyingStreamTerminationDate } from './underlying_stream_termination_date';
+import { IUnderlyingStreamCalculationPeriodDates } from './underlying_stream_calculation_period_dates';
+import { IUnderlyingPaymentStream } from './underlying_payment_stream';
+import { IUnderlyingPaymentScheduleGrp } from './underlying_payment_schedule_grp';
+import { IUnderlyingPaymentStubGrp } from './underlying_payment_stub_grp';
+import { IUnderlyingDeliveryStream } from './underlying_delivery_stream';
+import { IUnderlyingDeliveryScheduleGrp } from './underlying_delivery_schedule_grp';
+export interface IUnderlyingStreamGrp {
+    UnderlyingStreamType?: number;
+    UnderlyingStreamXID?: string;
+    UnderlyingStreamDesc?: string;
+    UnderlyingStreamVersion?: string;
+    UnderlyingStreamVersionEffectiveDate?: Date;
+    UnderlyingStreamPaySide?: number;
+    UnderlyingStreamReceiveSide?: number;
+    UnderlyingStreamNotionalXIDRef?: string;
+    UnderlyingStreamNotional?: number;
+    UnderlyingStreamCurrency?: string;
+    UnderlyingStreamNotionalDeterminationMethod?: string;
+    UnderlyingStreamNotionalAdjustments?: number;
+    UnderlyingStreamNotionalFrequencyPeriod?: number;
+    UnderlyingStreamNotionalFrequencyUnit?: string;
+    UnderlyingStreamNotionalCommodityFrequency?: number;
+    UnderlyingStreamNotionalUnitOfMeasure?: string;
+    UnderlyingStreamTotalNotional?: number;
+    UnderlyingStreamTotalNotionalUnitOfMeasure?: string;
+    UnderlyingStreamText?: string;
+    EncodedUnderlyingStreamTextLen?: number;
+    EncodedUnderlyingStreamText?: Buffer;
+    UnderlyingStreamCommodity?: IUnderlyingStreamCommodity;
+    UnderlyingStreamEffectiveDate?: IUnderlyingStreamEffectiveDate;
+    UnderlyingStreamTerminationDate?: IUnderlyingStreamTerminationDate;
+    UnderlyingStreamCalculationPeriodDates?: IUnderlyingStreamCalculationPeriodDates;
+    UnderlyingPaymentStream?: IUnderlyingPaymentStream;
+    UnderlyingPaymentScheduleGrp?: IUnderlyingPaymentScheduleGrp[];
+    UnderlyingPaymentStubGrp?: IUnderlyingPaymentStubGrp[];
+    UnderlyingDeliveryStream?: IUnderlyingDeliveryStream;
+    UnderlyingDeliveryScheduleGrp?: IUnderlyingDeliveryScheduleGrp[];
+}

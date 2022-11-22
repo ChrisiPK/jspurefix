@@ -1,0 +1,1 @@
+{"version":3,"file":"repository-abbreviation.js","sourceRoot":"","sources":["../../../../src/dictionary/parser/fix-repository/repository-abbreviation.ts"],"names":[],"mappings":"","sourcesContent":["import { ILooseObject } from '../../../collections/collection'\n\nexport interface IRepositoryAbbreviation extends ILooseObject {\n  Term: string\n  AbbrTerm: string\n}\n"]}

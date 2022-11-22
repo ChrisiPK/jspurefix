@@ -1,0 +1,1 @@
+{"version":3,"file":"ptys_sub_grp.js","sourceRoot":"","sources":["../../../../../src/types/FIX.5.0SP2/repo/set/ptys_sub_grp.ts"],"names":[],"mappings":"","sourcesContent":["export interface IPtysSubGrp {\n  PartySubID?: string// 523\n  PartySubIDType?: number// 803\n}\n"]}

@@ -1,0 +1,1 @@
+{"version":3,"file":"alloc_grp.js","sourceRoot":"","sources":["../../../../../src/types/FIX4.4/quickfix/set/alloc_grp.ts"],"names":[],"mappings":"","sourcesContent":["import { IAllocGrpNoAllocs } from './alloc_grp_no_allocs'\n\nexport interface IAllocGrp {\n  NoAllocs?: IAllocGrpNoAllocs[]// [1] AllocAccount.79, AllocAcctIDSource.661 .. SettlPartySubIDType.786\n}\n"]}

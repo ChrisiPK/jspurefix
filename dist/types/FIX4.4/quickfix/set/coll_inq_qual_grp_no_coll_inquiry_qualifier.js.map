@@ -1,0 +1,1 @@
+{"version":3,"file":"coll_inq_qual_grp_no_coll_inquiry_qualifier.js","sourceRoot":"","sources":["../../../../../src/types/FIX4.4/quickfix/set/coll_inq_qual_grp_no_coll_inquiry_qualifier.ts"],"names":[],"mappings":"","sourcesContent":["export interface ICollInqQualGrpNoCollInquiryQualifier {\n  CollInquiryQualifier?: number// [1] 896 (Int)\n}\n"]}

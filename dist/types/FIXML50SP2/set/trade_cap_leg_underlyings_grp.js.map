@@ -1,0 +1,1 @@
+{"version":3,"file":"trade_cap_leg_underlyings_grp.js","sourceRoot":"","sources":["../../../../src/types/FIXML50SP2/set/trade_cap_leg_underlyings_grp.ts"],"names":[],"mappings":"","sourcesContent":["import { IUnderlyingLegInstrument } from './underlying_leg_instrument'\n\nexport interface ITradeCapLegUnderlyingsGrp {\n  UnderlyingLegInstrument?: IUnderlyingLegInstrument\n}\n"]}

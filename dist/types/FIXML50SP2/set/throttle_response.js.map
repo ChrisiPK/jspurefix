@@ -1,0 +1,1 @@
+{"version":3,"file":"throttle_response.js","sourceRoot":"","sources":["../../../../src/types/FIXML50SP2/set/throttle_response.ts"],"names":[],"mappings":"","sourcesContent":["export interface IThrottleResponse {\n  ThrottleInst?: number// 1685\n  ThrottleStatus?: number// 1609\n  ThrottleCountIndicator?: number// 1686\n}\n"]}

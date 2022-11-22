@@ -1,0 +1,1 @@
+{"version":3,"file":"security_xml.js","sourceRoot":"","sources":["../../../../src/types/FIXML50SP2/set/security_xml.ts"],"names":[],"mappings":"","sourcesContent":["export interface ISecurityXML {\n  SecurityXMLSchema?: string// 1186\n}\n"]}

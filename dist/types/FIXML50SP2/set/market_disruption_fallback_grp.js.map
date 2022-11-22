@@ -1,0 +1,1 @@
+{"version":3,"file":"market_disruption_fallback_grp.js","sourceRoot":"","sources":["../../../../src/types/FIXML50SP2/set/market_disruption_fallback_grp.ts"],"names":[],"mappings":"","sourcesContent":["export interface IMarketDisruptionFallbackGrp {\n  MarketDisruptionFallbackType?: string// 41095\n  MarketDisruptionFallbackValue?: string// 40992\n}\n"]}

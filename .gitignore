@@ -63,7 +63,7 @@ typings/
 .next
 
 # compiled javascript
-dist/
+#dist/
 
 # idea folder
 .idea/

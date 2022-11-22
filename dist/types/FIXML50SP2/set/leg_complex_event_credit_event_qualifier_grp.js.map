@@ -1,0 +1,1 @@
+{"version":3,"file":"leg_complex_event_credit_event_qualifier_grp.js","sourceRoot":"","sources":["../../../../src/types/FIXML50SP2/set/leg_complex_event_credit_event_qualifier_grp.ts"],"names":[],"mappings":"","sourcesContent":["export interface ILegComplexEventCreditEventQualifierGrp {\n  LegComplexEventCreditEventQualifier?: string// 41375\n}\n"]}

@@ -1,0 +1,1 @@
+{"version":3,"file":"comp_id_req_grp.js","sourceRoot":"","sources":["../../../../../src/types/FIX.5.0SP2/repo/set/comp_id_req_grp.ts"],"names":[],"mappings":"","sourcesContent":["export interface ICompIDReqGrp {\n  RefCompID?: string// 930\n  RefSubID?: string// 931\n  LocationID?: string// 283\n  DeskID?: string// 284\n}\n"]}

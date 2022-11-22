@@ -1,0 +1,1 @@
+{"version":3,"file":"trdg_ses_grp.js","sourceRoot":"","sources":["../../../../../src/types/FIX4.4/repo/set/trdg_ses_grp.ts"],"names":[],"mappings":"","sourcesContent":["export interface ITrdgSesGrp {\n  TradingSessionID?: string// [1] 336 (String)\n  TradingSessionSubID?: string// [2] 625 (String)\n}\n"]}

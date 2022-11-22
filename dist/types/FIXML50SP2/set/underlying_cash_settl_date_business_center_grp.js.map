@@ -1,0 +1,1 @@
+{"version":3,"file":"underlying_cash_settl_date_business_center_grp.js","sourceRoot":"","sources":["../../../../src/types/FIXML50SP2/set/underlying_cash_settl_date_business_center_grp.ts"],"names":[],"mappings":"","sourcesContent":["export interface IUnderlyingCashSettlDateBusinessCenterGrp {\n  UnderlyingCashSettlDateBusinessCenter?: string// 42789\n}\n"]}

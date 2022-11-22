@@ -1,0 +1,1 @@
+{"version":3,"file":"expiration_qty.js","sourceRoot":"","sources":["../../../../src/types/FIXML50SP2/set/expiration_qty.ts"],"names":[],"mappings":"","sourcesContent":["export interface IExpirationQty {\n  ExpirationQtyType?: number// 982\n  ExpQty?: number// 983\n}\n"]}

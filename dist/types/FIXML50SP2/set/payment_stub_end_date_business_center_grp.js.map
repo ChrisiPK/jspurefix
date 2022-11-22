@@ -1,0 +1,1 @@
+{"version":3,"file":"payment_stub_end_date_business_center_grp.js","sourceRoot":"","sources":["../../../../src/types/FIXML50SP2/set/payment_stub_end_date_business_center_grp.ts"],"names":[],"mappings":"","sourcesContent":["export interface IPaymentStubEndDateBusinessCenterGrp {\n  PaymentStubEndDateBusinessCenter?: string// 42697\n}\n"]}

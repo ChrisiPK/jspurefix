@@ -1,0 +1,1 @@
+{"version":3,"file":"coll_inq_qual_grp.js","sourceRoot":"","sources":["../../../../../src/types/FIX4.4/repo/set/coll_inq_qual_grp.ts"],"names":[],"mappings":"","sourcesContent":["export interface ICollInqQualGrp {\n  CollInquiryQualifier?: number// [1] 896 (Int)\n}\n"]}

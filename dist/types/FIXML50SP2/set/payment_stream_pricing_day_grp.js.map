@@ -1,0 +1,1 @@
+{"version":3,"file":"payment_stream_pricing_day_grp.js","sourceRoot":"","sources":["../../../../src/types/FIXML50SP2/set/payment_stream_pricing_day_grp.ts"],"names":[],"mappings":"","sourcesContent":["export interface IPaymentStreamPricingDayGrp {\n  PaymentStreamPricingDayOfWeek?: number// 41228\n  PaymentStreamPricingDayNumber?: number// 41229\n}\n"]}

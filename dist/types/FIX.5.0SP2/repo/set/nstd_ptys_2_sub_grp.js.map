@@ -1,0 +1,1 @@
+{"version":3,"file":"nstd_ptys_2_sub_grp.js","sourceRoot":"","sources":["../../../../../src/types/FIX.5.0SP2/repo/set/nstd_ptys_2_sub_grp.ts"],"names":[],"mappings":"","sourcesContent":["export interface INstdPtys2SubGrp {\n  Nested2PartySubID?: string// 760\n  Nested2PartySubIDType?: number// 807\n}\n"]}

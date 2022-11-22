@@ -1,0 +1,1 @@
+{"version":3,"file":"leg_provision_ptys_sub_grp.js","sourceRoot":"","sources":["../../../../src/types/FIXML50SP2/set/leg_provision_ptys_sub_grp.ts"],"names":[],"mappings":"","sourcesContent":["export interface ILegProvisionPtysSubGrp {\n  LegProvisionPartySubID?: string// 40538\n  MiscFeeType?: string// 139\n}\n"]}

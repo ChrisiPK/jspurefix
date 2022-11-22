@@ -1,0 +1,35 @@
+import { IPaymentStubStartDate } from './payment_stub_start_date';
+import { IPaymentStubEndDate } from './payment_stub_end_date';
+export interface IPaymentStubGrp {
+    PaymentStubType?: number;
+    PaymentStubLength?: number;
+    PaymentStubRate?: number;
+    PaymentStubFixedAmount?: number;
+    PaymentStubFixedCurrency?: string;
+    PaymentStubIndex?: string;
+    PaymentStubIndexSource?: number;
+    PaymentStubIndexCurvePeriod?: number;
+    PaymentStubIndexCurveUnit?: string;
+    PaymentStubIndexRateMultiplier?: number;
+    PaymentStubIndexRateSpread?: number;
+    PaymentStubIndexRateSpreadPositionType?: number;
+    PaymentStubIndexRateTreatment?: number;
+    PaymentStubIndexCapRate?: number;
+    PaymentStubIndexCapRateBuySide?: number;
+    PaymentStubIndexCapRateSellSide?: number;
+    PaymentStubIndexFloorRate?: number;
+    PaymentStubIndexFloorRateBuySide?: number;
+    PaymentStubIndexFloorRateSellSide?: number;
+    PaymentStubIndex2?: string;
+    PaymentStubIndex2Source?: number;
+    PaymentStubIndex2CurvePeriod?: number;
+    PaymentStubIndex2CurveUnit?: string;
+    PaymentStubIndex2RateMultiplier?: number;
+    PaymentStubIndex2RateSpread?: number;
+    PaymentStubIndex2RateSpreadPositionType?: number;
+    PaymentStubIndex2RateTreatment?: number;
+    PaymentStubIndex2CapRate?: number;
+    PaymentStubIndex2FloorRate?: number;
+    PaymentStubStartDate?: IPaymentStubStartDate;
+    PaymentStubEndDate?: IPaymentStubEndDate;
+}

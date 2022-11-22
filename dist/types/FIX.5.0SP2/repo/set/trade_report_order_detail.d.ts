@@ -1,0 +1,31 @@
+import { IOrderQtyData } from './order_qty_data';
+import { IDisplayInstruction } from './display_instruction';
+export interface ITradeReportOrderDetail {
+    OrderID?: string;
+    SecondaryOrderID?: string;
+    ClOrdID?: string;
+    SecondaryClOrdID?: string;
+    ListID?: string;
+    RefOrderID?: string;
+    RefOrderIDSource?: string;
+    RefOrdIDReason?: number;
+    OrdType?: string;
+    Price?: number;
+    StopPx?: number;
+    ExecInst?: string;
+    OrdStatus?: string;
+    OrderQtyData?: IOrderQtyData;
+    LeavesQty?: number;
+    CumQty?: number;
+    TimeInForce?: string;
+    ExpireTime?: Date;
+    DisplayInstruction?: IDisplayInstruction;
+    OrderCapacity?: string;
+    OrderRestrictions?: string;
+    OrigCustOrderCapacity?: number;
+    OrderInputDevice?: string;
+    LotType?: string;
+    TransBkdTime?: Date;
+    OrigOrdModTime?: Date;
+    BookingType?: number;
+}

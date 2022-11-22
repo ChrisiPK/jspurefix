@@ -1,0 +1,1 @@
+{"version":3,"file":"application_sequence_control.js","sourceRoot":"","sources":["../../../../src/types/FIXML50SP2/set/application_sequence_control.ts"],"names":[],"mappings":"","sourcesContent":["export interface IApplicationSequenceControl {\n  ApplID?: string// 1180\n  ApplSeqNum?: number// 1181\n  ApplLastSeqNum?: number// 1350\n  ApplResendFlag?: boolean// 1352\n}\n"]}

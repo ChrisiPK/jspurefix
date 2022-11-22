@@ -1,0 +1,1 @@
+{"version":3,"file":"flex_product_eligibility_grp.js","sourceRoot":"","sources":["../../../../src/types/FIXML50SP2/set/flex_product_eligibility_grp.ts"],"names":[],"mappings":"","sourcesContent":["export interface IFlexProductEligibilityGrp {\n  FlexProductEligibilityIndicator?: boolean// 1242\n  FlexProductEligibilityComplex?: string// 2561\n}\n"]}

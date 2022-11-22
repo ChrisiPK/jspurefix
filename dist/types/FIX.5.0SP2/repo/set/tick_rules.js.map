@@ -1,0 +1,1 @@
+{"version":3,"file":"tick_rules.js","sourceRoot":"","sources":["../../../../../src/types/FIX.5.0SP2/repo/set/tick_rules.ts"],"names":[],"mappings":"","sourcesContent":["export interface ITickRules {\n  StartTickPriceRange?: number// 1206\n  EndTickPriceRange?: number// 1207\n  TickIncrement?: number// 1208\n  TickRuleType?: number// 1209\n}\n"]}

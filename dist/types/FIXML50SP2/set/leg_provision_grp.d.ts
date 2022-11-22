@@ -1,0 +1,44 @@
+/// <reference types="node" />
+import { ILegProvisionDateBusinessCenterGrp } from './leg_provision_date_business_center_grp';
+import { ILegProvisionCashSettlValueDates } from './leg_provision_cash_settl_value_dates';
+import { ILegProvisionOptionExerciseDates } from './leg_provision_option_exercise_dates';
+import { ILegProvisionOptionExpirationDate } from './leg_provision_option_expiration_date';
+import { ILegProvisionOptionRelevantUnderlyingDate } from './leg_provision_option_relevant_underlying_date';
+import { ILegProvisionCashSettlPaymentDates } from './leg_provision_cash_settl_payment_dates';
+import { ILegProvisionCashSettlQuoteSource } from './leg_provision_cash_settl_quote_source';
+import { ILegProvisionParties } from './leg_provision_parties';
+export interface ILegProvisionGrp {
+    LegProvisionType?: number;
+    LegProvisionDateUnadjusted?: Date;
+    LegProvisionDateBusinessDayConvention?: number;
+    LegProvisionDateAdjusted?: Date;
+    LegProvisionDateTenorPeriod?: number;
+    LegProvisionDateTenorUnit?: string;
+    LegProvisionBreakFeeElection?: number;
+    LegProvisionBreakFeeRate?: number;
+    LegProvisionCalculationAgent?: number;
+    LegProvisionOptionSinglePartyBuyerSide?: number;
+    LegProvisionOptionSinglePartySellerSide?: number;
+    ExerciseStyle?: number;
+    LegProvisionOptionExerciseMultipleNotional?: number;
+    LegProvisionOptionExerciseMinimumNotional?: number;
+    LegProvisionOptionExerciseMaximumNotional?: number;
+    LegProvisionOptionMinimumNumber?: number;
+    LegProvisionOptionMaximumNumber?: number;
+    LegProvisionOptionExerciseConfirmation?: boolean;
+    LegProvisionCashSettlMethod?: number;
+    LegProvisionCashSettlCurrency?: string;
+    LegProvisionCashSettlCurrency2?: string;
+    LegProvisionCashSettlQuoteType?: number;
+    LegProvisionText?: string;
+    EncodedLegProvisionTextLen?: number;
+    EncodedLegProvisionText?: Buffer;
+    LegProvisionDateBusinessCenterGrp?: ILegProvisionDateBusinessCenterGrp[];
+    LegProvisionCashSettlValueDates?: ILegProvisionCashSettlValueDates;
+    LegProvisionOptionExerciseDates?: ILegProvisionOptionExerciseDates;
+    LegProvisionOptionExpirationDate?: ILegProvisionOptionExpirationDate;
+    LegProvisionOptionRelevantUnderlyingDate?: ILegProvisionOptionRelevantUnderlyingDate;
+    LegProvisionCashSettlPaymentDates?: ILegProvisionCashSettlPaymentDates;
+    LegProvisionCashSettlQuoteSource?: ILegProvisionCashSettlQuoteSource;
+    LegProvisionParties?: ILegProvisionParties[];
+}

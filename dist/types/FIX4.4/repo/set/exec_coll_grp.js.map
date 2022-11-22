@@ -1,0 +1,1 @@
+{"version":3,"file":"exec_coll_grp.js","sourceRoot":"","sources":["../../../../../src/types/FIX4.4/repo/set/exec_coll_grp.ts"],"names":[],"mappings":"","sourcesContent":["export interface IExecCollGrp {\n  ExecID?: string// [1] 17 (String)\n}\n"]}

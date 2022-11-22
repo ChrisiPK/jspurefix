@@ -1,0 +1,1 @@
+{"version":3,"file":"leg_stream_commodity_alt_id_grp.js","sourceRoot":"","sources":["../../../../src/types/FIXML50SP2/set/leg_stream_commodity_alt_id_grp.ts"],"names":[],"mappings":"","sourcesContent":["export interface ILegStreamCommodityAltIDGrp {\n  LegStreamCommodityAltID?: string// 41675\n  LegStreamCommodityAltIDSource?: string// 41676\n}\n"]}

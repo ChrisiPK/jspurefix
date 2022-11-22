@@ -1,0 +1,1 @@
+{"version":3,"file":"routing_grp.js","sourceRoot":"","sources":["../../../../../src/types/FIX4.4/repo/set/routing_grp.ts"],"names":[],"mappings":"","sourcesContent":["export interface IRoutingGrp {\n  RoutingType?: number// [1] 216 (Int)\n  RoutingID?: string// [2] 217 (String)\n}\n"]}

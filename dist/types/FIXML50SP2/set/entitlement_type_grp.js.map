@@ -1,0 +1,1 @@
+{"version":3,"file":"entitlement_type_grp.js","sourceRoot":"","sources":["../../../../src/types/FIXML50SP2/set/entitlement_type_grp.ts"],"names":[],"mappings":"","sourcesContent":["export interface IEntitlementTypeGrp {\n  MiscFeeType?: string// 139\n  SecuritySubType?: string// 762\n}\n"]}

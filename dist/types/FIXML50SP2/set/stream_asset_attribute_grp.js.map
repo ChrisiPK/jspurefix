@@ -1,0 +1,1 @@
+{"version":3,"file":"stream_asset_attribute_grp.js","sourceRoot":"","sources":["../../../../src/types/FIXML50SP2/set/stream_asset_attribute_grp.ts"],"names":[],"mappings":"","sourcesContent":["export interface IStreamAssetAttributeGrp {\n  StreamAssetAttributeType?: string// 41238\n  StreamAssetAttributeValue?: string// 41239\n  StreamAssetAttributeLimit?: string// 41240\n}\n"]}

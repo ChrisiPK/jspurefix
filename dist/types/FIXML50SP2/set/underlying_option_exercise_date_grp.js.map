@@ -1,0 +1,1 @@
+{"version":3,"file":"underlying_option_exercise_date_grp.js","sourceRoot":"","sources":["../../../../src/types/FIXML50SP2/set/underlying_option_exercise_date_grp.ts"],"names":[],"mappings":"","sourcesContent":["export interface IUnderlyingOptionExerciseDateGrp {\n  UnderlyingOptionExerciseDate?: Date// 41842\n  UnderlyingOptionExerciseDateType?: number// 41843\n}\n"]}

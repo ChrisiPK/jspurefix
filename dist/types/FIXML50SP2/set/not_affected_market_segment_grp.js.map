@@ -1,0 +1,1 @@
+{"version":3,"file":"not_affected_market_segment_grp.js","sourceRoot":"","sources":["../../../../src/types/FIXML50SP2/set/not_affected_market_segment_grp.ts"],"names":[],"mappings":"","sourcesContent":["export interface INotAffectedMarketSegmentGrp {\n  NotAffectedMarketSegmentID?: string// 1794\n}\n"]}

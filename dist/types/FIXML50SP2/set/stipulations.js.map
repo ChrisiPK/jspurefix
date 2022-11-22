@@ -1,0 +1,1 @@
+{"version":3,"file":"stipulations.js","sourceRoot":"","sources":["../../../../src/types/FIXML50SP2/set/stipulations.ts"],"names":[],"mappings":"","sourcesContent":["export interface IStipulations {\n  StipulationType?: string// 233\n  StipulationValue?: string// 234\n}\n"]}

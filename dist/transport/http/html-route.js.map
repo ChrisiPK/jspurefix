@@ -1,0 +1,1 @@
+{"version":3,"file":"html-route.js","sourceRoot":"","sources":["../../../src/transport/http/html-route.ts"],"names":[],"mappings":"","sourcesContent":["import { IHtmlOptions } from './html-options'\n\nexport interface IHtmlRoute {\n  name: string,\n  value: IHtmlOptions\n}\n"]}

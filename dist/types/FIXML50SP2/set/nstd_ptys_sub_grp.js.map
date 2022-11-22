@@ -1,0 +1,1 @@
+{"version":3,"file":"nstd_ptys_sub_grp.js","sourceRoot":"","sources":["../../../../src/types/FIXML50SP2/set/nstd_ptys_sub_grp.ts"],"names":[],"mappings":"","sourcesContent":["export interface INstdPtysSubGrp {\n  NestedPartySubID?: string// 545\n  NestedPartySubIDType?: number// 805\n}\n"]}

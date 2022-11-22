@@ -1,0 +1,1 @@
+{"version":3,"file":"stream_commodity_alt_id_grp.js","sourceRoot":"","sources":["../../../../src/types/FIXML50SP2/set/stream_commodity_alt_id_grp.ts"],"names":[],"mappings":"","sourcesContent":["export interface IStreamCommodityAltIDGrp {\n  StreamCommodityAltID?: string// 41278\n  StreamCommodityAltIDSource?: string// 41279\n}\n"]}

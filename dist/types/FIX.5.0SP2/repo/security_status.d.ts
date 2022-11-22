@@ -1,0 +1,44 @@
+/// <reference types="node" />
+import { IStandardHeader } from './set/standard_header';
+import { IApplicationSequenceControl } from './set/application_sequence_control';
+import { IInstrument } from './set/instrument';
+import { IInstrumentExtension } from './set/instrument_extension';
+import { IUndInstrmtGrp } from './set/und_instrmt_grp';
+import { IInstrmtLegGrp } from './set/instrmt_leg_grp';
+import { IStandardTrailer } from './set/standard_trailer';
+export interface ISecurityStatus {
+    StandardHeader: IStandardHeader;
+    ApplicationSequenceControl?: IApplicationSequenceControl;
+    SecurityStatusReqID?: string;
+    Instrument: IInstrument;
+    InstrumentExtension?: IInstrumentExtension;
+    UndInstrmtGrp?: IUndInstrmtGrp;
+    InstrmtLegGrp?: IInstrmtLegGrp;
+    Currency?: string;
+    MarketID?: string;
+    MarketSegmentID?: string;
+    TradingSessionID?: string;
+    TradingSessionSubID?: string;
+    UnsolicitedIndicator?: boolean;
+    SecurityTradingStatus?: number;
+    SecurityTradingEvent?: number;
+    FinancialStatus?: string;
+    CorporateAction?: string;
+    HaltReason?: number;
+    InViewOfCommon?: boolean;
+    DueToRelated?: boolean;
+    MDBookType?: number;
+    MarketDepth?: number;
+    BuyVolume?: number;
+    SellVolume?: number;
+    HighPx?: number;
+    LowPx?: number;
+    LastPx?: number;
+    TransactTime?: Date;
+    Adjustment?: number;
+    FirstPx?: number;
+    Text?: string;
+    EncodedTextLen?: number;
+    EncodedText?: Buffer;
+    StandardTrailer: IStandardTrailer;
+}

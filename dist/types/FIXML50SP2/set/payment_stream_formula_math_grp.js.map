@@ -1,0 +1,1 @@
+{"version":3,"file":"payment_stream_formula_math_grp.js","sourceRoot":"","sources":["../../../../src/types/FIXML50SP2/set/payment_stream_formula_math_grp.ts"],"names":[],"mappings":"","sourcesContent":["export interface IPaymentStreamFormulaMathGrp {\n  PaymentStreamFormulaDesc?: string// 42685\n}\n"]}

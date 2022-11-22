@@ -1,0 +1,1 @@
+{"version":3,"file":"market_data_feed_types.js","sourceRoot":"","sources":["../../../../../src/types/FIX.5.0SP2/repo/set/market_data_feed_types.ts"],"names":[],"mappings":"","sourcesContent":["export interface IMarketDataFeedTypes {\n  MDFeedType?: string// 1022\n  MarketDepth?: number// 264\n  MDBookType?: number// 1021\n}\n"]}

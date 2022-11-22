@@ -1,0 +1,1 @@
+{"version":3,"file":"leg_stream_commodity_data_source_grp.js","sourceRoot":"","sources":["../../../../src/types/FIXML50SP2/set/leg_stream_commodity_data_source_grp.ts"],"names":[],"mappings":"","sourcesContent":["export interface ILegStreamCommodityDataSourceGrp {\n  LegStreamCommodityDataSourceID?: string// 41678\n  LegStreamCommodityDataSourceIDType?: number// 41679\n}\n"]}

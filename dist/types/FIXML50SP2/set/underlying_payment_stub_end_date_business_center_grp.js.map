@@ -1,0 +1,1 @@
+{"version":3,"file":"underlying_payment_stub_end_date_business_center_grp.js","sourceRoot":"","sources":["../../../../src/types/FIXML50SP2/set/underlying_payment_stub_end_date_business_center_grp.ts"],"names":[],"mappings":"","sourcesContent":["export interface IUnderlyingPaymentStubEndDateBusinessCenterGrp {\n  UnderlyingPaymentStubEndDateBusinessCenter?: string// 42992\n}\n"]}

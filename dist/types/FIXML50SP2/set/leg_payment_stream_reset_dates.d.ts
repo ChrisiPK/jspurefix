@@ -1,0 +1,30 @@
+import { ILegPaymentStreamResetDateBusinessCenterGrp } from './leg_payment_stream_reset_date_business_center_grp';
+import { ILegPaymentStreamInitialFixingDateBusinessCenterGrp } from './leg_payment_stream_initial_fixing_date_business_center_grp';
+import { ILegPaymentStreamFixingDateBusinessCenterGrp } from './leg_payment_stream_fixing_date_business_center_grp';
+import { ILegPaymentStreamFixingDateGrp } from './leg_payment_stream_fixing_date_grp';
+export interface ILegPaymentStreamResetDates {
+    LegPaymentStreamResetDateRelativeTo?: number;
+    LegPaymentStreamResetDateBusinessDayConvention?: number;
+    LegPaymentStreamResetFrequencyPeriod?: number;
+    LegPaymentStreamResetFrequencyUnit?: string;
+    LegPaymentStreamResetWeeklyRollConvention?: string;
+    LegPaymentStreamInitialFixingDateRelativeTo?: number;
+    LegPaymentStreamInitialFixingDateBusinessDayConvention?: number;
+    LegPaymentStreamInitialFixingDateOffsetPeriod?: number;
+    LegPaymentStreamInitialFixingDateOffsetUnit?: string;
+    LegPaymentStreamInitialFixingDateOffsetDayType?: number;
+    LegPaymentStreamInitialFixingDateAdjusted?: Date;
+    LegPaymentStreamFixingDateRelativeTo?: number;
+    LegPaymentStreamFixingDateBusinessDayConvention?: number;
+    LegPaymentStreamFixingDateOffsetPeriod?: number;
+    LegPaymentStreamFixingDateOffsetUnit?: string;
+    LegPaymentStreamFixingDateOffsetDayType?: number;
+    LegPaymentStreamFixingDateAdjusted?: Date;
+    LegPaymentStreamRateCutoffDateOffsetPeriod?: number;
+    LegPaymentStreamRateCutoffDateOffsetUnit?: string;
+    LegPaymentStreamRateCutoffDateOffsetDayType?: number;
+    LegPaymentStreamResetDateBusinessCenterGrp?: ILegPaymentStreamResetDateBusinessCenterGrp[];
+    LegPaymentStreamInitialFixingDateBusinessCenterGrp?: ILegPaymentStreamInitialFixingDateBusinessCenterGrp[];
+    LegPaymentStreamFixingDateBusinessCenterGrp?: ILegPaymentStreamFixingDateBusinessCenterGrp[];
+    LegPaymentStreamFixingDateGrp?: ILegPaymentStreamFixingDateGrp[];
+}

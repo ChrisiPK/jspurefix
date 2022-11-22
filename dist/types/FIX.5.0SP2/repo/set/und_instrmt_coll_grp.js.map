@@ -1,0 +1,1 @@
+{"version":3,"file":"und_instrmt_coll_grp.js","sourceRoot":"","sources":["../../../../../src/types/FIX.5.0SP2/repo/set/und_instrmt_coll_grp.ts"],"names":[],"mappings":"","sourcesContent":["import { IUnderlyingInstrument } from './underlying_instrument'\n\nexport interface IUndInstrmtCollGrp {\n  UnderlyingInstrument?: IUnderlyingInstrument\n  CollAction?: number// 944\n}\n"]}

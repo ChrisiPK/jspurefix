@@ -1,0 +1,1 @@
+{"version":3,"file":"standard_trailer.js","sourceRoot":"","sources":["../../../../../src/types/FIX4.4/quickfix/set/standard_trailer.ts"],"names":[],"mappings":"","sourcesContent":["export interface IStandardTrailer {\n  SignatureLength?: number// [1] 93 (Length)\n  Signature?: Buffer// [2] 89 (RawData)\n  CheckSum: string// [3] 10 (String)\n}\n"]}

@@ -1,0 +1,40 @@
+/// <reference types="node" />
+import { IStandardHeader } from './set/standard_header';
+import { IApplicationSequenceControl } from './set/application_sequence_control';
+import { IParties } from './set/parties';
+import { IThrottleResponse } from './set/throttle_response';
+import { IOrderEntryAckGrp } from './set/order_entry_ack_grp';
+export interface IMassOrderAck {
+    MassOrderRequestID?: string;
+    MassOrderReportID?: string;
+    MassOrderRequestStatus: number;
+    SecurityRequestResult?: number;
+    OrderResponseLevel?: number;
+    RejectText?: string;
+    EncodedRejectTextLen?: number;
+    EncodedRejectText?: Buffer;
+    MarketID?: string;
+    MarketSegmentID?: string;
+    TradingCapacity: number;
+    ClearingAccountType?: number;
+    Account?: string;
+    AcctIDSource?: number;
+    AccountType?: number;
+    OrderCapacity?: string;
+    OrderRestrictions?: string;
+    CustOrderCapacity?: number;
+    ManualOrderIndicator?: boolean;
+    CustOrderHandlingInst?: string;
+    TransactTime?: Date;
+    Text?: string;
+    EncodedTextLen?: number;
+    EncodedText?: Buffer;
+    CopyMsgIndicator?: boolean;
+    TotNoOrderEntries?: number;
+    LastFragment?: boolean;
+    StandardHeader?: IStandardHeader;
+    ApplicationSequenceControl?: IApplicationSequenceControl;
+    Parties?: IParties[];
+    ThrottleResponse?: IThrottleResponse;
+    OrderEntryAckGrp?: IOrderEntryAckGrp[];
+}

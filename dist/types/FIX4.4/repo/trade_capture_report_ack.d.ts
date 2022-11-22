@@ -1,0 +1,48 @@
+/// <reference types="node" />
+import { IStandardHeader } from './set/standard_header';
+import { IInstrument } from './set/instrument';
+import { ITrdRegTimestamps } from './set/trd_reg_timestamps';
+import { ITrdInstrmtLegGrp } from './set/trd_instrmt_leg_grp';
+import { ITrdAllocGrp } from './set/trd_alloc_grp';
+import { IStandardTrailer } from './set/standard_trailer';
+export interface ITradeCaptureReportAck {
+    StandardHeader: IStandardHeader;
+    TradeReportID: string;
+    TradeReportTransType?: number;
+    TradeReportType?: number;
+    TrdType?: number;
+    TrdSubType?: number;
+    SecondaryTrdType?: number;
+    TransferReason?: string;
+    ExecType: string;
+    TradeReportRefID?: string;
+    SecondaryTradeReportRefID?: string;
+    TrdRptStatus?: number;
+    TradeReportRejectReason?: number;
+    SecondaryTradeReportID?: string;
+    SubscriptionRequestType?: string;
+    TradeLinkID?: string;
+    TrdMatchID?: string;
+    ExecID?: string;
+    SecondaryExecID?: string;
+    Instrument: IInstrument;
+    TransactTime?: Date;
+    TrdRegTimestamps?: ITrdRegTimestamps[];
+    ResponseTransportType?: number;
+    ResponseDestination?: string;
+    Text?: string;
+    EncodedTextLen?: number;
+    EncodedText?: Buffer;
+    TrdInstrmtLegGrp?: ITrdInstrmtLegGrp[];
+    ClearingFeeIndicator?: string;
+    OrderCapacity?: string;
+    OrderRestrictions?: string;
+    CustOrderCapacity?: number;
+    Account?: string;
+    AcctIDSource?: number;
+    AccountType?: number;
+    PositionEffect?: string;
+    PreallocMethod?: string;
+    TrdAllocGrp?: ITrdAllocGrp[];
+    StandardTrailer: IStandardTrailer;
+}

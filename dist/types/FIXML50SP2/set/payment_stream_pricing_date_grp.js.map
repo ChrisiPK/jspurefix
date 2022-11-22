@@ -1,0 +1,1 @@
+{"version":3,"file":"payment_stream_pricing_date_grp.js","sourceRoot":"","sources":["../../../../src/types/FIXML50SP2/set/payment_stream_pricing_date_grp.ts"],"names":[],"mappings":"","sourcesContent":["export interface IPaymentStreamPricingDateGrp {\n  PaymentStreamPricingDate?: Date// 41225\n  PaymentStreamPricingDateType?: number// 41226\n}\n"]}

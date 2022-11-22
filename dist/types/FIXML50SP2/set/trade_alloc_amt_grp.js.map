@@ -1,0 +1,1 @@
+{"version":3,"file":"trade_alloc_amt_grp.js","sourceRoot":"","sources":["../../../../src/types/FIXML50SP2/set/trade_alloc_amt_grp.ts"],"names":[],"mappings":"","sourcesContent":["export interface ITradeAllocAmtGrp {\n  TradeAllocAmtType?: string// 1845\n  TradeAllocAmt?: number// 1846\n  TradeAllocCurrency?: string// 1847\n  SecurityClassificationReason?: number// 1583\n}\n"]}

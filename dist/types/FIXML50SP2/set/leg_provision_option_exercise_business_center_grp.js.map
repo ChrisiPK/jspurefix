@@ -1,0 +1,1 @@
+{"version":3,"file":"leg_provision_option_exercise_business_center_grp.js","sourceRoot":"","sources":["../../../../src/types/FIXML50SP2/set/leg_provision_option_exercise_business_center_grp.ts"],"names":[],"mappings":"","sourcesContent":["export interface ILegProvisionOptionExerciseBusinessCenterGrp {\n  LegProvisionOptionExerciseBusinessCenter?: string// 40477\n}\n"]}

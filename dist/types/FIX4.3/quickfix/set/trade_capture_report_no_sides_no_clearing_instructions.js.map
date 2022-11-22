@@ -1,0 +1,1 @@
+{"version":3,"file":"trade_capture_report_no_sides_no_clearing_instructions.js","sourceRoot":"","sources":["../../../../../src/types/FIX4.3/quickfix/set/trade_capture_report_no_sides_no_clearing_instructions.ts"],"names":[],"mappings":"","sourcesContent":["export interface ITradeCaptureReportNoSidesNoClearingInstructions {\n  ClearingInstruction?: number// [1] 577 (Int)\n}\n"]}

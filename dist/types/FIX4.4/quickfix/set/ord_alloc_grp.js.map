@@ -1,0 +1,1 @@
+{"version":3,"file":"ord_alloc_grp.js","sourceRoot":"","sources":["../../../../../src/types/FIX4.4/quickfix/set/ord_alloc_grp.ts"],"names":[],"mappings":"","sourcesContent":["import { IOrdAllocGrpNoOrders } from './ord_alloc_grp_no_orders'\n\nexport interface IOrdAllocGrp {\n  NoOrders?: IOrdAllocGrpNoOrders[]// [1] ClOrdID.11, OrderID.37 .. OrderBookingQty.800\n}\n"]}

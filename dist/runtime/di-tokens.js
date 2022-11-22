@@ -1,0 +1,33 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.DITokens = void 0;
+var DITokens;
+(function (DITokens) {
+    DITokens["ISessionDescription"] = "ISessionDescription";
+    DITokens["IJsFixConfig"] = "IJsFixConfig";
+    DITokens["Definitions"] = "Definitions";
+    DITokens["FixSession"] = "FixSession";
+    DITokens["JsFixLoggerFactory"] = "JsFixLoggerFactory";
+    DITokens["ISessionMsgFactory"] = "ISessionMsgFactory";
+    DITokens["FixDuplex"] = "FixDuplex";
+    DITokens["MsgTransmitter"] = "MsgTransmitter";
+    DITokens["MsgEncoder"] = "MsgEncoder";
+    DITokens["MsgParser"] = "MsgParser";
+    DITokens["IHttpAdapter"] = "IHttpAdapter";
+    DITokens["FixEntity"] = "FixEntity";
+    DITokens["Listener"] = "Listener";
+    DITokens["Connector"] = "Connector";
+    DITokens["ElasticBuffer"] = "ElasticBuffer";
+    DITokens["ParseBuffer"] = "ReceiveBuffer";
+    DITokens["TransmitBuffer"] = "SendBuffer";
+    DITokens["elasticBufferSize"] = "elasticBufferSize";
+    DITokens["elasticBufferReturnSize"] = "elasticBufferReturnSize";
+    DITokens["logDelimiter"] = "logDelimiter";
+    DITokens["delimiter"] = "delimiter";
+    DITokens["sessionId"] = "sessionId";
+    DITokens["maxMessageLen"] = "maxMessageLen";
+    DITokens["readStream"] = "readStream";
+    DITokens["duplexParam"] = "duplexParam";
+    DITokens["maxMessageLocations"] = "maxMessageLocations";
+})(DITokens = exports.DITokens || (exports.DITokens = {}));
+//# sourceMappingURL=di-tokens.js.map

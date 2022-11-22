@@ -1,0 +1,1 @@
+{"version":3,"file":"contra_grp.js","sourceRoot":"","sources":["../../../../src/types/FIXML50SP2/set/contra_grp.ts"],"names":[],"mappings":"","sourcesContent":["export interface IContraGrp {\n  ContraBroker?: string// 375\n  ContraTrader?: string// 337\n  ContraTradeQty?: number// 437\n  ContraTradeTime?: Date// 438\n  ContraLegRefID?: string// 655\n}\n"]}

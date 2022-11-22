@@ -1,0 +1,1 @@
+{"version":3,"file":"http-adapter.js","sourceRoot":"","sources":["../../../src/transport/http/http-adapter.ts"],"names":[],"mappings":"","sourcesContent":["import { IHtmlOptions } from './html-options'\n\nexport interface IHttpAdapter {\n  getOptions (data: Buffer): IHtmlOptions\n  beginMessage (msgType: string): void\n  endMessage (m: any): Buffer\n}\n"]}

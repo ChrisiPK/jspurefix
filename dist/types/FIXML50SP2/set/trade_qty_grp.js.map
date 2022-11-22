@@ -1,0 +1,1 @@
+{"version":3,"file":"trade_qty_grp.js","sourceRoot":"","sources":["../../../../src/types/FIXML50SP2/set/trade_qty_grp.ts"],"names":[],"mappings":"","sourcesContent":["export interface ITradeQtyGrp {\n  TradeQtyType?: number// 1842\n  TradeQty?: number// 1843\n}\n"]}

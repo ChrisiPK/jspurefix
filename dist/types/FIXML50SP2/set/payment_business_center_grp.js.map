@@ -1,0 +1,1 @@
+{"version":3,"file":"payment_business_center_grp.js","sourceRoot":"","sources":["../../../../src/types/FIXML50SP2/set/payment_business_center_grp.ts"],"names":[],"mappings":"","sourcesContent":["export interface IPaymentBusinessCenterGrp {\n  PaymentBusinessCenter?: string// 40221\n}\n"]}

@@ -1,0 +1,1 @@
+{"version":3,"file":"financing_term_supplement_grp.js","sourceRoot":"","sources":["../../../../src/types/FIXML50SP2/set/financing_term_supplement_grp.ts"],"names":[],"mappings":"","sourcesContent":["export interface IFinancingTermSupplementGrp {\n  FinancingTermSupplementDesc?: string// 40047\n  FinancingTermSupplementDate?: Date// 40048\n}\n"]}

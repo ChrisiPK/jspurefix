@@ -1,0 +1,30 @@
+import { IPaymentStreamResetDateBusinessCenterGrp } from './payment_stream_reset_date_business_center_grp';
+import { IPaymentStreamInitialFixingDateBusinessCenterGrp } from './payment_stream_initial_fixing_date_business_center_grp';
+import { IPaymentStreamFixingDateBusinessCenterGrp } from './payment_stream_fixing_date_business_center_grp';
+import { IPaymentStreamFixingDateGrp } from './payment_stream_fixing_date_grp';
+export interface IPaymentStreamResetDates {
+    PaymentStreamResetDateRelativeTo?: number;
+    PaymentStreamResetDateBusinessDayConvention?: number;
+    PaymentStreamResetFrequencyPeriod?: number;
+    PaymentStreamResetFrequencyUnit?: string;
+    PaymentStreamResetWeeklyRollConvention?: string;
+    PaymentStreamInitialFixingDateRelativeTo?: number;
+    PaymentStreamInitialFixingDateBusinessDayConvention?: number;
+    PaymentStreamInitialFixingDateOffsetPeriod?: number;
+    PaymentStreamInitialFixingDateOffsetUnit?: string;
+    PaymentStreamInitialFixingDateOffsetDayType?: number;
+    PaymentStreamInitialFixingDateAdjusted?: Date;
+    PaymentStreamFixingDateRelativeTo?: number;
+    PaymentStreamFixingDateBusinessDayConvention?: number;
+    PaymentStreamFixingDateOffsetPeriod?: number;
+    PaymentStreamFixingDateOffsetUnit?: string;
+    PaymentStreamFixingDateOffsetDayType?: number;
+    PaymentStreamFixingDateAdjusted?: Date;
+    PaymentStreamRateCutoffDateOffsetPeriod?: number;
+    PaymentStreamRateCutoffDateOffsetUnit?: string;
+    PaymentStreamRateCutoffDateOffsetDayType?: number;
+    PaymentStreamResetDateBusinessCenterGrp?: IPaymentStreamResetDateBusinessCenterGrp[];
+    PaymentStreamInitialFixingDateBusinessCenterGrp?: IPaymentStreamInitialFixingDateBusinessCenterGrp[];
+    PaymentStreamFixingDateBusinessCenterGrp?: IPaymentStreamFixingDateBusinessCenterGrp[];
+    PaymentStreamFixingDateGrp?: IPaymentStreamFixingDateGrp;
+}

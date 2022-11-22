@@ -1,0 +1,1 @@
+{"version":3,"file":"stream_calculation_period_business_center_grp.js","sourceRoot":"","sources":["../../../../src/types/FIXML50SP2/set/stream_calculation_period_business_center_grp.ts"],"names":[],"mappings":"","sourcesContent":["export interface IStreamCalculationPeriodBusinessCenterGrp {\n  StreamCalculationPeriodBusinessCenter?: string// 40074\n}\n"]}

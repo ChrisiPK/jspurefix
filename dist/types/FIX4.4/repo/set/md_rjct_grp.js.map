@@ -1,0 +1,1 @@
+{"version":3,"file":"md_rjct_grp.js","sourceRoot":"","sources":["../../../../../src/types/FIX4.4/repo/set/md_rjct_grp.ts"],"names":[],"mappings":"","sourcesContent":["export interface IMDRjctGrp {\n  AltMDSourceID?: string// [1] 817 (String)\n}\n"]}

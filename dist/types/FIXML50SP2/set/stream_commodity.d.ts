@@ -1,0 +1,40 @@
+/// <reference types="node" />
+import { IStreamCommodityAltIDGrp } from './stream_commodity_alt_id_grp';
+import { IStreamAssetAttributeGrp } from './stream_asset_attribute_grp';
+import { IStreamCommodityDataSourceGrp } from './stream_commodity_data_source_grp';
+import { IStreamCommoditySettlBusinessCenterGrp } from './stream_commodity_settl_business_center_grp';
+import { IStreamCommoditySettlPeriodGrp } from './stream_commodity_settl_period_grp';
+export interface IStreamCommodity {
+    StreamCommodityBase?: string;
+    StreamCommodityType?: string;
+    StreamCommoditySecurityID?: string;
+    StreamCommoditySecurityIDSource?: string;
+    StreamCommodityDesc?: string;
+    EncodedStreamCommodityDescLen?: number;
+    EncodedStreamCommodityDesc?: Buffer;
+    StreamCommodityDeliveryPricingRegion?: string;
+    StreamCommodityUnitOfMeasure?: string;
+    StreamCommodityCurrency?: string;
+    StreamCommodityExchange?: string;
+    StreamCommodityRateSource?: number;
+    StreamCommodityRateReferencePage?: string;
+    StreamCommodityRateReferencePageHeading?: string;
+    StreamDataProvider?: string;
+    StreamCommodityPricingType?: string;
+    StreamCommodityNearbySettlDayPeriod?: number;
+    StreamCommodityNearbySettlDayUnit?: string;
+    StreamCommoditySettlDateUnadjusted?: Date;
+    StreamCommoditySettlDateBusinessDayConvention?: number;
+    StreamCommoditySettlDateAdjusted?: Date;
+    StreamCommoditySettlMonth?: number;
+    StreamCommoditySettlDateRollPeriod?: number;
+    StreamCommoditySettlDateRollUnit?: string;
+    StreamCommoditySettlDayType?: number;
+    StreamCommodityXID?: string;
+    StreamCommodityXIDRef?: string;
+    StreamCommodityAltIDGrp?: IStreamCommodityAltIDGrp[];
+    StreamAssetAttributeGrp?: IStreamAssetAttributeGrp[];
+    StreamCommodityDataSourceGrp?: IStreamCommodityDataSourceGrp[];
+    StreamCommoditySettlBusinessCenterGrp?: IStreamCommoditySettlBusinessCenterGrp[];
+    StreamCommoditySettlPeriodGrp?: IStreamCommoditySettlPeriodGrp[];
+}

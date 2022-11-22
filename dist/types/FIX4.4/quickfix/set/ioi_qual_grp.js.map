@@ -1,0 +1,1 @@
+{"version":3,"file":"ioi_qual_grp.js","sourceRoot":"","sources":["../../../../../src/types/FIX4.4/quickfix/set/ioi_qual_grp.ts"],"names":[],"mappings":"","sourcesContent":["import { IIOIQualGrpNoIOIQualifiers } from './ioi_qual_grp_no_ioi_qualifiers'\n\nexport interface IIOIQualGrp {\n  NoIOIQualifiers?: IIOIQualGrpNoIOIQualifiers[]// [1] IOIQualifier.104\n}\n"]}

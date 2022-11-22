@@ -1,0 +1,1 @@
+{"version":3,"file":"payment_settl_ptys_sub_grp.js","sourceRoot":"","sources":["../../../../src/types/FIXML50SP2/set/payment_settl_ptys_sub_grp.ts"],"names":[],"mappings":"","sourcesContent":["export interface IPaymentSettlPtysSubGrp {\n  PaymentSettlPartySubID?: string// 40239\n  MiscFeeType?: string// 139\n}\n"]}

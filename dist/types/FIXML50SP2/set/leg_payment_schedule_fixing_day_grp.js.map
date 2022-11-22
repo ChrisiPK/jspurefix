@@ -1,0 +1,1 @@
+{"version":3,"file":"leg_payment_schedule_fixing_day_grp.js","sourceRoot":"","sources":["../../../../src/types/FIXML50SP2/set/leg_payment_schedule_fixing_day_grp.ts"],"names":[],"mappings":"","sourcesContent":["export interface ILegPaymentScheduleFixingDayGrp {\n  LegPaymentScheduleFixingDayOfWeek?: number// 41531\n  LegPaymentScheduleFixingDayNumber?: number// 41532\n}\n"]}

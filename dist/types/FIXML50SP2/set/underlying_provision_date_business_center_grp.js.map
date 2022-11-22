@@ -1,0 +1,1 @@
+{"version":3,"file":"underlying_provision_date_business_center_grp.js","sourceRoot":"","sources":["../../../../src/types/FIXML50SP2/set/underlying_provision_date_business_center_grp.ts"],"names":[],"mappings":"","sourcesContent":["export interface IUnderlyingProvisionDateBusinessCenterGrp {\n  UnderlyingProvisionDateBusinessCenter?: string// 42191\n}\n"]}

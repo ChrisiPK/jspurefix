@@ -1,0 +1,43 @@
+/// <reference types="node" />
+import { IStandardHeader } from './set/standard_header';
+import { IApplicationSequenceControl } from './set/application_sequence_control';
+import { IParties } from './set/parties';
+import { IInstrument } from './set/instrument';
+import { IInstrmtLegGrp } from './set/instrmt_leg_grp';
+import { IUndInstrmtGrp } from './set/und_instrmt_grp';
+import { IPositionQty } from './set/position_qty';
+import { IPositionAmountData } from './set/position_amount_data';
+export interface IAssignmentReport {
+    AsgnRptID: string;
+    PosReqID?: string;
+    TotNumAssignmentReports?: number;
+    LastRptRequested?: boolean;
+    Account?: string;
+    AccountType?: number;
+    Currency?: string;
+    ThresholdAmount?: number;
+    SettlPrice?: number;
+    SettlPriceType?: number;
+    UnderlyingSettlPrice?: number;
+    PriorSettlPrice?: number;
+    PositionContingentPrice?: number;
+    ExpireDate?: Date;
+    AssignmentMethod?: string;
+    AssignmentUnit?: number;
+    OpenInterest?: number;
+    ExerciseMethod?: string;
+    SettlSessID?: string;
+    SettlSessSubID?: string;
+    ClearingBusinessDate: Date;
+    Text?: string;
+    EncodedTextLen?: number;
+    EncodedText?: Buffer;
+    StandardHeader?: IStandardHeader;
+    ApplicationSequenceControl?: IApplicationSequenceControl;
+    Parties?: IParties[];
+    Instrument?: IInstrument;
+    InstrmtLegGrp?: IInstrmtLegGrp[];
+    UndInstrmtGrp?: IUndInstrmtGrp[];
+    PositionQty?: IPositionQty[];
+    PositionAmountData?: IPositionAmountData[];
+}

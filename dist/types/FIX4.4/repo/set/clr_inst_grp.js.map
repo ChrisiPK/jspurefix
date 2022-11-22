@@ -1,0 +1,1 @@
+{"version":3,"file":"clr_inst_grp.js","sourceRoot":"","sources":["../../../../../src/types/FIX4.4/repo/set/clr_inst_grp.ts"],"names":[],"mappings":"","sourcesContent":["export interface IClrInstGrp {\n  ClearingInstruction?: number// [1] 577 (Int)\n}\n"]}

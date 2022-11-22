@@ -1,0 +1,1 @@
+{"version":3,"file":"news_ref_grp.js","sourceRoot":"","sources":["../../../../../src/types/FIX.5.0SP2/repo/set/news_ref_grp.ts"],"names":[],"mappings":"","sourcesContent":["export interface INewsRefGrp {\n  NewsRefID?: string// 1476\n  NewsRefType?: number// 1477\n}\n"]}

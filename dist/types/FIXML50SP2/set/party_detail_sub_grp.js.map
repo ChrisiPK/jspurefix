@@ -1,0 +1,1 @@
+{"version":3,"file":"party_detail_sub_grp.js","sourceRoot":"","sources":["../../../../src/types/FIXML50SP2/set/party_detail_sub_grp.ts"],"names":[],"mappings":"","sourcesContent":["export interface IPartyDetailSubGrp {\n  PartyDetailSubID?: string// 1695\n  PartyDetailSubIDType?: number// 1696\n}\n"]}

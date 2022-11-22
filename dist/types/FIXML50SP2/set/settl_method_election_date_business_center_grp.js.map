@@ -1,0 +1,1 @@
+{"version":3,"file":"settl_method_election_date_business_center_grp.js","sourceRoot":"","sources":["../../../../src/types/FIXML50SP2/set/settl_method_election_date_business_center_grp.ts"],"names":[],"mappings":"","sourcesContent":["export interface ISettlMethodElectionDateBusinessCenterGrp {\n  SettlMethodElectionDateBusinessCenter?: string// 42776\n}\n"]}

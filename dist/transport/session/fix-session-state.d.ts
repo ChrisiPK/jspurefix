@@ -1,0 +1,32 @@
+import { TickAction } from '../tick-action';
+import { IFixSessionStateArgs } from './fix-session-state-args';
+import { SessionState } from './session-state';
+export declare class FixSessionState {
+    nextTickAction: TickAction;
+    lastReceivedAt: Date;
+    LastSentAt: Date;
+    lastTestRequestAt: Date;
+    logoutSentAt: Date;
+    now: Date;
+    compId: string;
+    peerCompId: string;
+    peerHeartBeatSecs: number;
+    lastPeerMsgSeqNum: number;
+    readonly heartBeat: number;
+    state: SessionState;
+    readonly waitLogoutConfirmSeconds: number;
+    readonly stopSeconds: number;
+    private secondsSinceLogoutSent;
+    private secondsSinceSent;
+    private secondsSinceReceive;
+    reset(resetSeqNo: boolean): void;
+    constructor({ heartBeat, state, waitLogoutConfirmSeconds, stopSeconds, lastPeerMsgSeqNum }: IFixSessionStateArgs);
+    private static dateAsString;
+    toString(): string;
+    calcAction(now: Date): TickAction;
+    timeToDie(): boolean;
+    timeToHeartbeat(): boolean;
+    timeToTerminate(): boolean;
+    timeToTestRequest(): boolean;
+    private calcState;
+}

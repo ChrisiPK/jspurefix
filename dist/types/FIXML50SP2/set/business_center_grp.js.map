@@ -1,0 +1,1 @@
+{"version":3,"file":"business_center_grp.js","sourceRoot":"","sources":["../../../../src/types/FIXML50SP2/set/business_center_grp.ts"],"names":[],"mappings":"","sourcesContent":["export interface IBusinessCenterGrp {\n  BusinessCenter?: string// 40471\n}\n"]}

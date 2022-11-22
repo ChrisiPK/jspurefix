@@ -1,0 +1,35 @@
+import { IStandardHeader } from './set/standard_header';
+import { IStandardTrailer } from './set/standard_trailer';
+export interface IIOI {
+    StandardHeader: IStandardHeader;
+    IOIid: string;
+    IOITransType: string;
+    IOIRefID?: string;
+    Symbol: string;
+    SymbolSfx?: string;
+    SecurityID?: string;
+    IDSource?: string;
+    SecurityType?: string;
+    MaturityMonthYear?: string;
+    MaturityDay?: number;
+    PutOrCall?: number;
+    StrikePrice?: number;
+    OptAttribute?: string;
+    SecurityExchange?: string;
+    Issuer?: string;
+    SecurityDesc?: string;
+    Side: string;
+    IOIShares: string;
+    Price?: number;
+    Currency?: string;
+    ValidUntilTime?: string;
+    IOIQltyInd?: string;
+    IOIOthSvc?: string;
+    IOINaturalFlag?: string;
+    NoIOIQualifiers?: number;
+    IOIQualifier?: string;
+    Text?: string;
+    TransactTime?: string;
+    URLLink?: string;
+    StandardTrailer: IStandardTrailer;
+}

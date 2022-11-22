@@ -1,0 +1,1 @@
+{"version":3,"file":"pre_alloc_grp.js","sourceRoot":"","sources":["../../../../../src/types/FIX4.4/quickfix/set/pre_alloc_grp.ts"],"names":[],"mappings":"","sourcesContent":["import { IPreAllocGrpNoAllocs } from './pre_alloc_grp_no_allocs'\n\nexport interface IPreAllocGrp {\n  NoAllocs?: IPreAllocGrpNoAllocs[]// [1] AllocAccount.79, AllocAcctIDSource.661 .. AllocQty.80\n}\n"]}

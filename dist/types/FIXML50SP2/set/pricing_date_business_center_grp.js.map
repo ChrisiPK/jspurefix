@@ -1,0 +1,1 @@
+{"version":3,"file":"pricing_date_business_center_grp.js","sourceRoot":"","sources":["../../../../src/types/FIXML50SP2/set/pricing_date_business_center_grp.ts"],"names":[],"mappings":"","sourcesContent":["export interface IPricingDateBusinessCenterGrp {\n  PricingDateBusinessCenter?: string// 41231\n}\n"]}

@@ -1,0 +1,1 @@
+{"version":3,"file":"provision_ptys_sub_grp.js","sourceRoot":"","sources":["../../../../src/types/FIXML50SP2/set/provision_ptys_sub_grp.ts"],"names":[],"mappings":"","sourcesContent":["export interface IProvisionPtysSubGrp {\n  ProvisionPartySubID?: string// 40179\n  MiscFeeType?: string// 139\n}\n"]}

@@ -1,0 +1,1 @@
+{"version":3,"file":"dlvy_inst_grp.js","sourceRoot":"","sources":["../../../../../src/types/FIX.5.0SP2/repo/set/dlvy_inst_grp.ts"],"names":[],"mappings":"","sourcesContent":["import { ISettlParties } from './settl_parties'\n\nexport interface IDlvyInstGrp {\n  SettlInstSource?: string// 165\n  DlvyInstType?: string// 787\n  SettlParties?: ISettlParties[]\n}\n"]}

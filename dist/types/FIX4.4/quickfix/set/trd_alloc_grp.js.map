@@ -1,0 +1,1 @@
+{"version":3,"file":"trd_alloc_grp.js","sourceRoot":"","sources":["../../../../../src/types/FIX4.4/quickfix/set/trd_alloc_grp.ts"],"names":[],"mappings":"","sourcesContent":["import { ITrdAllocGrpNoAllocs } from './trd_alloc_grp_no_allocs'\n\nexport interface ITrdAllocGrp {\n  NoAllocs?: ITrdAllocGrpNoAllocs[]// [1] AllocAccount.79, AllocAcctIDSource.661 .. AllocQty.80\n}\n"]}

@@ -1,0 +1,1 @@
+{"version":3,"file":"underlying_complex_event_credit_event_source_grp.js","sourceRoot":"","sources":["../../../../src/types/FIXML50SP2/set/underlying_complex_event_credit_event_source_grp.ts"],"names":[],"mappings":"","sourcesContent":["export interface IUnderlyingComplexEventCreditEventSourceGrp {\n  UnderlyingComplexEventCreditEventSource?: string// 41749\n}\n"]}

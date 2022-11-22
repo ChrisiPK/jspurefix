@@ -1,0 +1,1 @@
+{"version":3,"file":"cont_amt_grp.js","sourceRoot":"","sources":["../../../../../src/types/FIX4.4/quickfix/set/cont_amt_grp.ts"],"names":[],"mappings":"","sourcesContent":["import { IContAmtGrpNoContAmts } from './cont_amt_grp_no_cont_amts'\n\nexport interface IContAmtGrp {\n  NoContAmts?: IContAmtGrpNoContAmts[]// [1] ContAmtType.519, ContAmtValue.520, ContAmtCurr.521\n}\n"]}

@@ -1,0 +1,1 @@
+{"version":3,"file":"stream_commodity_data_source_grp.js","sourceRoot":"","sources":["../../../../src/types/FIXML50SP2/set/stream_commodity_data_source_grp.ts"],"names":[],"mappings":"","sourcesContent":["export interface IStreamCommodityDataSourceGrp {\n  StreamCommodityDataSourceID?: string// 41281\n  StreamCommodityDataSourceIDType?: number// 41282\n}\n"]}

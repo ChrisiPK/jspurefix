@@ -1,0 +1,1 @@
+{"version":3,"file":"underlying_extraordinary_event_grp.js","sourceRoot":"","sources":["../../../../src/types/FIXML50SP2/set/underlying_extraordinary_event_grp.ts"],"names":[],"mappings":"","sourcesContent":["export interface IUnderlyingExtraordinaryEventGrp {\n  UnderlyingExtraordinaryEventType?: string// 42885\n  UnderlyingExtraordinaryEventValue?: string// 42886\n}\n"]}

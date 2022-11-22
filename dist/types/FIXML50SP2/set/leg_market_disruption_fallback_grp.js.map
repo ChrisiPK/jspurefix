@@ -1,0 +1,1 @@
+{"version":3,"file":"leg_market_disruption_fallback_grp.js","sourceRoot":"","sources":["../../../../src/types/FIXML50SP2/set/leg_market_disruption_fallback_grp.ts"],"names":[],"mappings":"","sourcesContent":["export interface ILegMarketDisruptionFallbackGrp {\n  LegMarketDisruptionFallbackType?: string// 41470\n  LegMarketDisruptionFallbackValue?: string// 40990\n}\n"]}

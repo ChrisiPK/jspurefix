@@ -1,0 +1,1 @@
+{"version":3,"file":"protection_term_event_news_source_grp.js","sourceRoot":"","sources":["../../../../src/types/FIXML50SP2/set/protection_term_event_news_source_grp.ts"],"names":[],"mappings":"","sourcesContent":["export interface IProtectionTermEventNewsSourceGrp {\n  ProtectionTermEventNewsSource?: string// 40189\n}\n"]}

@@ -1,0 +1,1 @@
+{"version":3,"file":"instrmt_grp.js","sourceRoot":"","sources":["../../../../../src/types/FIX.5.0SP2/repo/set/instrmt_grp.ts"],"names":[],"mappings":"","sourcesContent":["import { IInstrument } from './instrument'\n\nexport interface IInstrmtGrp {\n  Instrument?: IInstrument\n}\n"]}

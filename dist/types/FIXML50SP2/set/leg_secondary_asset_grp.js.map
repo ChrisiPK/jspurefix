@@ -1,0 +1,1 @@
+{"version":3,"file":"leg_secondary_asset_grp.js","sourceRoot":"","sources":["../../../../src/types/FIXML50SP2/set/leg_secondary_asset_grp.ts"],"names":[],"mappings":"","sourcesContent":["export interface ILegSecondaryAssetGrp {\n  LegSecondaryAssetClass?: number// 2077\n  SecondaryAssetSubClass?: number// 1978\n  LegSecondaryAssetType?: string// 2079\n}\n"]}

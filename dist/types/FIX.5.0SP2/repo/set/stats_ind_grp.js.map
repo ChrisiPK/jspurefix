@@ -1,0 +1,1 @@
+{"version":3,"file":"stats_ind_grp.js","sourceRoot":"","sources":["../../../../../src/types/FIX.5.0SP2/repo/set/stats_ind_grp.ts"],"names":[],"mappings":"","sourcesContent":["export interface IStatsIndGrp {\n  StatsType?: number// 1176\n}\n"]}

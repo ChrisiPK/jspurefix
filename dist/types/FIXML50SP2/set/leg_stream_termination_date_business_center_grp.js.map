@@ -1,0 +1,1 @@
+{"version":3,"file":"leg_stream_termination_date_business_center_grp.js","sourceRoot":"","sources":["../../../../src/types/FIXML50SP2/set/leg_stream_termination_date_business_center_grp.ts"],"names":[],"mappings":"","sourcesContent":["export interface ILegStreamTerminationDateBusinessCenterGrp {\n  LegStreamTerminationDateBusinessCenter?: string// 40259\n}\n"]}

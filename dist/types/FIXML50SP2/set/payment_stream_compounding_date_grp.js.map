@@ -1,0 +1,1 @@
+{"version":3,"file":"payment_stream_compounding_date_grp.js","sourceRoot":"","sources":["../../../../src/types/FIXML50SP2/set/payment_stream_compounding_date_grp.ts"],"names":[],"mappings":"","sourcesContent":["export interface IPaymentStreamCompoundingDateGrp {\n  PaymentStreamCompoundingDate?: Date// 42607\n  PaymentStreamCompoundingDateType?: number// 42608\n}\n"]}

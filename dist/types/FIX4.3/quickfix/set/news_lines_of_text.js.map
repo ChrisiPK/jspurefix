@@ -1,0 +1,1 @@
+{"version":3,"file":"news_lines_of_text.js","sourceRoot":"","sources":["../../../../../src/types/FIX4.3/quickfix/set/news_lines_of_text.ts"],"names":[],"mappings":"","sourcesContent":["export interface INewsLinesOfText {\n  Text: string// [1] 58 (String)\n  EncodedTextLen?: number// [2] 354 (Length)\n  EncodedText?: Buffer// [3] 355 (RawData)\n}\n"]}

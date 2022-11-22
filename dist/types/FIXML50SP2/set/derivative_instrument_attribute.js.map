@@ -1,0 +1,1 @@
+{"version":3,"file":"derivative_instrument_attribute.js","sourceRoot":"","sources":["../../../../src/types/FIXML50SP2/set/derivative_instrument_attribute.ts"],"names":[],"mappings":"","sourcesContent":["export interface IDerivativeInstrumentAttribute {\n  DerivativeInstrAttribType?: number// 1313\n  DerivativeInstrAttribValue?: string// 1314\n}\n"]}

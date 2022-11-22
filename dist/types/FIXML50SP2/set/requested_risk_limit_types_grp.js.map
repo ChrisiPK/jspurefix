@@ -1,0 +1,1 @@
+{"version":3,"file":"requested_risk_limit_types_grp.js","sourceRoot":"","sources":["../../../../src/types/FIXML50SP2/set/requested_risk_limit_types_grp.ts"],"names":[],"mappings":"","sourcesContent":["export interface IRequestedRiskLimitTypesGrp {\n  MiscFeeType?: string// 139\n}\n"]}

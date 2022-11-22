@@ -1,0 +1,1 @@
+{"version":3,"file":"dictionary-path.js","sourceRoot":"","sources":["../../src/util/dictionary-path.ts"],"names":[],"mappings":"","sourcesContent":["export interface IDictionaryPath {\n  output: string,\n  dict: string\n}\n"]}

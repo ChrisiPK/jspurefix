@@ -1,0 +1,1 @@
+{"version":3,"file":"leg_payment_stream_formula_math_grp.js","sourceRoot":"","sources":["../../../../src/types/FIXML50SP2/set/leg_payment_stream_formula_math_grp.ts"],"names":[],"mappings":"","sourcesContent":["export interface ILegPaymentStreamFormulaMathGrp {\n  LegPaymentStreamFormulaDesc?: string// 42487\n}\n"]}

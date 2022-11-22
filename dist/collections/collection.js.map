@@ -1,0 +1,1 @@
+{"version":3,"file":"collection.js","sourceRoot":"","sources":["../../src/collections/collection.ts"],"names":[],"mappings":"","sourcesContent":["export interface INumericKeyed<T> {\n  [prop: number]: T\n}\n\nexport interface ILooseObject {\n  [prop: string]: any\n}\n\nexport type IDictIteratorCb<T> = (key: string, val: T) => void\n"]}

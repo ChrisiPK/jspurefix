@@ -1,0 +1,1 @@
+{"version":3,"file":"underlying_stipulations.js","sourceRoot":"","sources":["../../../../src/types/FIXML50SP2/set/underlying_stipulations.ts"],"names":[],"mappings":"","sourcesContent":["export interface IUnderlyingStipulations {\n  UnderlyingStipType?: string// 888\n  UnderlyingStipValue?: string// 889\n}\n"]}

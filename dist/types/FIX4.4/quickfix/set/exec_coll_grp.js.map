@@ -1,0 +1,1 @@
+{"version":3,"file":"exec_coll_grp.js","sourceRoot":"","sources":["../../../../../src/types/FIX4.4/quickfix/set/exec_coll_grp.ts"],"names":[],"mappings":"","sourcesContent":["import { IExecCollGrpNoExecs } from './exec_coll_grp_no_execs'\n\nexport interface IExecCollGrp {\n  NoExecs?: IExecCollGrpNoExecs[]// [1] ExecID.17\n}\n"]}

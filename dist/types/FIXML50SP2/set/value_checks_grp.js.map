@@ -1,0 +1,1 @@
+{"version":3,"file":"value_checks_grp.js","sourceRoot":"","sources":["../../../../src/types/FIXML50SP2/set/value_checks_grp.ts"],"names":[],"mappings":"","sourcesContent":["export interface IValueChecksGrp {\n  ValueCheckType?: number// 1869\n  ValueCheckAction?: number// 1870\n}\n"]}

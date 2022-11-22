@@ -1,0 +1,48 @@
+/// <reference types="node" />
+import { IStandardHeader } from './set/standard_header';
+import { IAffectedOrdGrp } from './set/affected_ord_grp';
+import { INotAffectedOrdGrp } from './set/not_affected_ord_grp';
+import { IAffectedMarketSegmentGrp } from './set/affected_market_segment_grp';
+import { INotAffectedMarketSegmentGrp } from './set/not_affected_market_segment_grp';
+import { ITargetMarketSegmentGrp } from './set/target_market_segment_grp';
+import { IParties } from './set/parties';
+import { ITargetParties } from './set/target_parties';
+import { IInstrument } from './set/instrument';
+import { IUnderlyingInstrument } from './set/underlying_instrument';
+export interface IOrderMassActionReport {
+    ClOrdID?: string;
+    SecondaryClOrdID?: string;
+    MassActionReportID: string;
+    MassActionType: number;
+    MassActionScope: number;
+    MassActionReason?: number;
+    MassActionResponse: number;
+    MassActionRejectReason?: number;
+    TotalAffectedOrders?: number;
+    TotalNotAffectedOrders?: number;
+    LastFragment?: boolean;
+    MarketID?: string;
+    MarketSegmentID?: string;
+    TradingSessionID?: string;
+    TradingSessionSubID?: string;
+    Side?: string;
+    Price?: number;
+    TransactTime?: Date;
+    ComplianceID?: string;
+    ComplianceText?: string;
+    EncodedComplianceTextLen?: number;
+    EncodedComplianceText?: Buffer;
+    Text?: string;
+    EncodedTextLen?: number;
+    EncodedText?: Buffer;
+    StandardHeader?: IStandardHeader;
+    AffectedOrdGrp?: IAffectedOrdGrp[];
+    NotAffectedOrdGrp?: INotAffectedOrdGrp[];
+    AffectedMarketSegmentGrp?: IAffectedMarketSegmentGrp[];
+    NotAffectedMarketSegmentGrp?: INotAffectedMarketSegmentGrp[];
+    TargetMarketSegmentGrp?: ITargetMarketSegmentGrp[];
+    Parties?: IParties[];
+    TargetParties?: ITargetParties[];
+    Instrument?: IInstrument;
+    UnderlyingInstrument?: IUnderlyingInstrument;
+}

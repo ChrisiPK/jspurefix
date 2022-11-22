@@ -1,0 +1,1 @@
+{"version":3,"file":"complex_event_period_date_grp.js","sourceRoot":"","sources":["../../../../src/types/FIXML50SP2/set/complex_event_period_date_grp.ts"],"names":[],"mappings":"","sourcesContent":["export interface IComplexEventPeriodDateGrp {\n  ComplexEventPeriodDate?: Date// 41008\n  ComplexEventPeriodTime?: string// 41009\n}\n"]}

@@ -1,0 +1,1 @@
+{"version":3,"file":"index.js","sourceRoot":"","sources":["../../../../src/dictionary/parser/quickfix/index.ts"],"names":[],"mappings":";;;;;;;;;;;;;;;;AAAA,8DAA2C","sourcesContent":["export * from './quick-fix-xml-file-parser'\n"]}

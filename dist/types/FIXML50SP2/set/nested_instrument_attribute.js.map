@@ -1,0 +1,1 @@
+{"version":3,"file":"nested_instrument_attribute.js","sourceRoot":"","sources":["../../../../src/types/FIXML50SP2/set/nested_instrument_attribute.ts"],"names":[],"mappings":"","sourcesContent":["export interface INestedInstrumentAttribute {\n  NestedInstrAttribType?: number// 1210\n  NestedInstrAttribValue?: string// 1211\n}\n"]}

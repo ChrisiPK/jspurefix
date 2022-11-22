@@ -1,0 +1,1 @@
+{"version":3,"file":"leg_payment_stream_pricing_day_grp.js","sourceRoot":"","sources":["../../../../src/types/FIXML50SP2/set/leg_payment_stream_pricing_day_grp.ts"],"names":[],"mappings":"","sourcesContent":["export interface ILegPaymentStreamPricingDayGrp {\n  LegPaymentStreamPricingDayOfWeek?: number// 41597\n  LegPaymentStreamPricingDayNumber?: number// 41598\n}\n"]}

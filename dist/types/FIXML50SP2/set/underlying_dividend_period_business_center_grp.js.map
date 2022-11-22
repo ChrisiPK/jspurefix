@@ -1,0 +1,1 @@
+{"version":3,"file":"underlying_dividend_period_business_center_grp.js","sourceRoot":"","sources":["../../../../src/types/FIXML50SP2/set/underlying_dividend_period_business_center_grp.ts"],"names":[],"mappings":"","sourcesContent":["export interface IUnderlyingDividendPeriodBusinessCenterGrp {\n  UnderlyingDividendPeriodBusinessCenter?: string// 42883\n}\n"]}

@@ -1,0 +1,32 @@
+import { ILegDeliveryStreamCommoditySourceGrp } from './leg_delivery_stream_commodity_source_grp';
+import { ILegDeliveryStreamCycleGrp } from './leg_delivery_stream_cycle_grp';
+export interface ILegDeliveryStream {
+    LegDeliveryStreamType?: number;
+    LegDeliveryStreamPipeline?: string;
+    LegDeliveryStreamEntryPoint?: string;
+    LegDeliveryStreamWithdrawalPoint?: string;
+    LegDeliveryStreamDeliveryPoint?: string;
+    LegDeliveryStreamDeliveryPointSource?: number;
+    LegDeliveryStreamDeliveryPointDesc?: string;
+    LegDeliveryStreamDeliveryRestriction?: number;
+    LegDeliveryStreamDeliveryContingency?: string;
+    LegDeliveryStreamDeliveryContingentPartySide?: number;
+    LegDeliveryStreamDeliverAtSourceIndicator?: boolean;
+    LegDeliveryStreamRiskApportionment?: string;
+    LegDeliveryStreamRiskApportionmentSource?: string;
+    LegDeliveryStreamTitleTransferLocation?: string;
+    LegDeliveryStreamTitleTransferCondition?: number;
+    LegDeliveryStreamImporterOfRecord?: string;
+    LegDeliveryStreamNegativeTolerance?: number;
+    LegDeliveryStreamPositiveTolerance?: number;
+    LegDeliveryStreamToleranceUnitOfMeasure?: string;
+    LegDeliveryStreamToleranceType?: number;
+    LegDeliveryStreamToleranceOptionSide?: number;
+    LegDeliveryStreamTotalPositiveTolerance?: number;
+    LegDeliveryStreamTotalNegativeTolerance?: number;
+    LegDeliveryStreamNotionalConversionFactor?: number;
+    LegDeliveryStreamTransportEquipment?: string;
+    LegDeliveryStreamElectingPartySide?: number;
+    LegDeliveryStreamCommoditySourceGrp?: ILegDeliveryStreamCommoditySourceGrp[];
+    LegDeliveryStreamCycleGrp?: ILegDeliveryStreamCycleGrp[];
+}

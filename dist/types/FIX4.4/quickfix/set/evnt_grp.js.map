@@ -1,0 +1,1 @@
+{"version":3,"file":"evnt_grp.js","sourceRoot":"","sources":["../../../../../src/types/FIX4.4/quickfix/set/evnt_grp.ts"],"names":[],"mappings":"","sourcesContent":["import { IEvntGrpNoEvents } from './evnt_grp_no_events'\n\nexport interface IEvntGrp {\n  NoEvents?: IEvntGrpNoEvents[]// [1] EventType.865, EventDate.866 .. EventText.868\n}\n"]}

@@ -1,0 +1,1 @@
+{"version":3,"file":"stream_effective_business_center_grp.js","sourceRoot":"","sources":["../../../../src/types/FIXML50SP2/set/stream_effective_business_center_grp.ts"],"names":[],"mappings":"","sourcesContent":["export interface IStreamEffectiveBusinessCenterGrp {\n  StreamEffectiveDateBusinessCenter?: string// 40909\n}\n"]}

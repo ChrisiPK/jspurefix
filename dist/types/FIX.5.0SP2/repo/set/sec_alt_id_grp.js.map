@@ -1,0 +1,1 @@
+{"version":3,"file":"sec_alt_id_grp.js","sourceRoot":"","sources":["../../../../../src/types/FIX.5.0SP2/repo/set/sec_alt_id_grp.ts"],"names":[],"mappings":"","sourcesContent":["export interface ISecAltIDGrp {\n  SecurityAltID?: string// 455\n  SecurityAltIDSource?: string// 456\n}\n"]}

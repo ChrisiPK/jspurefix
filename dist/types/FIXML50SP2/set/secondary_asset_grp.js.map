@@ -1,0 +1,1 @@
+{"version":3,"file":"secondary_asset_grp.js","sourceRoot":"","sources":["../../../../src/types/FIXML50SP2/set/secondary_asset_grp.ts"],"names":[],"mappings":"","sourcesContent":["export interface ISecondaryAssetGrp {\n  SecondaryAssetClass?: number// 1977\n  SecondaryAssetSubClass?: number// 1978\n  SecondaryAssetType?: string// 1979\n}\n"]}

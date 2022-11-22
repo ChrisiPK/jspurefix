@@ -1,0 +1,1 @@
+{"version":3,"file":"complex_event_times.js","sourceRoot":"","sources":["../../../../src/types/FIXML50SP2/set/complex_event_times.ts"],"names":[],"mappings":"","sourcesContent":["export interface IComplexEventTimes {\n  ComplexEventStartTime?: Date// 1495\n  ComplexEventEndTime?: Date// 1496\n}\n"]}

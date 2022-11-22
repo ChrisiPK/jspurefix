@@ -1,0 +1,1 @@
+{"version":3,"file":"leg_payment_stream_fixing_date_grp.js","sourceRoot":"","sources":["../../../../src/types/FIXML50SP2/set/leg_payment_stream_fixing_date_grp.ts"],"names":[],"mappings":"","sourcesContent":["export interface ILegPaymentStreamFixingDateGrp {\n  LegPaymentStreamFixingDate?: Date// 42460\n  LegPaymentStreamFixingDateType?: number// 42461\n}\n"]}

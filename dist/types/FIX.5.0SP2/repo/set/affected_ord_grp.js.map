@@ -1,0 +1,1 @@
+{"version":3,"file":"affected_ord_grp.js","sourceRoot":"","sources":["../../../../../src/types/FIX.5.0SP2/repo/set/affected_ord_grp.ts"],"names":[],"mappings":"","sourcesContent":["export interface IAffectedOrdGrp {\n  OrigClOrdID?: string// 41\n  AffectedOrderID?: string// 535\n  AffectedSecondaryOrderID?: string// 536\n}\n"]}

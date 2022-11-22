@@ -1,0 +1,1 @@
+{"version":3,"file":"cpcty_conf_grp.js","sourceRoot":"","sources":["../../../../../src/types/FIX4.4/repo/set/cpcty_conf_grp.ts"],"names":[],"mappings":"","sourcesContent":["export interface ICpctyConfGrp {\n  OrderCapacity: string// [1] 528 (String)\n  OrderRestrictions?: string// [2] 529 (String)\n  OrderCapacityQty: number// [3] 863 (Float)\n}\n"]}

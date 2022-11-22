@@ -1,0 +1,1 @@
+{"version":3,"file":"comp_id_stat_grp.js","sourceRoot":"","sources":["../../../../src/types/FIXML50SP2/set/comp_id_stat_grp.ts"],"names":[],"mappings":"","sourcesContent":["export interface ICompIDStatGrp {\n  RefCompID: string// 930\n  RefSubID?: string// 931\n  LocationID?: string// 283\n  DeskID?: string// 284\n  StatusValue: number// 928\n  StatusText?: string// 929\n}\n"]}

@@ -1,0 +1,32 @@
+import { IUnderlyingDeliveryStreamCommoditySourceGrp } from './underlying_delivery_stream_commodity_source_grp';
+import { IUnderlyingDeliveryStreamCycleGrp } from './underlying_delivery_stream_cycle_grp';
+export interface IUnderlyingDeliveryStream {
+    UnderlyingDeliveryStreamType?: number;
+    UnderlyingDeliveryStreamPipeline?: string;
+    UnderlyingDeliveryStreamEntryPoint?: string;
+    UnderlyingDeliveryStreamWithdrawalPoint?: string;
+    UnderlyingDeliveryStreamDeliveryPoint?: string;
+    UnderlyingDeliveryStreamDeliveryPointSource?: number;
+    UnderlyingDeliveryStreamDeliveryPointDesc?: string;
+    UnderlyingDeliveryStreamDeliveryRestriction?: number;
+    UnderlyingDeliveryStreamDeliveryContingency?: string;
+    UnderlyingDeliveryStreamDeliveryContingentPartySide?: number;
+    UnderlyingDeliveryStreamDeliverAtSourceIndicator?: boolean;
+    UnderlyingDeliveryStreamRiskApportionment?: string;
+    UnderlyingDeliveryStreamRiskApportionmentSource?: string;
+    UnderlyingDeliveryStreamTitleTransferLocation?: string;
+    UnderlyingDeliveryStreamTitleTransferCondition?: number;
+    UnderlyingDeliveryStreamImporterOfRecord?: string;
+    UnderlyingDeliveryStreamNegativeTolerance?: number;
+    UnderlyingDeliveryStreamPositiveTolerance?: number;
+    UnderlyingDeliveryStreamToleranceUnitOfMeasure?: string;
+    UnderlyingDeliveryStreamToleranceType?: number;
+    UnderlyingDeliveryStreamToleranceOptionSide?: number;
+    UnderlyingDeliveryStreamTotalPositiveTolerance?: number;
+    UnderlyingDeliveryStreamTotalNegativeTolerance?: number;
+    UnderlyingDeliveryStreamNotionalConversionFactor?: number;
+    UnderlyingDeliveryStreamTransportEquipment?: string;
+    UnderlyingDeliveryStreamElectingPartySide?: number;
+    UnderlyingDeliveryStreamCommoditySourceGrp?: IUnderlyingDeliveryStreamCommoditySourceGrp[];
+    UnderlyingDeliveryStreamCycleGrp?: IUnderlyingDeliveryStreamCycleGrp[];
+}

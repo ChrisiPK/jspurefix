@@ -1,0 +1,30 @@
+import { ILegDividendPeriodGrp } from './leg_dividend_period_grp';
+import { ILegDividendFXTriggerDate } from './leg_dividend_fx_trigger_date';
+import { ILegDividendAccrualFloatingRate } from './leg_dividend_accrual_floating_rate';
+import { ILegDividendAccrualPaymentDate } from './leg_dividend_accrual_payment_date';
+export interface ILegDividendConditions {
+    LegDividendReinvestmentIndicator?: boolean;
+    LegDividendEntitlementEvent?: number;
+    LegDividendAmountType?: number;
+    LegDividendUnderlierRefID?: string;
+    LegExtraordinaryDividendPartySide?: number;
+    LegExtraordinaryDividendAmountType?: number;
+    LegExtraordinaryDividendCurrency?: string;
+    LegExtraordinaryDividendDeterminationMethod?: string;
+    LegDividendAccrualFixedRate?: number;
+    LegDividendCompoundingMethod?: number;
+    LegDividendNumOfIndexUnits?: number;
+    LegDividendCashPercentage?: number;
+    LegDividendCashEquivalentPercentage?: number;
+    LegNonCashDividendTreatment?: number;
+    LegDividendComposition?: number;
+    LegSpecialDividendsIndicator?: boolean;
+    LegMaterialDividendsIndicator?: boolean;
+    LegOptionsExchangeDividendsIndicator?: boolean;
+    LegAdditionalDividendsIndicator?: boolean;
+    LegAllDividendsIndicator?: boolean;
+    LegDividendPeriodGrp?: ILegDividendPeriodGrp[];
+    LegDividendFXTriggerDate?: ILegDividendFXTriggerDate;
+    LegDividendAccrualFloatingRate?: ILegDividendAccrualFloatingRate;
+    LegDividendAccrualPaymentDate?: ILegDividendAccrualPaymentDate;
+}

@@ -1,0 +1,1 @@
+{"version":3,"file":"provision_cash_settl_quote_source.js","sourceRoot":"","sources":["../../../../src/types/FIXML50SP2/set/provision_cash_settl_quote_source.ts"],"names":[],"mappings":"","sourcesContent":["export interface IProvisionCashSettlQuoteSource {\n  ProvisionCashSettlQuoteSource?: number// 40112\n  ProvisionCashSettlQuoteReferencePage?: string// 41406\n}\n"]}

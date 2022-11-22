@@ -1,0 +1,1 @@
+{"version":3,"file":"underlying_rate_spread_step_grp.js","sourceRoot":"","sources":["../../../../src/types/FIXML50SP2/set/underlying_rate_spread_step_grp.ts"],"names":[],"mappings":"","sourcesContent":["export interface IUnderlyingRateSpreadStepGrp {\n  UnderlyingRateSpreadStepDate?: Date// 43006\n  UnderlyingRateSpreadStepValue?: number// 43007\n}\n"]}

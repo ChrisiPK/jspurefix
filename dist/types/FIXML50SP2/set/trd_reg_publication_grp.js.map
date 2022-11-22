@@ -1,0 +1,1 @@
+{"version":3,"file":"trd_reg_publication_grp.js","sourceRoot":"","sources":["../../../../src/types/FIXML50SP2/set/trd_reg_publication_grp.ts"],"names":[],"mappings":"","sourcesContent":["export interface ITrdRegPublicationGrp {\n  TrdRegPublicationType?: number// 2669\n  TrdRegPublicationReason?: number// 2670\n}\n"]}

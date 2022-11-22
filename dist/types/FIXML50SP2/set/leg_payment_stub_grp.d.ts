@@ -1,0 +1,35 @@
+import { ILegPaymentStubStartDate } from './leg_payment_stub_start_date';
+import { ILegPaymentStubEndDate } from './leg_payment_stub_end_date';
+export interface ILegPaymentStubGrp {
+    LegPaymentStubType?: number;
+    LegPaymentStubLength?: number;
+    LegPaymentStubRate?: number;
+    LegPaymentStubFixedAmount?: number;
+    LegPaymentStubFixedCurrency?: string;
+    LegPaymentStubIndex?: string;
+    LegPaymentStubIndexSource?: number;
+    LegPaymentStubIndexCurvePeriod?: number;
+    LegPaymentStubIndexCurveUnit?: string;
+    LegPaymentStubIndexRateMultiplier?: number;
+    LegPaymentStubIndexRateSpread?: number;
+    LegPaymentStubIndexRateSpreadPositionType?: number;
+    LegPaymentStubIndexRateTreatment?: number;
+    LegPaymentStubIndexCapRate?: number;
+    LegPaymentStubIndexCapRateBuySide?: number;
+    LegPaymentStubIndexCapRateSellSide?: number;
+    LegPaymentStubIndexFloorRate?: number;
+    LegPaymentStubIndexFloorRateBuySide?: number;
+    LegPaymentStubIndexFloorRateSellSide?: number;
+    LegPaymentStubIndex2?: string;
+    LegPaymentStubIndex2Source?: number;
+    LegPaymentStubIndex2CurvePeriod?: number;
+    LegPaymentStubIndex2CurveUnit?: string;
+    LegPaymentStubIndex2RateMultiplier?: number;
+    LegPaymentStubIndex2RateSpread?: number;
+    LegPaymentStubIndex2RateSpreadPositionType?: number;
+    LegPaymentStubIndex2RateTreatment?: number;
+    LegPaymentStubIndex2CapRate?: number;
+    LegPaymentStubIndex2FloorRate?: number;
+    LegPaymentStubStartDate?: ILegPaymentStubStartDate;
+    LegPaymentStubEndDate?: ILegPaymentStubEndDate;
+}

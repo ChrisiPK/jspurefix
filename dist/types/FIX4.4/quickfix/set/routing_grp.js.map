@@ -1,0 +1,1 @@
+{"version":3,"file":"routing_grp.js","sourceRoot":"","sources":["../../../../../src/types/FIX4.4/quickfix/set/routing_grp.ts"],"names":[],"mappings":"","sourcesContent":["import { IRoutingGrpNoRoutingIDs } from './routing_grp_no_routing_i_ds'\n\nexport interface IRoutingGrp {\n  NoRoutingIDs?: IRoutingGrpNoRoutingIDs[]// [1] RoutingType.216, RoutingID.217\n}\n"]}

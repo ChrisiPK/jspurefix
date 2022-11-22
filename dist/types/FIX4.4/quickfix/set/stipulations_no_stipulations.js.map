@@ -1,0 +1,1 @@
+{"version":3,"file":"stipulations_no_stipulations.js","sourceRoot":"","sources":["../../../../../src/types/FIX4.4/quickfix/set/stipulations_no_stipulations.ts"],"names":[],"mappings":"","sourcesContent":["export interface IStipulationsNoStipulations {\n  StipulationType?: string// [1] 233 (String)\n  StipulationValue?: string// [2] 234 (String)\n}\n"]}

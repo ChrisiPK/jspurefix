@@ -1,0 +1,1 @@
+{"version":3,"file":"und_sec_alt_id_grp.js","sourceRoot":"","sources":["../../../../src/types/FIXML50SP2/set/und_sec_alt_id_grp.ts"],"names":[],"mappings":"","sourcesContent":["export interface IUndSecAltIDGrp {\n  UnderlyingSecurityAltID?: string// 458\n  UnderlyingSecurityAltIDSource?: string// 459\n}\n"]}

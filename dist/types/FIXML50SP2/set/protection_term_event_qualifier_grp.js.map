@@ -1,0 +1,1 @@
+{"version":3,"file":"protection_term_event_qualifier_grp.js","sourceRoot":"","sources":["../../../../src/types/FIXML50SP2/set/protection_term_event_qualifier_grp.ts"],"names":[],"mappings":"","sourcesContent":["export interface IProtectionTermEventQualifierGrp {\n  ProtectionTermEventQualifier?: string// 40200\n}\n"]}

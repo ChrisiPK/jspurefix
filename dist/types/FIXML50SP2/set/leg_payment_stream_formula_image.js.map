@@ -1,0 +1,1 @@
+{"version":3,"file":"leg_payment_stream_formula_image.js","sourceRoot":"","sources":["../../../../src/types/FIXML50SP2/set/leg_payment_stream_formula_image.ts"],"names":[],"mappings":"","sourcesContent":["export interface ILegPaymentStreamFormulaImage {\n  LegPaymentStreamFormulaImageLength?: number// 42451\n  LegPaymentStreamFormulaImage?: Buffer// 42452\n}\n"]}

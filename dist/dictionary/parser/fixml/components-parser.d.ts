@@ -1,0 +1,35 @@
+import { XsdParser } from './xsd-parser';
+import { FixDefinitions } from '../../definition';
+import { ISaxNode } from '../../sax-node';
+export declare class ComponentsParser extends XsdParser {
+    readonly definitions: FixDefinitions;
+    private readonly attributeGroups;
+    private readonly groups;
+    private readonly unboundElements;
+    private readonly complexTypes;
+    private newComplexTypes;
+    private currentGroup;
+    private currentAttributeGroupStack;
+    private currentComplexType;
+    private previousComplexType;
+    constructor(definitions: FixDefinitions);
+    private static getName;
+    value(line: number, n: string, v: string): void;
+    close(line: number, node: string): void;
+    open(line: number, node: ISaxNode): void;
+    private xsAttribute;
+    private xsGroup;
+    private xsAttributeGroup;
+    private xsElement;
+    private addElement;
+    private addElements;
+    private addSimpleAttribute;
+    private addAttributes;
+    private getGroup;
+    private getComponent;
+    private getMessage;
+    private getBaseAttributes;
+    private populateSet;
+    private constructType;
+    private insertFields;
+}

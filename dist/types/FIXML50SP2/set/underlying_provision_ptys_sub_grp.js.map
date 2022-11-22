@@ -1,0 +1,1 @@
+{"version":3,"file":"underlying_provision_ptys_sub_grp.js","sourceRoot":"","sources":["../../../../src/types/FIXML50SP2/set/underlying_provision_ptys_sub_grp.ts"],"names":[],"mappings":"","sourcesContent":["export interface IUnderlyingProvisionPtysSubGrp {\n  UnderlyingProvisionPartySubID?: string// 42178\n  MiscFeeType?: string// 139\n}\n"]}

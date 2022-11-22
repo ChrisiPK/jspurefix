@@ -1,0 +1,1 @@
+{"version":3,"file":"new_order_single_no_allocs.js","sourceRoot":"","sources":["../../../../../src/types/FIX4.2/quickfix/set/new_order_single_no_allocs.ts"],"names":[],"mappings":"","sourcesContent":["export interface INewOrderSingleNoAllocs {\n  AllocAccount?: string// [1] 79 (String)\n  AllocShares?: number// [2] 80 (Float)\n}\n"]}
