@@ -25,9 +25,9 @@ class TlsOptionsFactory {
             if (tls.ca && tls.ca.length > 0) {
                 tlsOptions.ca = tls.ca.map(i => TlsOptionsFactory.read(i));
             }
-        }
-        if (tls.nodeTlsServerOptions) {
-            tlsOptions = Object.assign(Object.assign({}, tlsOptions), tls.nodeTlsServerOptions);
+            if (tls.nodeTlsServerOptions) {
+                tlsOptions = Object.assign(Object.assign({}, tlsOptions), tls.nodeTlsServerOptions);
+            }
         }
         return tlsOptions;
     }
@@ -52,9 +52,9 @@ class TlsOptionsFactory {
             if (tcp.tls.sessionTimeout) {
                 connectionOptions.sessionTimeout = tcp.tls.sessionTimeout;
             }
-        }
-        if (tls.nodeTlsConnectionOptions) {
-            connectionOptions = Object.assign(Object.assign({}, connectionOptions), tls.nodeTlsConnectionOptions);
+            if (tls.nodeTlsConnectionOptions) {
+                connectionOptions = Object.assign(Object.assign({}, connectionOptions), tls.nodeTlsConnectionOptions);
+            }
         }
         return connectionOptions;
     }
